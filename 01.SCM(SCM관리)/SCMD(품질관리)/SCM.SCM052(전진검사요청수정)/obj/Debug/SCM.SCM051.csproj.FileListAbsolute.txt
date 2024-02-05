@@ -1,0 +1,9 @@
+D:\FIRSTEC_SCM\DLL\SCM.SCM051.dll
+D:\FIRSTEC_SCM\DLL\SCM.SCM051.pdb
+D:\FIRSTEC_SCM\01.SCM(SCM관리)\SCMD(품질관리)\SCM.SCM051(전진검사결과등록)\obj\Debug\SCM.SCM051.csprojResolveAssemblyReference.cache
+D:\FIRSTEC_SCM\01.SCM(SCM관리)\SCMD(품질관리)\SCM.SCM051(전진검사결과등록)\obj\Debug\SCM.SCM051.Properties.Resources.resources
+D:\FIRSTEC_SCM\01.SCM(SCM관리)\SCMD(품질관리)\SCM.SCM051(전진검사결과등록)\obj\Debug\SCM.SCM051.SCM051.resources
+D:\FIRSTEC_SCM\01.SCM(SCM관리)\SCMD(품질관리)\SCM.SCM051(전진검사결과등록)\obj\Debug\SCM.SCM051.csproj.GenerateResource.Cache
+D:\FIRSTEC_SCM\01.SCM(SCM관리)\SCMD(품질관리)\SCM.SCM051(전진검사결과등록)\obj\Debug\SCM.SCM051.dll.licenses
+D:\FIRSTEC_SCM\01.SCM(SCM관리)\SCMD(품질관리)\SCM.SCM051(전진검사결과등록)\obj\Debug\SCM.SCM051.dll
+D:\FIRSTEC_SCM\01.SCM(SCM관리)\SCMD(품질관리)\SCM.SCM051(전진검사결과등록)\obj\Debug\SCM.SCM051.pdb

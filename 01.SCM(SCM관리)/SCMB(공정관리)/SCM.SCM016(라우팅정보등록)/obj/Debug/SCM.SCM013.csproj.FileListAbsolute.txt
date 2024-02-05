@@ -1,0 +1,8 @@
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM013(월별집계상세현황)\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM013(월별집계상세현황)\obj\Debug\SCM.SCM013.csproj.ResolveComReference.cache
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM013(월별집계상세현황)\obj\Debug\SCM.SCM013.SCM013.resources
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM013(월별집계상세현황)\obj\Debug\SCM.SCM013.dll.licenses
+C:\Users\tomoe\Desktop\E2Max-SCM\DLL\SCM.SCM013.dll
+C:\Users\tomoe\Desktop\E2Max-SCM\DLL\SCM.SCM013.pdb
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM013(월별집계상세현황)\obj\Debug\SCM.SCM013.dll
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM013(월별집계상세현황)\obj\Debug\SCM.SCM013.pdb

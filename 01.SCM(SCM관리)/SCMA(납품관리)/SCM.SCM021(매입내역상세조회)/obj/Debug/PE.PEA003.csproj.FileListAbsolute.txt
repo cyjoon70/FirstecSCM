@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\DLL\PE.PEA003.dll
+D:\E2Max-MTMS\DLL\PE.PEA003.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PE(작업일보관리)\PE.PEA003(작업일보집계현황)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PE(작업일보관리)\PE.PEA003(작업일보집계현황)\obj\Debug\PE.PEA003.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PE(작업일보관리)\PE.PEA003(작업일보집계현황)\obj\Debug\PE.PEA003.PEA003.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PE(작업일보관리)\PE.PEA003(작업일보집계현황)\obj\Debug\PE.PEA003.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PE(작업일보관리)\PE.PEA003(작업일보집계현황)\obj\Debug\PE.PEA003.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PE(작업일보관리)\PE.PEA003(작업일보집계현황)\obj\Debug\PE.PEA003.pdb

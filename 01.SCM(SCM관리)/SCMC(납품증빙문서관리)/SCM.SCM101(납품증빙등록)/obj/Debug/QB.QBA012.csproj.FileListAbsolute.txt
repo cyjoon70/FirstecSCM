@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\DLL\QB.QBA012.dll
+D:\E2Max-MTMS\DLL\QB.QBA012.pdb
+D:\E2Max-MTMS\07.QA(품질관리)\QB(기준정보)\QB.QBA012(일반검사조건정보)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\07.QA(품질관리)\QB(기준정보)\QB.QBA012(일반검사조건정보)\obj\Debug\QB.QBA012.QBA012.resources
+D:\E2Max-MTMS\07.QA(품질관리)\QB(기준정보)\QB.QBA012(일반검사조건정보)\obj\Debug\QB.QBA012.Properties.Resources.resources
+D:\E2Max-MTMS\07.QA(품질관리)\QB(기준정보)\QB.QBA012(일반검사조건정보)\obj\Debug\QB.QBA012.dll.licenses
+D:\E2Max-MTMS\07.QA(품질관리)\QB(기준정보)\QB.QBA012(일반검사조건정보)\obj\Debug\QB.QBA012.dll
+D:\E2Max-MTMS\07.QA(품질관리)\QB(기준정보)\QB.QBA012(일반검사조건정보)\obj\Debug\QB.QBA012.pdb

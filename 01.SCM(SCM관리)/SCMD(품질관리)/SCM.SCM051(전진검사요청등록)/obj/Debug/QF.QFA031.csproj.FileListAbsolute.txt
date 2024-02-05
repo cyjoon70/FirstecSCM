@@ -1,0 +1,8 @@
+C:\Users\tomoe\Desktop\E2Max-MTMS\DLL\QF.QFA031.dll
+C:\Users\tomoe\Desktop\E2Max-MTMS\DLL\QF.QFA031.pdb
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QF(최종검사)\QF.QFA031(일보조회(최종))\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QF(최종검사)\QF.QFA031(일보조회(최종))\obj\Debug\QF.QFA031.Properties.Resources.resources
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QF(최종검사)\QF.QFA031(일보조회(최종))\obj\Debug\QF.QFA031.QFA031.resources
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QF(최종검사)\QF.QFA031(일보조회(최종))\obj\Debug\QF.QFA031.dll.licenses
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QF(최종검사)\QF.QFA031(일보조회(최종))\obj\Debug\QF.QFA031.dll
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QF(최종검사)\QF.QFA031(일보조회(최종))\obj\Debug\QF.QFA031.pdb

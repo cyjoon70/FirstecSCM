@@ -1,0 +1,9 @@
+D:\E2Max-MTMS\DLL\PC.PSA126.dll
+D:\E2Max-MTMS\DLL\PC.PSA126.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA126(통합오더조회-확정)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA126(통합오더조회-확정)\obj\Debug\PC.PSA126.PCC007P3.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA126(통합오더조회-확정)\obj\Debug\PC.PSA126.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA126(통합오더조회-확정)\obj\Debug\PC.PSA126.PSA126.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA126(통합오더조회-확정)\obj\Debug\PC.PSA126.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA126(통합오더조회-확정)\obj\Debug\PC.PSA126.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA126(통합오더조회-확정)\obj\Debug\PC.PSA126.pdb

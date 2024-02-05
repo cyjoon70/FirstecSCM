@@ -1,0 +1,12 @@
+D:\퍼스텍\E2Max-Mtms\DLL\BA.BZA001.dll
+D:\퍼스텍\E2Max-Mtms\DLL\BA.BZA001.pdb
+D:\퍼스텍\E2Max-Mtms\01.BA\BA.BZA001(메뉴정보등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\퍼스텍\E2Max-Mtms\01.BA\BA.BZA001(메뉴정보등록)\obj\Debug\BA.BZA001.BZA001.resources
+D:\퍼스텍\E2Max-Mtms\01.BA\BA.BZA001(메뉴정보등록)\obj\Debug\BA.BZA001.dll.licenses
+D:\퍼스텍\E2Max-Mtms\01.BA\BA.BZA001(메뉴정보등록)\obj\Debug\BA.BZA001.dll
+D:\퍼스텍\E2Max-Mtms\01.BA\BA.BZA001(메뉴정보등록)\obj\Debug\BA.BZA001.pdb
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BA\BA.BAA001(메뉴정보등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BA\BA.BAA001(메뉴정보등록)\obj\Debug\BA.BZA001.BZA001.resources
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BA\BA.BAA001(메뉴정보등록)\obj\Debug\BA.BZA001.dll.licenses
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BA\BA.BAA001(메뉴정보등록)\obj\Debug\BA.BZA001.dll
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BA\BA.BAA001(메뉴정보등록)\obj\Debug\BA.BZA001.pdb

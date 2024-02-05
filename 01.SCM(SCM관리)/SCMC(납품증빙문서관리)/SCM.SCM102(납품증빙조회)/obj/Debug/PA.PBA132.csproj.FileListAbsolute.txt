@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\04.PR(생산관리)\PA(생산관리)\PA.PBA132(BOM변경조회)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PA(생산관리)\PA.PBA132(BOM변경조회)\obj\Debug\PA.PBA132.PBA132.resources
+D:\E2Max-MTMS\DLL\PA.PBA132.dll
+D:\E2Max-MTMS\DLL\PA.PBA132.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PA(생산관리)\PA.PBA132(BOM변경조회)\obj\Debug\PA.PBA132.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PA(생산관리)\PA.PBA132(BOM변경조회)\obj\Debug\PA.PBA132.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PA(생산관리)\PA.PBA132(BOM변경조회)\obj\Debug\PA.PBA132.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PA(생산관리)\PA.PBA132(BOM변경조회)\obj\Debug\PA.PBA132.pdb

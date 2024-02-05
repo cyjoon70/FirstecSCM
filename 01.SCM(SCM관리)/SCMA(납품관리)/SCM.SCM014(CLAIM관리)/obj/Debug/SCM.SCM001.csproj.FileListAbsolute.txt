@@ -1,0 +1,16 @@
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCM.SCM001(견적접수및제출)\obj\Debug\ResolveAssemblyReference.cache
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.csproj.ResolveComReference.cache
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.SCM001.resources
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.dll.licenses
+D:\01.WORK\01.퍼스텍\DLL\SCM.SCM001.dll
+D:\01.WORK\01.퍼스텍\DLL\SCM.SCM001.pdb
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.dll
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.pdb
+D:\01.WORK\01.퍼스텍\E2Max-SCM\DLL\SCM.SCM001.dll
+D:\01.WORK\01.퍼스텍\E2Max-SCM\DLL\SCM.SCM001.pdb
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM001(견적접수및제출)\obj\Debug\ResolveAssemblyReference.cache
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.csproj.ResolveComReference.cache
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.SCM001.resources
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.dll.licenses
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.dll
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM001(견적접수및제출)\obj\Debug\SCM.SCM001.pdb

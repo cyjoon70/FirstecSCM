@@ -1,0 +1,9 @@
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\DLL\TD.TDQ002.dll
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\DLL\TD.TDQ002.pdb
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.TD(추적관리)\TD.TDQ002(구매입고증빙조회)\obj\Debug\TD.TDQ002.csprojResolveAssemblyReference.cache
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.TD(추적관리)\TD.TDQ002(구매입고증빙조회)\obj\Debug\TD.TDQ002.TDQ002.resources
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.TD(추적관리)\TD.TDQ002(구매입고증빙조회)\obj\Debug\TD.TDQ002.Properties.Resources.resources
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.TD(추적관리)\TD.TDQ002(구매입고증빙조회)\obj\Debug\TD.TDQ002.csproj.GenerateResource.Cache
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.TD(추적관리)\TD.TDQ002(구매입고증빙조회)\obj\Debug\TD.TDQ002.dll.licenses
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.TD(추적관리)\TD.TDQ002(구매입고증빙조회)\obj\Debug\TD.TDQ002.dll
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.TD(추적관리)\TD.TDQ002(구매입고증빙조회)\obj\Debug\TD.TDQ002.pdb

@@ -1,0 +1,616 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WNDW</name>
+    </assembly>
+    <members>
+        <member name="T:WNDW.WNDW024">
+            <summary>
+            매입정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 매입번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW024.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW024.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW024.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW021">
+            <summary>
+            LC정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = L/C번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW021.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW021.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW021.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW009">
+            <summary>
+            검사의뢰정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 검사의뢰번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW009.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW009.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW009.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW019">
+            <summary>
+            구매입고정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 구매입고번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW019.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW019.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW019.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW008">
+            <summary>
+            제품오더정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 제품오더번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW008.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW008.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW008.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW002">
+            <summary>
+            거래처정보조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 거래처코드 </para>
+            <para>Msgs[2] = 거래처명 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW002.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW002.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW002.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW005">
+            <summary>
+            공장별품목정보조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 공장코드 </para>
+            <para>Msgs[2] = 품목코드 </para>
+            <para>Msgs[3] = 품목명 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW005.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW005.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW005.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW025">
+            <summary>
+            작업일보정보조회 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 작업일보번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW025.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW025.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW025.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW022">
+            <summary>
+            송장번호(구B/L번호)정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 송장번호 </para>
+            <para>Msgs[2] = B/L번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW022.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW022.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW022.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW018">
+            <summary>
+            구매발주정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 구매발주번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW018.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW018.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW018.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW015">
+            <summary>
+            세금계산서정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 세금계산서번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW015.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW015.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW015.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW012">
+            <summary>
+            수주정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 수주번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW012.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW012.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW012.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW007">
+            <summary>
+            프로젝트정보 조회2
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 사업코드 </para>
+            <para>Msgs[2] = 사업명 </para>
+            <para>Msgs[3] = 프로젝트번호 </para>
+            <para>Msgs[4] = 프로젝트명 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW007.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW007.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW007.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW017">
+            <summary>
+            구매견적의뢰정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 구매견적의뢰번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW017.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW017.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW017.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW006">
+            <summary>
+            제조오더정보조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 제조오더번호 </para>
+            <para>Msgs[2] = 제품오더번호 </para>
+            <para>Msgs[3] = 프로젝트번호 </para>
+            <para>Msgs[4] = 프로젝트명 </para>
+            <para>Msgs[5] = 프로젝트차수 </para>
+            <para>Msgs[6] = 품목코드 </para>
+            <para>Msgs[7] = 품목명 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW006.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW006.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW006.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW016">
+            <summary>
+            구매요청정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 구매요청번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW016.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW016.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW016.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW014">
+            <summary>
+            매출채권정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 매출채권번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW014.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW014.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW014.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW003">
+            <summary>
+            프로젝트 정보조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 사업코드 </para>
+            <para>Msgs[2] = 사업명 </para>
+            <para>Msgs[3] = 프로젝트번호 </para>
+            <para>Msgs[4] = 프로젝트명 </para>
+            <para>Msgs[5] = 프로젝트차수 </para>
+            <para>Msgs[6] = 제품코드 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW003.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW003.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW003.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW010">
+            <summary>
+            사원정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 부서코드 </para>
+            <para>Msgs[2] = 부서명 </para>
+            <para>Msgs[3] = 사원코드 </para>
+            <para>Msgs[4] = 사원명 </para>
+            <para>Msgs[5] = 유효일자 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW010.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW010.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW010.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW013">
+            <summary>
+            출고정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 출고번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW013.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW013.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW013.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW023">
+            <summary>
+            통관번호 정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 통관번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW023.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW023.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW023.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW020">
+            <summary>
+            창고입고정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 창고입고번호 </para>
+            <para>Msgs[2] = 구매입고번호 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW020.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW020.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW020.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW001">
+            <summary>
+            품목정보조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 품목코드 </para>
+            <para>Msgs[2] = 품목명 </para>
+            <para>Msgs[3] = 품목전명 </para>
+            <para>Msgs[4] = 품목계정 </para>
+            <para>Msgs[5] = 품목규격 </para>
+            <para>Msgs[6] = 품목단위 </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW001.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW001.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW001.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WNDW.WNDW011">
+            <summary>
+            부서정보 조회
+            <para>예제는 소스안에서 복사해쓰세요</para>
+            <para>Msgs[1] = 부서코드 </para>
+            <para>Msgs[2] = 부서명 </para>
+            <para>Msgs[3] = 사업장코드 </para>
+            <para>Msgs[4] = 사업장명 </para>
+            <para>Msgs[5] = 개편ID </para>
+            </summary>
+        </member>
+        <member name="F:WNDW.WNDW011.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WNDW.WNDW011.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WNDW.WNDW011.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

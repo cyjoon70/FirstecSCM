@@ -1,0 +1,7 @@
+D:\퍼스텍\E2Max-Mtms\DLL\BB.BBA001.dll
+D:\퍼스텍\E2Max-Mtms\DLL\BB.BBA001.pdb
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBA001(공통코드등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBA001(공통코드등록)\obj\Debug\BB.BBA001.BBA001.resources
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBA001(공통코드등록)\obj\Debug\BB.BBA001.dll.licenses
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBA001(공통코드등록)\obj\Debug\BB.BBA001.dll
+D:\퍼스텍\E2Max-Mtms\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBA001(공통코드등록)\obj\Debug\BB.BBA001.pdb

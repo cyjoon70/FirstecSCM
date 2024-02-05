@@ -1,0 +1,8 @@
+C:\Users\tomoe\Desktop\E2Max-SCM\DLL\SCM.SCM012.dll
+C:\Users\tomoe\Desktop\E2Max-SCM\DLL\SCM.SCM012.pdb
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM012(거래명세서출력)\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM012(거래명세서출력)\obj\Debug\SCM.SCM012.csproj.ResolveComReference.cache
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM012(거래명세서출력)\obj\Debug\SCM.SCM012.SCM012.resources
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM012(거래명세서출력)\obj\Debug\SCM.SCM012.dll.licenses
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM012(거래명세서출력)\obj\Debug\SCM.SCM012.dll
+C:\Users\tomoe\Desktop\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM012(거래명세서출력)\obj\Debug\SCM.SCM012.pdb

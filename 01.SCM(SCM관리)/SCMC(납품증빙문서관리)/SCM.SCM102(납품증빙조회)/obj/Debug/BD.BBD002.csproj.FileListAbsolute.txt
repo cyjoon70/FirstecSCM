@@ -1,0 +1,7 @@
+D:\E2Max-MTMS\DLL\BD.BBD002.dll
+D:\E2Max-MTMS\DLL\BD.BBD002.pdb
+D:\E2Max-MTMS\01.BA(기준정보관리)\BD(조직정보)\BD.BBD002(부서정보등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\01.BA(기준정보관리)\BD(조직정보)\BD.BBD002(부서정보등록)\obj\Debug\BD.BBD002.BBD002.resources
+D:\E2Max-MTMS\01.BA(기준정보관리)\BD(조직정보)\BD.BBD002(부서정보등록)\obj\Debug\BD.BBD002.dll.licenses
+D:\E2Max-MTMS\01.BA(기준정보관리)\BD(조직정보)\BD.BBD002(부서정보등록)\obj\Debug\BD.BBD002.dll
+D:\E2Max-MTMS\01.BA(기준정보관리)\BD(조직정보)\BD.BBD002(부서정보등록)\obj\Debug\BD.BBD002.pdb

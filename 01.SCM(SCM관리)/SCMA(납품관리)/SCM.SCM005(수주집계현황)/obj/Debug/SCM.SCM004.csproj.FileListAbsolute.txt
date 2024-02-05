@@ -1,0 +1,8 @@
+D:\Work\Firstec\E2Max-SCM\DLL\SCM.SCM004.dll
+D:\Work\Firstec\E2Max-SCM\DLL\SCM.SCM004.pdb
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Debug\SCM.SCM004.csproj.ResolveComReference.cache
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Debug\SCM.SCM004.SCM004.resources
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Debug\SCM.SCM004.dll.licenses
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Debug\SCM.SCM004.dll
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Debug\SCM.SCM004.pdb

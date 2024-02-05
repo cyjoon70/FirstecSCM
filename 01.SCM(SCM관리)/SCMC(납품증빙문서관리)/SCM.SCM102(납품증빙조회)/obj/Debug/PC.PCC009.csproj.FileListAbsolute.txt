@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\DLL\PC.PCC009.dll
+D:\E2Max-MTMS\DLL\PC.PCC009.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC009(외주공정의뢰등록(출력))\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC009(외주공정의뢰등록(출력))\obj\Debug\PC.PCC009.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC009(외주공정의뢰등록(출력))\obj\Debug\PC.PCC009.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC009(외주공정의뢰등록(출력))\obj\Debug\PC.PCC009.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC009(외주공정의뢰등록(출력))\obj\Debug\PC.PCC009.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC009(외주공정의뢰등록(출력))\obj\Debug\PC.PCC009.PCC009.resources

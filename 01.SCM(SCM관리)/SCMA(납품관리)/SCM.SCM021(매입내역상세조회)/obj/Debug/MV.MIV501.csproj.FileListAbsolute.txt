@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\DLL\MV.MIV501.dll
+D:\E2Max-MTMS\DLL\MV.MIV501.pdb
+D:\E2Max-MTMS\05.MA(구매관리)\MV(매입관리)\MV.MIV501(매입내역집계조회)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\05.MA(구매관리)\MV(매입관리)\MV.MIV501(매입내역집계조회)\obj\Debug\MV.MIV501.Properties.Resources.resources
+D:\E2Max-MTMS\05.MA(구매관리)\MV(매입관리)\MV.MIV501(매입내역집계조회)\obj\Debug\MV.MIV501.MIV501.resources
+D:\E2Max-MTMS\05.MA(구매관리)\MV(매입관리)\MV.MIV501(매입내역집계조회)\obj\Debug\MV.MIV501.dll.licenses
+D:\E2Max-MTMS\05.MA(구매관리)\MV(매입관리)\MV.MIV501(매입내역집계조회)\obj\Debug\MV.MIV501.dll
+D:\E2Max-MTMS\05.MA(구매관리)\MV(매입관리)\MV.MIV501(매입내역집계조회)\obj\Debug\MV.MIV501.pdb

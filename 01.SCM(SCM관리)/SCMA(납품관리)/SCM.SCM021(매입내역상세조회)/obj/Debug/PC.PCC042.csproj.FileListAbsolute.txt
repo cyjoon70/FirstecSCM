@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC042(제조오더접수등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC042(제조오더접수등록)\obj\Debug\PC.PCC042.PCC042.resources
+D:\E2Max-MTMS\DLL\PC.PCC042.dll
+D:\E2Max-MTMS\DLL\PC.PCC042.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC042(제조오더접수등록)\obj\Debug\PC.PCC042.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC042(제조오더접수등록)\obj\Debug\PC.PCC042.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC042(제조오더접수등록)\obj\Debug\PC.PCC042.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PCC042(제조오더접수등록)\obj\Debug\PC.PCC042.pdb

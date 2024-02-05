@@ -1,0 +1,7 @@
+D:\E2Max-MTMS\DLL\SB.SBA002.dll
+D:\E2Max-MTMS\DLL\SB.SBA002.pdb
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA002(수주형태등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA002(수주형태등록)\obj\Debug\SB.SBA002.SBA002.resources
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA002(수주형태등록)\obj\Debug\SB.SBA002.dll.licenses
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA002(수주형태등록)\obj\Debug\SB.SBA002.dll
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA002(수주형태등록)\obj\Debug\SB.SBA002.pdb

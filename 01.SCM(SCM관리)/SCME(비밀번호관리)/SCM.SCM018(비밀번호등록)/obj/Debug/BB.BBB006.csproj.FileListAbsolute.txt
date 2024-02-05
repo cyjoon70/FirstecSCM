@@ -1,0 +1,14 @@
+D:\Work\Firstec\New\DLL\BB.BBB006.dll
+D:\Work\Firstec\New\DLL\BB.BBB006.pdb
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.BBB006.resources
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.dll.licenses
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.dll
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.pdb
+D:\E2Max-MTMS\DLL\BB.BBB006.dll
+D:\E2Max-MTMS\DLL\BB.BBB006.pdb
+D:\E2Max-MTMS\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.BBB006.resources
+D:\E2Max-MTMS\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.dll.licenses
+D:\E2Max-MTMS\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.dll
+D:\E2Max-MTMS\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB006(비밀번호등록)\obj\Debug\BB.BBB006.pdb

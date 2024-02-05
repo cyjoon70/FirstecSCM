@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SystemBase</name>
+    </assembly>
+    <members>
+        <member name="T:SystemBase.PrintProcess">
+            <summary>
+            SystemBase.PrintProcess pp = new SystemBase.PrintProcess(FILE_NAME);
+            pp.FilePrint();
+            </summary>
+        </member>
+        <member name="T:SystemBase.FILESAVE">
+            <summary>
+            IMAGE에 대한 요약 설명입니다.
+            </summary>
+        </member>
+        <member name="T:SystemBase.LogLevel">
+            <summary>
+            Logger에 대한 요약 설명입니다.
+            </summary>
+        </member>
+        <member name="T:SystemBase.Base">
+            <summary>
+            Base에 대한 요약 설명입니다.
+            </summary>
+        </member>
+        <member name="T:SystemBase.LocalMessages">
+            <program>
+              <date>2004-11-15</date><writer>김재홍</writer>
+            </program>
+            <summary>
+            Application 에서 사용하는 Message의 다국어 처리를 위한 공통모듈을 관리하는 CLASS입니다.
+            </summary>
+        </member>
+        <member name="M:SystemBase.LocalMessages.getMsgString(System.String)">
+            <program>
+              <date>2004-11-15</date><writer>김재홍</writer>
+            </program>
+            
+            <summary>
+            다국어 Resource 정보로부터 MESSAGE를 가져온다.
+            </summary>
+            <param name="strResName">Resource Item Name</param>
+            <returns></returns>
+        </member>
+        <member name="T:SystemBase.Loggers">
+            <summary>
+            Logger에 대한 요약 설명입니다.
+            </summary>
+        </member>
+        <member name="T:SystemBase.Settings">
+            <summary>
+            Admin Program이 기동할때 필요한 각종 정보를 가져오는 Class이다.
+            생성자가 Static으로 만들어져 있기 때문에 프로그램 기동시 자동으로 모든 세팅값을
+            가져와 세팅을 한다.
+            </summary>
+        </member>
+        <member name="T:SystemBase.SendMail">
+            <summary>
+            SendMail에 대한 요약 설명입니다.
+            </summary>
+        </member>
+        <member name="M:SystemBase.Validation.GroupBoxControlsLock(System.Windows.Forms.GroupBox,System.Boolean)">
+            <summary>
+            그룹박스 전체 컨트롤에 대한 Locking 여부
+            <param name="groupBox">그룹박스</param>
+            <param name="LockingFlag">Locking여부</param>
+            </summary>
+        </member>
+        <member name="M:SystemBase.Validation.Control_Check(System.Windows.Forms.GroupBox[],System.String@)">
+            <summary>
+            조회, 저장시 컨트롤 변경 유무 체크
+            <param name="groupBox">groupBox</param>
+            <param name="Data">return 받을 데이터</param>
+            <example>example
+            <code> string strSearchData = "", strSaveData = "";
+            SystemBase.Validation.Control_Check(groupBox1, ref strSearchData); //조회 후 컨트롤 값 저장
+            SystemBase.Validation.Control_Check(groupBox1, ref strSaveData); //저장 전 컨트롤 값 저장
+            if(strSearchData == strSaveData) //저장시 변경된 컨트롤 값이 없다면 
+            {
+                return;
+            }
+            </code>
+            </example>
+            </summary>
+        </member>
+        <member name="T:SystemBase.Common">
+            <summary>
+            Common에 대한 요약 설명입니다.
+            </summary>
+        </member>
+        <member name="T:SystemBase.ComboMake">
+            <summary>
+            ComboMake에 대한 요약 설명입니다.
+            </summary>
+        </member>
+        <member name="T:SystemBase.AutoConfig">
+            <summary>
+            AutoConfig에 대한 요약 설명입니다.
+            </summary>
+        </member>
+    </members>
+</doc>

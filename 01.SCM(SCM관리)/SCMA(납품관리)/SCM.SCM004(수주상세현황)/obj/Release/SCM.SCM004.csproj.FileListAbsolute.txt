@@ -1,0 +1,5 @@
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Release\SCM.SCM004.csprojResolveAssemblyReference.cache
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Release\SCM.SCM004.csproj.ResolveComReference.cache
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Release\SCM.SCM004.SCM004.resources
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Release\SCM.SCM004.csproj.GenerateResource.Cache
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM004(수주상세현황)\obj\Release\SCM.SCM004.dll.licenses

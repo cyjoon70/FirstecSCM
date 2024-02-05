@@ -1,0 +1,9 @@
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\DLL\TD.TDT004.dll
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\DLL\TD.TDT004.pdb
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.추적관리\TD.TDT004(공정문서조회)\obj\Debug\TD.TDT004.csprojResolveAssemblyReference.cache
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.추적관리\TD.TDT004(공정문서조회)\obj\Debug\TD.TDT004.TDT004.resources
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.추적관리\TD.TDT004(공정문서조회)\obj\Debug\TD.TDT004.Properties.Resources.resources
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.추적관리\TD.TDT004(공정문서조회)\obj\Debug\TD.TDT004.csproj.GenerateResource.Cache
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.추적관리\TD.TDT004(공정문서조회)\obj\Debug\TD.TDT004.dll.licenses
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.추적관리\TD.TDT004(공정문서조회)\obj\Debug\TD.TDT004.dll
+C:\Users\Jaeguang\Documents\Visual Studio 2013\Projects\E2Max-MTMS\16.추적관리\TD.TDT004(공정문서조회)\obj\Debug\TD.TDT004.pdb

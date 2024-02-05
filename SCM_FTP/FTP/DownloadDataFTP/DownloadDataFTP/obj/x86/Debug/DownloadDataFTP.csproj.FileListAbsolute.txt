@@ -1,0 +1,82 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\DownloadDataFTP.ftpForm.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\DownloadDataFTP.listDialogForm.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.ftpForm.resources
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmDBInfo.resources
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmFTPInfo.resources
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.exe
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.pdb
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.exe
+D:\업무관련\코나\FTP_TEST\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.pdb
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.exe
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.pdb
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.exe
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.pdb
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmDBInfo.resources
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmFTPInfo.resources
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.ftpForm.resources
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.exe.config
+C:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.exe.config
+C:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.exe
+C:\업무관련\코나\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.pdb
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.exe.config
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.exe
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX.pdb
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.exe
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX.pdb
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmDBInfo.resources
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmFTPInfo.resources
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.ftpForm.resources
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\E2Max-MTMS\FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmDBInfo.resources
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmFTPInfo.resources
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.ftpForm.resources
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.exe.config
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.exe
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.pdb
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX_SCM_FTP.exe
+C:\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX_SCM_FTP.pdb
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.exe.config
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX_SCM_FTP.exe
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX_SCM_FTP.pdb
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.exe
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.pdb
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmDBInfo.resources
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmFTPInfo.resources
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.ftpForm.resources
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\퍼스텍 Source\E2Max-SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.csproj.GenerateResource.Cache
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.exe.config
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.exe
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\bin\Debug\E2MAX_SCM_FTP.pdb
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.csprojAssemblyReference.cache
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmDBInfo.resources
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.frmFTPInfo.resources
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.ftpForm.resources
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.csproj.GenerateResource.cache
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\DownloadDataFTP.csproj.CoreCompileInputs.cache
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX_SCM_FTP.exe
+C:\FIRSTEC_SCM\SCM_FTP\FTP\DownloadDataFTP\DownloadDataFTP\obj\x86\Debug\E2MAX_SCM_FTP.pdb

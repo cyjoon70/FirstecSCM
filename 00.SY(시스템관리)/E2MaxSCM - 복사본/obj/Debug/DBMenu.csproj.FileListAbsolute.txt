@@ -1,0 +1,11 @@
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\ResolveAssemblyReference.cache
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\DBMenu.Default.resources
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\DBMenu.LoginForm.resources
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\DBMenu.Main.resources
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\DBMenu.exe.licenses
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\DLL\DBMenu.exe
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\DLL\DBMenu.pdb
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\DBMenu.exe
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\DBMenu.pdb
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\DLL\DBMenu.exe.config
+D:\Site\휴니드\방산원가\CMax-Defense\CMax-Defense\SY\DBMenu\obj\Debug\DBMenu.Properties.Resources.resources

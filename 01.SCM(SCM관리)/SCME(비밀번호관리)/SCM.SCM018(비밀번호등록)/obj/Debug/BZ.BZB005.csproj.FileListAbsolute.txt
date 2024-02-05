@@ -1,0 +1,12 @@
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록)\obj\Debug\BZ.BZB005.BZB005.resources
+D:\Work\Firstec\New\DLL\BZ.BZB005.dll
+D:\Work\Firstec\New\DLL\BZ.BZB005.pdb
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록)\obj\Debug\BZ.BZB005.dll.licenses
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록)\obj\Debug\BZ.BZB005.dll
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록)\obj\Debug\BZ.BZB005.pdb
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록) - 복사본\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록) - 복사본\obj\Debug\BZ.BZB005.BZB005.resources
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록) - 복사본\obj\Debug\BZ.BZB005.dll.licenses
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록) - 복사본\obj\Debug\BZ.BZB005.dll
+D:\Work\Firstec\New\01.BA(기준정보관리)\BZ(시스템관리)\BZ.BZB005(은행정보등록) - 복사본\obj\Debug\BZ.BZB005.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "E2MAX_SCM_SETUP", "E2MAX_SCM_SETUP\E2MAX_SCM_SETUP.vdproj", "{B91F95D4-1E9A-4612-AEC2-98EE7D1F9C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIForm", "..\..\00.SY(시스템관리)\UIForm\UIForm.csproj", "{4EFC693F-1889-404A-B163-DF462EEE98C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCM.SCM001", "..\..\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM001(견적접수및제출)\SCM.SCM001.csproj", "{CA634426-BC8F-433F-904F-4C685A8E2A01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91F95D4-1E9A-4612-AEC2-98EE7D1F9C82}.Debug|Any CPU.ActiveCfg = Debug
+		{B91F95D4-1E9A-4612-AEC2-98EE7D1F9C82}.Debug|Any CPU.Build.0 = Debug
+		{B91F95D4-1E9A-4612-AEC2-98EE7D1F9C82}.Release|Any CPU.ActiveCfg = Release
+		{B91F95D4-1E9A-4612-AEC2-98EE7D1F9C82}.Release|Any CPU.Build.0 = Release
+		{4EFC693F-1889-404A-B163-DF462EEE98C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFC693F-1889-404A-B163-DF462EEE98C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFC693F-1889-404A-B163-DF462EEE98C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFC693F-1889-404A-B163-DF462EEE98C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA634426-BC8F-433F-904F-4C685A8E2A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA634426-BC8F-433F-904F-4C685A8E2A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA634426-BC8F-433F-904F-4C685A8E2A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA634426-BC8F-433F-904F-4C685A8E2A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

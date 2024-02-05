@@ -1,0 +1,9 @@
+D:\project\E2Max-SCM\DLL\MO.PCC014.dll
+D:\project\E2Max-SCM\DLL\MO.PCC014.pdb
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM015(외주자재출고요청서)\obj\Debug\SCM.SCM015.csprojResolveAssemblyReference.cache
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM015(외주자재출고요청서)\obj\Debug\SCM.SCM015.SCM015.resources
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM015(외주자재출고요청서)\obj\Debug\MO.PCC014.Properties.Resources.resources
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM015(외주자재출고요청서)\obj\Debug\SCM.SCM015.csproj.GenerateResource.Cache
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM015(외주자재출고요청서)\obj\Debug\MO.PCC014.dll.licenses
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM015(외주자재출고요청서)\obj\Debug\MO.PCC014.dll
+D:\project\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM015(외주자재출고요청서)\obj\Debug\MO.PCC014.pdb

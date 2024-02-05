@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\DLL\QR.QRA031.dll
+D:\E2Max-MTMS\DLL\QR.QRA031.pdb
+D:\E2Max-MTMS\07.QA(품질관리)\QR(수입검사)\QR.QRA031(일보조회(수입))\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\07.QA(품질관리)\QR(수입검사)\QR.QRA031(일보조회(수입))\obj\Debug\QR.QRA031.Properties.Resources.resources
+D:\E2Max-MTMS\07.QA(품질관리)\QR(수입검사)\QR.QRA031(일보조회(수입))\obj\Debug\QR.QRA031.QRA031.resources
+D:\E2Max-MTMS\07.QA(품질관리)\QR(수입검사)\QR.QRA031(일보조회(수입))\obj\Debug\QR.QRA031.dll.licenses
+D:\E2Max-MTMS\07.QA(품질관리)\QR(수입검사)\QR.QRA031(일보조회(수입))\obj\Debug\QR.QRA031.dll
+D:\E2Max-MTMS\07.QA(품질관리)\QR(수입검사)\QR.QRA031(일보조회(수입))\obj\Debug\QR.QRA031.pdb

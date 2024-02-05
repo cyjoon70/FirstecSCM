@@ -1,0 +1,8 @@
+C:\Users\tomoe\Desktop\E2Max-MTMS\DLL\QP.QPA031.dll
+C:\Users\tomoe\Desktop\E2Max-MTMS\DLL\QP.QPA031.pdb
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QP(공정검사)\QP.QPA031(일보조회(공정))\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QP(공정검사)\QP.QPA031(일보조회(공정))\obj\Debug\QP.QPA031.Properties.Resources.resources
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QP(공정검사)\QP.QPA031(일보조회(공정))\obj\Debug\QP.QPA031.QPA031.resources
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QP(공정검사)\QP.QPA031(일보조회(공정))\obj\Debug\QP.QPA031.dll.licenses
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QP(공정검사)\QP.QPA031(일보조회(공정))\obj\Debug\QP.QPA031.dll
+C:\Users\tomoe\Desktop\E2Max-MTMS\07.QA(품질관리)\QP(공정검사)\QP.QPA031(일보조회(공정))\obj\Debug\QP.QPA031.pdb

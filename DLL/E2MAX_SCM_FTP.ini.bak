@@ -1,0 +1,21 @@
+[FTP]
+
+FTPServer=53.54.15.391
+//FTPServer=1.254.70.73
+FTPUser  =YCM3G
+FTPPass  =ycmf|
+FTPPath  =E2MAX
+
+
+[DATABASE]
+
+DBMS       =MSS Microsoft SQL Server 2005
+Database   =UH_TOTN
+LogPass    =5291Brqzmulv
+ServerName =53.54.15.391
+//ServerName =1.254.70.73
+LogId      =th
+AutoCommit =False
+SaveId=Y
+UserId=KO132
+ComCd=KO132

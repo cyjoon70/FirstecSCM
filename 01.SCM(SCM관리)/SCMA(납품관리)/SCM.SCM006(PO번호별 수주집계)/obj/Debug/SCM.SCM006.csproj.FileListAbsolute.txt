@@ -1,0 +1,32 @@
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.ResolveComReference.cache
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.SCM006.resources
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.dll.licenses
+D:\Work\Firstec\E2Max-SCM\DLL\SCM.SCM006.dll
+D:\Work\Firstec\E2Max-SCM\DLL\SCM.SCM006.pdb
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.dll
+D:\Work\Firstec\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.pdb
+D:\01.WORK\01.퍼스텍\E2Max-SCM\DLL\SCM.SCM006.dll
+D:\01.WORK\01.퍼스텍\E2Max-SCM\DLL\SCM.SCM006.pdb
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\ResolveAssemblyReference.cache
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.ResolveComReference.cache
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.SCM006.resources
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.dll.licenses
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.dll
+D:\01.WORK\01.퍼스텍\E2Max-SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.pdb
+D:\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.ResolveComReference.cache
+D:\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.SCM006.resources
+D:\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.GenerateResource.cache
+D:\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.CoreCompileInputs.cache
+D:\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.dll
+D:\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.pdb
+D:\Firstec\Source\FIRSTEC_SCM\DLL\SCM.SCM006.dll
+D:\Firstec\Source\FIRSTEC_SCM\DLL\SCM.SCM006.pdb
+D:\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.CopyComplete
+D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csprojAssemblyReference.cache
+D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.ResolveComReference.cache
+D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.SCM006.resources
+D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.GenerateResource.cache
+D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.csproj.CoreCompileInputs.cache
+D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.dll
+D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM006(PO번호별 수주집계)\obj\Debug\SCM.SCM006.pdb

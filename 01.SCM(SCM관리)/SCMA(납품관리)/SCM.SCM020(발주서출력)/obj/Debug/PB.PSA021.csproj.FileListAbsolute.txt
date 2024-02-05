@@ -1,0 +1,8 @@
+D:\E2Max-MTMS\DLL\PB.PSA021.dll
+D:\E2Max-MTMS\DLL\PB.PSA021.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PB(APS관리)\PB.PSA021(MPS등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PB(APS관리)\PB.PSA021(MPS등록)\obj\Debug\PB.PSA021.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PB(APS관리)\PB.PSA021(MPS등록)\obj\Debug\PB.PSA021.PSA021.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PB(APS관리)\PB.PSA021(MPS등록)\obj\Debug\PB.PSA021.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PB(APS관리)\PB.PSA021(MPS등록)\obj\Debug\PB.PSA021.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PB(APS관리)\PB.PSA021(MPS등록)\obj\Debug\PB.PSA021.pdb

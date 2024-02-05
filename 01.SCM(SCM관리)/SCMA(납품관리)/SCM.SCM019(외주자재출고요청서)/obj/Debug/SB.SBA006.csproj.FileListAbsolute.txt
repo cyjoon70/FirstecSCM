@@ -1,0 +1,7 @@
+D:\E2Max-MTMS\DLL\SB.SBA006.dll
+D:\E2Max-MTMS\DLL\SB.SBA006.pdb
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA006(정비품일정기준정보)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA006(정비품일정기준정보)\obj\Debug\SB.SBA006.dll.licenses
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA006(정비품일정기준정보)\obj\Debug\SB.SBA006.dll
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA006(정비품일정기준정보)\obj\Debug\SB.SBA006.pdb
+D:\E2Max-MTMS\03.SO(영업관리)\SB(기준정보)\SB.SBA006(정비품일정기준정보)\obj\Debug\SB.SBA006.SBA006.resources

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MP.MPO506">
+</Property><Property Name="솔루션 파일" Value="D:\01.WORK\01.퍼스텍\E2Max-MTMS\05.MA(구매관리)\MP(발주관리)\MP.MPO506(발주서출력)\MP.MPO506.sln">
+</Property><Property Name="Date" Value="2013년 7월 22일 월요일">
+</Property><Property Name="Time" Value="오후 15:22:51">
+</Property></Properties><Event ErrorLevel="4" Project="PRINT10" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="경고: 이 프로젝트에는 Visual Studio에 더 이상 포함되지 않는 Crystal Reports가 필요합니다. 자세한 내용을 보려면 여기를 클릭하십시오.">
+</Event><Event ErrorLevel="0" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.csproj" Description="프로젝트 파일을 D:\01.WORK\01.퍼스텍\E2Max-MTMS\05.MA(구매관리)\MP(발주관리)\MP.MPO506(발주서출력)\Backup\PRINT10.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.csproj.user" Description="프로젝트 사용자 파일을 D:\01.WORK\01.퍼스텍\E2Max-MTMS\05.MA(구매관리)\MP(발주관리)\MP.MPO506(발주서출력)\Backup\PRINT10.csproj.user(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\AssemblyInfo.cs" Description="파일을 D:\01.WORK\01.퍼스텍\E2Max-MTMS\05.MA(구매관리)\MP(발주관리)\MP.MPO506(발주서출력)\Backup\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.cs" Description="파일을 D:\01.WORK\01.퍼스텍\E2Max-MTMS\05.MA(구매관리)\MP(발주관리)\MP.MPO506(발주서출력)\Backup\PRINT10.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.resx" Description="파일을 D:\01.WORK\01.퍼스텍\E2Max-MTMS\05.MA(구매관리)\MP(발주관리)\MP.MPO506(발주서출력)\Backup\PRINT10.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="1" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.csproj" Description="프로젝트가 .NET Framework 2.0 또는 3.0을 대상으로 합니다. 프로젝트에서 최신 .NET Framework를 필요로 하는 어셈블리를 사용하는 경우 프로젝트를 빌드할 수 없습니다. 프로젝트 메뉴에서 [속성]을 클릭하고 '.NET Framework' 드롭다운 상자에서 새 버전을 선택하면 .NET Framework 버전을 변경할 수 있습니다. Visual Basic의 경우 이 옵션이 '고급 컴파일러 옵션...' 단추를 클릭하면 나타나는 [컴파일] 탭에 있습니다.">
+</Event><Event ErrorLevel="0" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PRINT10" Source="..\..\..\00.SY(시스템관리)\PRINT10\PRINT10.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

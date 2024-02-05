@@ -1,0 +1,7 @@
+D:\퍼스텍\E2Max-Mtms\DLL\COMM.ZAA002.dll
+D:\퍼스텍\E2Max-Mtms\DLL\COMM.ZAA002.pdb
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZAA002(사용자정보등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZAA002(사용자정보등록)\obj\Debug\COMM.ZAA002.ZAA002.resources
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZAA002(사용자정보등록)\obj\Debug\COMM.ZAA002.dll.licenses
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZAA002(사용자정보등록)\obj\Debug\COMM.ZAA002.dll
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZAA002(사용자정보등록)\obj\Debug\COMM.ZAA002.pdb

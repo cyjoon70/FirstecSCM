@@ -1,0 +1,9 @@
+D:\E2Max-MTMS\DLL\PC.PSA041.dll
+D:\E2Max-MTMS\DLL\PC.PSA041.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA041(MPS등록(자재청구용))\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA041(MPS등록(자재청구용))\obj\Debug\PC.PSA041.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA041(MPS등록(자재청구용))\obj\Debug\PC.PSA041.PSA041.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA041(MPS등록(자재청구용))\obj\Debug\PS.PSA041.PSA041P1.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA041(MPS등록(자재청구용))\obj\Debug\PC.PSA041.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA041(MPS등록(자재청구용))\obj\Debug\PC.PSA041.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA041(MPS등록(자재청구용))\obj\Debug\PC.PSA041.pdb

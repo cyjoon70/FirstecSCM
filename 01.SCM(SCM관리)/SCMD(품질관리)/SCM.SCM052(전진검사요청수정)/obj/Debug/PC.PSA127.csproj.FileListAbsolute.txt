@@ -1,0 +1,9 @@
+D:\E2Max-MTMS\DLL\PC.PSA127.dll
+D:\E2Max-MTMS\DLL\PC.PSA127.pdb
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA127(통합오더삭제)\obj\Debug\ResolveAssemblyReference.cache
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA127(통합오더삭제)\obj\Debug\PC.PSA127.PCC007P3.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA127(통합오더삭제)\obj\Debug\PC.PSA127.Properties.Resources.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA127(통합오더삭제)\obj\Debug\PC.PSA127.PSA127.resources
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA127(통합오더삭제)\obj\Debug\PC.PSA127.dll.licenses
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA127(통합오더삭제)\obj\Debug\PC.PSA127.dll
+D:\E2Max-MTMS\04.PR(생산관리)\PC(제조오더관리)\PC.PSA127(통합오더삭제)\obj\Debug\PC.PSA127.pdb

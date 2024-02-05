@@ -1,0 +1,7 @@
+D:\퍼스텍\E2Max-Mtms\DLL\COMM.ZZA001.dll
+D:\퍼스텍\E2Max-Mtms\DLL\COMM.ZZA001.pdb
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZZA001\obj\Debug\ResolveAssemblyReference.cache
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZZA001\obj\Debug\COMM.ZZA001.CZ001.resources
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZZA001\obj\Debug\COMM.ZZA001.dll.licenses
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZZA001\obj\Debug\COMM.ZZA001.dll
+D:\퍼스텍\E2Max-Mtms\01.COMM\COMM.ZZA001\obj\Debug\COMM.ZZA001.pdb

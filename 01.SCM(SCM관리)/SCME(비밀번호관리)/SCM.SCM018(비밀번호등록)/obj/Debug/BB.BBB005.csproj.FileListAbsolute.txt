@@ -1,0 +1,7 @@
+D:\Work\Firstec\New\DLL\BB.BBB005.dll
+D:\Work\Firstec\New\DLL\BB.BBB005.pdb
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB005(LOCATION등록)\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB005(LOCATION등록)\obj\Debug\BB.BBB005.BBB005.resources
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB005(LOCATION등록)\obj\Debug\BB.BBB005.dll.licenses
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB005(LOCATION등록)\obj\Debug\BB.BBB005.dll
+D:\Work\Firstec\New\01.BA(기준정보관리)\BB(기준정보관리)\BB.BBB005(LOCATION등록)\obj\Debug\BB.BBB005.pdb
