@@ -32,7 +32,6 @@ namespace SCM.SCM031
             SystemBase.ComboMake.C1Combo(cbosJobType, "usp_B_COMMON @pType='COMM', @pCODE = 'NO_JOB_TYP', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 3);
             SystemBase.ComboMake.C1Combo(cboJobType, "usp_B_COMMON @pType='COMM', @pCODE = 'NO_JOB_TYP', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 3);
 
-            txtCustCd.Text = SystemBase.Base.gstrUserID;
             txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
 
             if (SystemBase.Base.gstrUserID == "KO132")
@@ -80,10 +79,23 @@ namespace SCM.SCM031
         {
             SelectExec(true);
         }
-        #endregion
+		#endregion
 
-        #region QA001_Activated
-        private void QA001_Activated(object sender, System.EventArgs e)
+		#region 초기화
+		protected override void NewExec()
+        {
+            SystemBase.Validation.GroupBox_Reset(groupBox1);
+            SystemBase.Validation.GroupBox_Reset(groupBox2);
+            SystemBase.Validation.GroupBox_Reset(groupBox3);
+
+            fpSpread1.Sheets[0].Rows.Count = 0;
+
+            txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+        }
+		#endregion
+
+		#region QA001_Activated
+		private void QA001_Activated(object sender, System.EventArgs e)
         {
             SelectExec(false);
         }
@@ -188,6 +200,7 @@ namespace SCM.SCM031
         }
 		#endregion
 
+		#region 첨부파일 조회
 		private void btnPopup_Click(object sender, EventArgs e)
 		{
             string strAuth = string.Empty;
@@ -199,5 +212,7 @@ namespace SCM.SCM031
             UIForm.FileUpDown fileUpDown = new UIForm.FileUpDown("SC01" + strFilsNo, strAuth);
             fileUpDown.ShowDialog();
         }
+		#endregion
+
 	}
 }
