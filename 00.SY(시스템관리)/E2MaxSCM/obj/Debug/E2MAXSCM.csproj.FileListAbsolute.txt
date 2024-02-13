@@ -101,7 +101,6 @@ D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\E2MAXSCM.exe.config
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\E2MAXSCM.xml
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\E2MAXSCM.exe
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\E2MAXSCM.pdb
-D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.csprojAssemblyReference.cache
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.Default.resources
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.LoginForm.resources
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.Main.resources
@@ -111,3 +110,5 @@ D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.csproj.CopyComplete
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.exe
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.pdb
+D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.csproj.AssemblyReference.cache
+D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\E2MaxSCM\obj\Debug\E2MAXSCM.csproj.CoreCompileInputs.cache

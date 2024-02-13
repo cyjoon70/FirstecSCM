@@ -82,7 +82,7 @@ D:\Works\FIRSTEC\Source\FIRSTEC_SCM\00.SY(시스템관리)\SystemBase\obj\Debug\
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\SystemBase.XML
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\SystemBase.dll
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\SystemBase.pdb
-D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\SystemBase\obj\Debug\SystemBase.csprojAssemblyReference.cache
+D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\SystemBase\obj\Debug\SystemBase.csproj.CoreCompileInputs.cache
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\SystemBase\obj\Debug\SystemBase.csproj.CopyComplete
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\SystemBase\obj\Debug\SystemBase.dll
 D:\Project\Firstec\Source\FIRSTEC_SCM\00.SY(시스템관리)\SystemBase\obj\Debug\SystemBase.pdb

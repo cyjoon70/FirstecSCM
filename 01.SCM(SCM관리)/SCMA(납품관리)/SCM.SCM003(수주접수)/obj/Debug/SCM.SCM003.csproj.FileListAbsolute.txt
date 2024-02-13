@@ -59,3 +59,14 @@ D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM
 D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.csproj.CoreCompileInputs.cache
 D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.dll
 D:\Works\FIRSTEC\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.pdb
+D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\SCM.SCM003.dll
+D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\SCM.SCM003.pdb
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.csproj.AssemblyReference.cache
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.csproj.ResolveComReference.cache
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.SCM003.resources
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.csproj.GenerateResource.cache
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.dll.licenses
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.csproj.CoreCompileInputs.cache
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.csproj.CopyComplete
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.dll
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMA(납품관리)\SCM.SCM003(수주접수)\obj\Debug\SCM.SCM003.pdb
