@@ -5,3 +5,6 @@ D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보�
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM032\obj\Debug\SCM.SCM032.csproj.CopyComplete
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM032\obj\Debug\SCM.SCM032.dll
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM032\obj\Debug\SCM.SCM032.pdb
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM032\obj\Debug\SCM.SCM032.SCM032.resources
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM032\obj\Debug\SCM.SCM032.csproj.GenerateResource.cache
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM032\obj\Debug\SCM.SCM032.dll.licenses

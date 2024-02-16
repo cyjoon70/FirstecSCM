@@ -203,6 +203,26 @@ namespace SCM.SCM031
 		#region 첨부파일 조회
 		private void btnPopup_Click(object sender, EventArgs e)
 		{
+            try
+            {
+
+                if (string.IsNullOrEmpty(txtSeq.Text))
+                {
+                    MessageBox.Show("공지사항 데이터를 조회 후, 첨부파일을 확인하시기 바랍니다.", SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+
+                // 첨부파일 팝업 띄움. 
+                SCM031P1 pu = new SCM031P1("SC01" + txtSeq.Text, true);
+                pu.ShowDialog();
+            }
+            catch (Exception f)
+            {
+                MessageBox.Show(f.ToString(), SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            /*
             string strAuth = string.Empty;
             string strFilsNo = string.Empty;
 
@@ -211,6 +231,7 @@ namespace SCM.SCM031
 
             UIForm.FileUpDown fileUpDown = new UIForm.FileUpDown("SC01" + strFilsNo, strAuth);
             fileUpDown.ShowDialog();
+            */
         }
 		#endregion
 

@@ -7,40 +7,41 @@ using System.Data;
 using System.Data.SqlClient;
 using FarPoint.Win.Spread;
 using System.Text.RegularExpressions;
+using UIForm.Extension.FpSpread;
 
 namespace UIForm
 {
     public partial class FPCOMM2_2T : Buttons
     {
         #region 그리드 디자인 변수 정의
-		public string[]	G1Head1		= null;// 첫번째 Head Text
-		public string[]	G1Head2		= null;// 두번째 Head Text
-		public string[]	G1Head3		= null;// 세번째 Head Text
-		public int[]	G1Width		= null;// Cell 넓이
-		public string[]	G1Align		= null;// Cell 데이타 정렬방식
-		public string[]	G1Type		= null;// CellType 지정
-		public int[]	G1Color		= null;// Cell 색상 및 ReadOnly 설정(0:일반, 1:필수, 2:ReadOnly)
-		public string[]	G1Etc		= new string[100];//null;// Mask 양식 등
-		public int		G1HeadCnt	= 0;   // Head 수
-		public int[]	G1SEQ		= null;// 키
+        public string[] G1Head1 = null;// 첫번째 Head Text
+        public string[] G1Head2 = null;// 두번째 Head Text
+        public string[] G1Head3 = null;// 세번째 Head Text
+        public int[] G1Width = null;// Cell 넓이
+        public string[] G1Align = null;// Cell 데이타 정렬방식
+        public string[] G1Type = null;// CellType 지정
+        public int[] G1Color = null;// Cell 색상 및 ReadOnly 설정(0:일반, 1:필수, 2:ReadOnly)
+        public string[] G1Etc = new string[100];//null;// Mask 양식 등
+        public int G1HeadCnt = 0;   // Head 수
+        public int[] G1SEQ = null;// 키
 
-		public string[]	G2Head1		= null;// 첫번째 Head Text
-		public string[]	G2Head2		= null;// 두번째 Head Text
-		public string[]	G2Head3		= null;// 세번째 Head Text
-		public int[]	G2Width		= null;// Cell 넓이
-		public string[]	G2Align		= null;// Cell 데이타 정렬방식
-		public string[]	G2Type		= null;// CellType 지정
-		public int[]	G2Color		= null;// Cell 색상 및 ReadOnly 설정(0:일반, 1:필수, 2:ReadOnly)
-		public string[]	G2Etc		= null;// Mask 양식 등
-		public int		G2HeadCnt	= 0;   // Head 수
-		public int[]	G2SEQ		= null;// 키
+        public string[] G2Head1 = null;// 첫번째 Head Text
+        public string[] G2Head2 = null;// 두번째 Head Text
+        public string[] G2Head3 = null;// 세번째 Head Text
+        public int[] G2Width = null;// Cell 넓이
+        public string[] G2Align = null;// Cell 데이타 정렬방식
+        public string[] G2Type = null;// CellType 지정
+        public int[] G2Color = null;// Cell 색상 및 ReadOnly 설정(0:일반, 1:필수, 2:ReadOnly)
+        public string[] G2Etc = null;// Mask 양식 등
+        public int G2HeadCnt = 0;   // Head 수
+        public int[] G2SEQ = null;// 키
 
         int GridSelectRow = 0;
         int GridSelectRowCount = 0;
         int ClipboardRowCount = 1;
         int ClipboardColCount = 1;
         string ClipValue = "";
-		#endregion
+        #endregion
 
         private System.Windows.Forms.ContextMenu ctmGrid1;
         private System.Windows.Forms.MenuItem menuItem1;
@@ -596,78 +597,13 @@ namespace UIForm
         }
         #endregion
 
-        #region   fpSpread1_CellClick
-        private void fpSpread1_CellClick(object sender, FarPoint.Win.Spread.CellClickEventArgs e)
+        #region fpSpread 전체선택 체크박스 핸들러 (2014.9.12, 이재광)
+        private void fpSpreads_CellClick(object sender, FarPoint.Win.Spread.CellClickEventArgs e)
         {
-            if (fpSpread1.Sheets[0].Rows.Count > 0)
-            {
-                if (fpSpread1.Sheets[0].ColumnHeader.Cells.Get(0, e.Column).CellType != null)
-                {
-                    if (e.ColumnHeader == true)
-                    {
-                        if (fpSpread1.Sheets[0].ColumnHeader.Cells[0, e.Column].Text == "True")
-                        {
-                            fpSpread1.Sheets[0].ColumnHeader.Cells.Get(0, e.Column).Value = false;
-                            for (int i = 0; i < fpSpread1.Sheets[0].Rows.Count; i++)
-                            {
-                                if (fpSpread1.Sheets[0].Cells[i, e.Column].Locked == false)
-                                {
-                                    fpSpread1.Sheets[0].Cells[i, e.Column].Value = false;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            fpSpread1.Sheets[0].ColumnHeader.Cells.Get(0, e.Column).Value = true;
-                            for (int i = 0; i < fpSpread1.Sheets[0].Rows.Count; i++)
-                            {
-                                if (fpSpread1.Sheets[0].Cells[i, e.Column].Locked == false)
-                                {
-                                    fpSpread1.Sheets[0].Cells[i, e.Column].Value = true;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        #endregion
-
-        #region fpSpread2_CellClick
-        private void fpSpread2_CellClick(object sender, FarPoint.Win.Spread.CellClickEventArgs e)
-        {
-            if (fpSpread2.Sheets[0].Rows.Count > 0)
-            {
-                if (fpSpread2.Sheets[0].ColumnHeader.Cells.Get(0, e.Column).CellType != null)
-                {
-                    if (e.ColumnHeader == true)
-                    {
-                        if (fpSpread2.Sheets[0].ColumnHeader.Cells[0, e.Column].Text == "True")
-                        {
-                            fpSpread2.Sheets[0].ColumnHeader.Cells.Get(0, e.Column).Value = false;
-                            for (int i = 0; i < fpSpread2.Sheets[0].Rows.Count; i++)
-                            {
-                                if (fpSpread2.Sheets[0].Cells[i, e.Column].Locked == false)
-                                {
-                                    fpSpread2.Sheets[0].Cells[i, e.Column].Value = false;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            fpSpread2.Sheets[0].ColumnHeader.Cells.Get(0, e.Column).Value = true;
-                            for (int i = 0; i < fpSpread2.Sheets[0].Rows.Count; i++)
-                            {
-                                if (fpSpread2.Sheets[0].Cells[i, e.Column].Locked == false)
-                                {
-                                    fpSpread2.Sheets[0].Cells[i, e.Column].Value = true;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+            // 헤더 체크박스 클릭시 전체행 체크 처리
+            if (e.ColumnHeader)
+                if (((FarPoint.Win.Spread.FpSpread)sender).ActiveSheet.ToggleCheckAll(e.Column))
+                    e.Cancel = true;
         }
         #endregion
 

@@ -125,8 +125,18 @@
     <Compile Include="SCM031.Designer.cs">
       <DependentUpon>SCM031.cs</DependentUpon>
     </Compile>
+    <Compile Include="SCM031P1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCM031P1.Designer.cs">
+      <DependentUpon>SCM031P1.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\00.SY%28시스템관리%29\EDocument\EDocument.csproj">
+      <Project>{65634ed7-0fea-49fd-a4a1-9f9673d8e5f9}</Project>
+      <Name>EDocument</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\00.SY%28시스템관리%29\SystemBase\SystemBase.csproj">
       <Project>{45841e94-e806-4573-a93b-26d50a07ea9c}</Project>
       <Name>SystemBase</Name>
@@ -144,6 +154,9 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="SCM031.resx">
       <DependentUpon>SCM031.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCM031P1.resx">
+      <DependentUpon>SCM031P1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

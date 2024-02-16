@@ -43,6 +43,19 @@
             이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
             </summary>
         </member>
+        <member name="T:UIForm.Extension.FpSpread.FpSpreadExtension">
+            <summary>
+            FpSpread의 확장기능입니다.
+            </summary>
+        </member>
+        <member name="M:UIForm.Extension.FpSpread.FpSpreadExtension.ToggleCheckAll(FarPoint.Win.Spread.SheetView,System.Int32)">
+            <summary>
+            전체선택 체크박스의 체크상태를 토글합니다.
+            </summary>
+            <param name="sheet">시트</param>
+            <param name="col">토글할 열 인덱스</param>
+            <returns>토글이 성공했는지 여부</returns>
+        </member>
         <member name="F:UIForm.FileUpDown.components">
             <summary>
             Required designer variable.

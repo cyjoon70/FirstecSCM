@@ -169,6 +169,7 @@
     <Compile Include="ExcelProges.designer.cs">
       <DependentUpon>ExcelProges.cs</DependentUpon>
     </Compile>
+    <Compile Include="Extension.cs" />
     <Compile Include="FileUpDown.cs">
       <SubType>Form</SubType>
     </Compile>
