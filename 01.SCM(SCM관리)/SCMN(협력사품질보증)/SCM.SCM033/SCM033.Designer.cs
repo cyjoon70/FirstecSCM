@@ -31,57 +31,53 @@ namespace SCM.SCM033
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SCM033));
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.btnSelectAll = new C1.Win.C1Input.C1Button();
-			this.groupBox2 = new System.Windows.Forms.GroupBox();
-			this.c1Button1 = new C1.Win.C1Input.C1Button();
-			this.c1Button2 = new C1.Win.C1Input.C1Button();
+			this.cmb1Inspector = new C1.Win.C1List.C1Combo();
+			this.c1Label6 = new C1.Win.C1Input.C1Label();
 			this.c1Label7 = new C1.Win.C1Input.C1Label();
-			this.txtItemNm = new C1.Win.C1Input.C1TextBox();
-			this.btnItemNo = new C1.Win.C1Input.C1Button();
-			this.txtItemCd = new C1.Win.C1Input.C1TextBox();
-			this.txtPoNo = new C1.Win.C1Input.C1TextBox();
+			this.txt1ItemNm = new C1.Win.C1Input.C1TextBox();
+			this.btn1Item = new C1.Win.C1Input.C1Button();
+			this.txt1ItemCd = new C1.Win.C1Input.C1TextBox();
+			this.txt1PoNo = new C1.Win.C1Input.C1TextBox();
 			this.c1Label9 = new C1.Win.C1Input.C1Label();
 			this.c1Label5 = new C1.Win.C1Input.C1Label();
-			this.txtProjectNm = new C1.Win.C1Input.C1TextBox();
-			this.btnProjectNo = new C1.Win.C1Input.C1Button();
-			this.txtProjectNo = new C1.Win.C1Input.C1TextBox();
+			this.txt1PrjNm = new C1.Win.C1Input.C1TextBox();
+			this.btn1Project = new C1.Win.C1Input.C1Button();
+			this.txt1PrjNo = new C1.Win.C1Input.C1TextBox();
 			this.c1Label4 = new C1.Win.C1Input.C1Label();
-			this.txtDeliveryDtFr = new C1.Win.C1Input.C1DateEdit();
+			this.txtDlvRefFr = new C1.Win.C1Input.C1DateEdit();
 			this.label2 = new System.Windows.Forms.Label();
-			this.txtDeliveryDtTo = new C1.Win.C1Input.C1DateEdit();
+			this.txtDlvRefTo = new C1.Win.C1Input.C1DateEdit();
 			this.c1Label10 = new C1.Win.C1Input.C1Label();
-			this.txtPoDtFr = new C1.Win.C1Input.C1DateEdit();
+			this.txtDlvDtFr = new C1.Win.C1Input.C1DateEdit();
 			this.label1 = new System.Windows.Forms.Label();
-			this.txtPoDtTo = new C1.Win.C1Input.C1DateEdit();
+			this.txtDlvDtTo = new C1.Win.C1Input.C1DateEdit();
 			this.c1Label11 = new C1.Win.C1Input.C1Label();
-			this.txtCustNm = new C1.Win.C1Input.C1TextBox();
-			this.btnCustCd = new C1.Win.C1Input.C1Button();
-			this.txtCustCd = new C1.Win.C1Input.C1TextBox();
-			this.c1Label6 = new C1.Win.C1Input.C1Label();
-			this.c1Combo3 = new C1.Win.C1List.C1Combo();
-			this.c1Combo1 = new C1.Win.C1List.C1Combo();
+			this.txt1CustNm = new C1.Win.C1Input.C1TextBox();
+			this.btn1Cust = new C1.Win.C1Input.C1Button();
+			this.txt1CustCd = new C1.Win.C1Input.C1TextBox();
+			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.cmb2AccRej = new C1.Win.C1List.C1Combo();
+			this.c1Label15 = new C1.Win.C1Input.C1Label();
+			this.cmb2Status = new C1.Win.C1List.C1Combo();
 			this.c1Label1 = new C1.Win.C1Input.C1Label();
 			this.c1Label2 = new C1.Win.C1Input.C1Label();
-			this.c1TextBox1 = new C1.Win.C1Input.C1TextBox();
-			this.c1Button3 = new C1.Win.C1Input.C1Button();
-			this.c1TextBox2 = new C1.Win.C1Input.C1TextBox();
-			this.c1TextBox3 = new C1.Win.C1Input.C1TextBox();
+			this.txt2ItemNm = new C1.Win.C1Input.C1TextBox();
+			this.btn2Item = new C1.Win.C1Input.C1Button();
+			this.txt2ItemCd = new C1.Win.C1Input.C1TextBox();
+			this.txt2PoNo = new C1.Win.C1Input.C1TextBox();
 			this.c1Label3 = new C1.Win.C1Input.C1Label();
 			this.c1Label8 = new C1.Win.C1Input.C1Label();
-			this.c1TextBox4 = new C1.Win.C1Input.C1TextBox();
-			this.c1Button4 = new C1.Win.C1Input.C1Button();
-			this.c1TextBox5 = new C1.Win.C1Input.C1TextBox();
-			this.c1Button5 = new C1.Win.C1Input.C1Button();
+			this.txt2PrjNm = new C1.Win.C1Input.C1TextBox();
+			this.btn2Project = new C1.Win.C1Input.C1Button();
+			this.txt2PrjNo = new C1.Win.C1Input.C1TextBox();
 			this.c1Label12 = new C1.Win.C1Input.C1Label();
-			this.c1DateEdit3 = new C1.Win.C1Input.C1DateEdit();
+			this.txtReqFr = new C1.Win.C1Input.C1DateEdit();
 			this.label4 = new System.Windows.Forms.Label();
-			this.c1DateEdit4 = new C1.Win.C1Input.C1DateEdit();
+			this.txtReqTo = new C1.Win.C1Input.C1DateEdit();
 			this.c1Label14 = new C1.Win.C1Input.C1Label();
-			this.c1TextBox6 = new C1.Win.C1Input.C1TextBox();
-			this.c1Button6 = new C1.Win.C1Input.C1Button();
-			this.c1TextBox7 = new C1.Win.C1Input.C1TextBox();
-			this.c1Combo2 = new C1.Win.C1List.C1Combo();
-			this.c1Label15 = new C1.Win.C1Input.C1Label();
+			this.txt2CustNm = new C1.Win.C1Input.C1TextBox();
+			this.btn2Cust = new C1.Win.C1Input.C1Button();
+			this.txt2CustCd = new C1.Win.C1Input.C1TextBox();
 			this.GridCommPanel2.SuspendLayout();
 			this.GridCommGroupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.fpSpread2)).BeginInit();
@@ -109,44 +105,44 @@ namespace SCM.SCM033
 			((System.ComponentModel.ISupportInitialize)(this.BtnNew)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.BtnExcel)).BeginInit();
 			this.groupBox1.SuspendLayout();
-			this.groupBox2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.cmb1Inspector)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label6)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtItemNm)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtItemCd)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtPoNo)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1ItemNm)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1ItemCd)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1PoNo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label9)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtProjectNm)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtProjectNo)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1PrjNm)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1PrjNo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtDeliveryDtFr)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtDeliveryDtTo)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvRefFr)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvRefTo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtPoDtFr)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtPoDtTo)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvDtFr)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvDtTo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label11)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtCustNm)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtCustCd)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Label6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Combo3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Combo1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1CustNm)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1CustCd)).BeginInit();
+			this.groupBox2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.cmb2AccRej)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label15)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.cmb2Status)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2ItemNm)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2ItemCd)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2PoNo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2PrjNm)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2PrjNo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label12)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1DateEdit3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1DateEdit4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtReqFr)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtReqTo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label14)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Combo2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Label15)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2CustNm)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2CustCd)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// GridCommPanel2
@@ -154,7 +150,7 @@ namespace SCM.SCM033
 			this.GridCommPanel2.Controls.Add(this.groupBox2);
 			this.GridCommPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.GridCommPanel2.Location = new System.Drawing.Point(0, 0);
-			this.GridCommPanel2.Size = new System.Drawing.Size(853, 455);
+			this.GridCommPanel2.Size = new System.Drawing.Size(832, 455);
 			this.GridCommPanel2.Controls.SetChildIndex(this.groupBox2, 0);
 			this.GridCommPanel2.Controls.SetChildIndex(this.GridCommGroupBox2, 0);
 			// 
@@ -163,14 +159,14 @@ namespace SCM.SCM033
 			this.GridCommGroupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
 			this.GridCommGroupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.GridCommGroupBox2.Location = new System.Drawing.Point(0, 128);
-			this.GridCommGroupBox2.Size = new System.Drawing.Size(853, 327);
+			this.GridCommGroupBox2.Size = new System.Drawing.Size(832, 327);
 			// 
 			// fpSpread2
 			// 
 			this.fpSpread2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
 			this.fpSpread2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.fpSpread2.Location = new System.Drawing.Point(3, 21);
-			this.fpSpread2.Size = new System.Drawing.Size(847, 303);
+			this.fpSpread2.Size = new System.Drawing.Size(826, 303);
 			// 
 			// fpSpread2_Sheet1
 			// 
@@ -180,27 +176,28 @@ namespace SCM.SCM033
 			// 
 			this.TabCommPanel.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.TabCommPanel.Location = new System.Drawing.Point(0, 64);
-			this.TabCommPanel.Size = new System.Drawing.Size(853, 484);
+			this.TabCommPanel.Size = new System.Drawing.Size(832, 484);
 			// 
 			// c1DockingTab1
 			// 
 			this.c1DockingTab1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.c1DockingTab1.Location = new System.Drawing.Point(0, 0);
 			this.c1DockingTab1.SelectedIndex = 1;
-			this.c1DockingTab1.Size = new System.Drawing.Size(853, 484);
+			this.c1DockingTab1.Size = new System.Drawing.Size(832, 484);
 			// 
 			// c1DockingTabPage1
 			// 
+			this.c1DockingTabPage1.CaptionText = "검사의뢰";
 			this.c1DockingTabPage1.Location = new System.Drawing.Point(0, 29);
-			this.c1DockingTabPage1.Size = new System.Drawing.Size(853, 455);
-			this.c1DockingTabPage1.Text = "검사의뢰할 대상 조회";
+			this.c1DockingTabPage1.Size = new System.Drawing.Size(832, 455);
+			this.c1DockingTabPage1.Text = "검사의뢰";
 			// 
 			// GridCommPanel1
 			// 
 			this.GridCommPanel1.Controls.Add(this.groupBox1);
 			this.GridCommPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.GridCommPanel1.Location = new System.Drawing.Point(0, 0);
-			this.GridCommPanel1.Size = new System.Drawing.Size(853, 455);
+			this.GridCommPanel1.Size = new System.Drawing.Size(832, 455);
 			this.GridCommPanel1.Controls.SetChildIndex(this.groupBox1, 0);
 			this.GridCommPanel1.Controls.SetChildIndex(this.GridCommGroupBox1, 0);
 			// 
@@ -209,14 +206,14 @@ namespace SCM.SCM033
 			this.GridCommGroupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
 			this.GridCommGroupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.GridCommGroupBox1.Location = new System.Drawing.Point(0, 128);
-			this.GridCommGroupBox1.Size = new System.Drawing.Size(853, 327);
+			this.GridCommGroupBox1.Size = new System.Drawing.Size(832, 327);
 			// 
 			// fpSpread1
 			// 
 			this.fpSpread1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
 			this.fpSpread1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.fpSpread1.Location = new System.Drawing.Point(3, 21);
-			this.fpSpread1.Size = new System.Drawing.Size(847, 303);
+			this.fpSpread1.Size = new System.Drawing.Size(826, 303);
 			// 
 			// fpSpread1_Sheet1
 			// 
@@ -225,116 +222,91 @@ namespace SCM.SCM033
 			// c1DockingTabPage2
 			// 
 			this.c1DockingTabPage2.Location = new System.Drawing.Point(0, 29);
-			this.c1DockingTabPage2.Size = new System.Drawing.Size(853, 455);
-			this.c1DockingTabPage2.Text = "검사의뢰된 대상 조회";
+			this.c1DockingTabPage2.Size = new System.Drawing.Size(832, 455);
+			this.c1DockingTabPage2.Text = "검사의뢰 취소 요청";
 			// 
 			// panButton1
 			// 
-			this.panButton1.Size = new System.Drawing.Size(853, 64);
+			this.panButton1.Size = new System.Drawing.Size(832, 64);
 			// 
 			// groupBox1
 			// 
-			this.groupBox1.Controls.Add(this.c1Combo3);
+			this.groupBox1.Controls.Add(this.cmb1Inspector);
 			this.groupBox1.Controls.Add(this.c1Label6);
 			this.groupBox1.Controls.Add(this.c1Label7);
-			this.groupBox1.Controls.Add(this.txtItemNm);
-			this.groupBox1.Controls.Add(this.btnItemNo);
-			this.groupBox1.Controls.Add(this.txtItemCd);
-			this.groupBox1.Controls.Add(this.txtPoNo);
+			this.groupBox1.Controls.Add(this.txt1ItemNm);
+			this.groupBox1.Controls.Add(this.btn1Item);
+			this.groupBox1.Controls.Add(this.txt1ItemCd);
+			this.groupBox1.Controls.Add(this.txt1PoNo);
 			this.groupBox1.Controls.Add(this.c1Label9);
 			this.groupBox1.Controls.Add(this.c1Label5);
-			this.groupBox1.Controls.Add(this.txtProjectNm);
-			this.groupBox1.Controls.Add(this.btnProjectNo);
-			this.groupBox1.Controls.Add(this.txtProjectNo);
-			this.groupBox1.Controls.Add(this.btnSelectAll);
+			this.groupBox1.Controls.Add(this.txt1PrjNm);
+			this.groupBox1.Controls.Add(this.btn1Project);
+			this.groupBox1.Controls.Add(this.txt1PrjNo);
 			this.groupBox1.Controls.Add(this.c1Label4);
-			this.groupBox1.Controls.Add(this.txtDeliveryDtFr);
+			this.groupBox1.Controls.Add(this.txtDlvRefFr);
 			this.groupBox1.Controls.Add(this.label2);
-			this.groupBox1.Controls.Add(this.txtDeliveryDtTo);
+			this.groupBox1.Controls.Add(this.txtDlvRefTo);
 			this.groupBox1.Controls.Add(this.c1Label10);
-			this.groupBox1.Controls.Add(this.txtPoDtFr);
+			this.groupBox1.Controls.Add(this.txtDlvDtFr);
 			this.groupBox1.Controls.Add(this.label1);
-			this.groupBox1.Controls.Add(this.txtPoDtTo);
+			this.groupBox1.Controls.Add(this.txtDlvDtTo);
 			this.groupBox1.Controls.Add(this.c1Label11);
-			this.groupBox1.Controls.Add(this.txtCustNm);
-			this.groupBox1.Controls.Add(this.btnCustCd);
-			this.groupBox1.Controls.Add(this.txtCustCd);
+			this.groupBox1.Controls.Add(this.txt1CustNm);
+			this.groupBox1.Controls.Add(this.btn1Cust);
+			this.groupBox1.Controls.Add(this.txt1CustCd);
 			this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
 			this.groupBox1.Location = new System.Drawing.Point(0, 0);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(853, 128);
+			this.groupBox1.Size = new System.Drawing.Size(832, 128);
 			this.groupBox1.TabIndex = 4;
 			this.groupBox1.TabStop = false;
 			// 
-			// btnSelectAll
+			// cmb1Inspector
 			// 
-			this.btnSelectAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.btnSelectAll.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSelectAll.BackgroundImage")));
-			this.btnSelectAll.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnSelectAll.Location = new System.Drawing.Point(369, 96);
-			this.btnSelectAll.Name = "btnSelectAll";
-			this.btnSelectAll.Size = new System.Drawing.Size(110, 25);
-			this.btnSelectAll.TabIndex = 34;
-			this.btnSelectAll.Text = "검사의뢰";
-			this.btnSelectAll.UseVisualStyleBackColor = true;
+			this.cmb1Inspector.AddItemSeparator = ';';
+			this.cmb1Inspector.AutoSize = false;
+			this.cmb1Inspector.Caption = "";
+			this.cmb1Inspector.CaptionHeight = 17;
+			this.cmb1Inspector.CaptionVisible = false;
+			this.cmb1Inspector.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+			this.cmb1Inspector.ColumnCaptionHeight = 18;
+			this.cmb1Inspector.ColumnFooterHeight = 18;
+			this.cmb1Inspector.ContentHeight = 15;
+			this.cmb1Inspector.DeadAreaBackColor = System.Drawing.Color.Empty;
+			this.cmb1Inspector.EditorBackColor = System.Drawing.SystemColors.Window;
+			this.cmb1Inspector.EditorFont = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+			this.cmb1Inspector.EditorForeColor = System.Drawing.SystemColors.WindowText;
+			this.cmb1Inspector.EditorHeight = 15;
+			this.cmb1Inspector.Images.Add(((System.Drawing.Image)(resources.GetObject("cmb1Inspector.Images"))));
+			this.cmb1Inspector.ItemHeight = 15;
+			this.cmb1Inspector.Location = new System.Drawing.Point(115, 96);
+			this.cmb1Inspector.MatchEntryTimeout = ((long)(2000));
+			this.cmb1Inspector.MaxDropDownItems = ((short)(5));
+			this.cmb1Inspector.MaxLength = 32767;
+			this.cmb1Inspector.MouseCursor = System.Windows.Forms.Cursors.Default;
+			this.cmb1Inspector.Name = "cmb1Inspector";
+			this.cmb1Inspector.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None;
+			this.cmb1Inspector.RowSubDividerColor = System.Drawing.Color.DarkGray;
+			this.cmb1Inspector.Size = new System.Drawing.Size(105, 21);
+			this.cmb1Inspector.TabIndex = 159;
+			this.cmb1Inspector.Tag = "전진검사원;1;;";
+			this.cmb1Inspector.PropBag = resources.GetString("cmb1Inspector.PropBag");
 			// 
-			// groupBox2
+			// c1Label6
 			// 
-			this.groupBox2.Controls.Add(this.c1Combo2);
-			this.groupBox2.Controls.Add(this.c1Label15);
-			this.groupBox2.Controls.Add(this.c1Combo1);
-			this.groupBox2.Controls.Add(this.c1Label1);
-			this.groupBox2.Controls.Add(this.c1Label2);
-			this.groupBox2.Controls.Add(this.c1TextBox1);
-			this.groupBox2.Controls.Add(this.c1Button3);
-			this.groupBox2.Controls.Add(this.c1TextBox2);
-			this.groupBox2.Controls.Add(this.c1TextBox3);
-			this.groupBox2.Controls.Add(this.c1Label3);
-			this.groupBox2.Controls.Add(this.c1Label8);
-			this.groupBox2.Controls.Add(this.c1TextBox4);
-			this.groupBox2.Controls.Add(this.c1Button5);
-			this.groupBox2.Controls.Add(this.c1Button4);
-			this.groupBox2.Controls.Add(this.c1TextBox5);
-			this.groupBox2.Controls.Add(this.c1Label12);
-			this.groupBox2.Controls.Add(this.c1DateEdit3);
-			this.groupBox2.Controls.Add(this.label4);
-			this.groupBox2.Controls.Add(this.c1DateEdit4);
-			this.groupBox2.Controls.Add(this.c1Label14);
-			this.groupBox2.Controls.Add(this.c1TextBox6);
-			this.groupBox2.Controls.Add(this.c1Button6);
-			this.groupBox2.Controls.Add(this.c1TextBox7);
-			this.groupBox2.Controls.Add(this.c1Button1);
-			this.groupBox2.Controls.Add(this.c1Button2);
-			this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
-			this.groupBox2.Location = new System.Drawing.Point(0, 0);
-			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(853, 128);
-			this.groupBox2.TabIndex = 5;
-			this.groupBox2.TabStop = false;
-			// 
-			// c1Button1
-			// 
-			this.c1Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.c1Button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("c1Button1.BackgroundImage")));
-			this.c1Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.c1Button1.Location = new System.Drawing.Point(959, 98);
-			this.c1Button1.Name = "c1Button1";
-			this.c1Button1.Size = new System.Drawing.Size(95, 25);
-			this.c1Button1.TabIndex = 34;
-			this.c1Button1.Text = "전체선택";
-			this.c1Button1.UseVisualStyleBackColor = true;
-			// 
-			// c1Button2
-			// 
-			this.c1Button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.c1Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("c1Button2.BackgroundImage")));
-			this.c1Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.c1Button2.Location = new System.Drawing.Point(1060, 98);
-			this.c1Button2.Name = "c1Button2";
-			this.c1Button2.Size = new System.Drawing.Size(95, 25);
-			this.c1Button2.TabIndex = 35;
-			this.c1Button2.Text = "선택취소";
-			this.c1Button2.UseVisualStyleBackColor = true;
+			this.c1Label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(244)))), ((int)(((byte)(246)))));
+			this.c1Label6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.c1Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.c1Label6.Location = new System.Drawing.Point(6, 96);
+			this.c1Label6.Name = "c1Label6";
+			this.c1Label6.Size = new System.Drawing.Size(110, 21);
+			this.c1Label6.TabIndex = 158;
+			this.c1Label6.Tag = null;
+			this.c1Label6.Text = "전진검사원";
+			this.c1Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.c1Label6.TextDetached = true;
+			this.c1Label6.Value = "";
 			// 
 			// c1Label7
 			// 
@@ -351,54 +323,56 @@ namespace SCM.SCM033
 			this.c1Label7.TextDetached = true;
 			this.c1Label7.Value = "";
 			// 
-			// txtItemNm
+			// txt1ItemNm
 			// 
-			this.txtItemNm.AutoSize = false;
-			this.txtItemNm.BackColor = System.Drawing.Color.White;
-			this.txtItemNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.txtItemNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtItemNm.Location = new System.Drawing.Point(583, 46);
-			this.txtItemNm.Name = "txtItemNm";
-			this.txtItemNm.Size = new System.Drawing.Size(132, 21);
-			this.txtItemNm.TabIndex = 151;
-			this.txtItemNm.Tag = ";2;;";
+			this.txt1ItemNm.AutoSize = false;
+			this.txt1ItemNm.BackColor = System.Drawing.Color.White;
+			this.txt1ItemNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt1ItemNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt1ItemNm.Location = new System.Drawing.Point(583, 46);
+			this.txt1ItemNm.Name = "txt1ItemNm";
+			this.txt1ItemNm.Size = new System.Drawing.Size(132, 21);
+			this.txt1ItemNm.TabIndex = 151;
+			this.txt1ItemNm.Tag = ";2;;";
 			// 
-			// btnItemNo
+			// btn1Item
 			// 
-			this.btnItemNo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnItemNo.BackgroundImage")));
-			this.btnItemNo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.btnItemNo.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnItemNo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnItemNo.Location = new System.Drawing.Point(559, 46);
-			this.btnItemNo.Name = "btnItemNo";
-			this.btnItemNo.Size = new System.Drawing.Size(24, 21);
-			this.btnItemNo.TabIndex = 150;
-			this.btnItemNo.UseVisualStyleBackColor = true;
+			this.btn1Item.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn1Item.BackgroundImage")));
+			this.btn1Item.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.btn1Item.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btn1Item.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btn1Item.Location = new System.Drawing.Point(559, 46);
+			this.btn1Item.Name = "btn1Item";
+			this.btn1Item.Size = new System.Drawing.Size(24, 21);
+			this.btn1Item.TabIndex = 150;
+			this.btn1Item.UseVisualStyleBackColor = true;
+			this.btn1Item.Click += new System.EventHandler(this.btn1Item_Click);
 			// 
-			// txtItemCd
+			// txt1ItemCd
 			// 
-			this.txtItemCd.AutoSize = false;
-			this.txtItemCd.BackColor = System.Drawing.Color.White;
-			this.txtItemCd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.txtItemCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtItemCd.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.txtItemCd.Location = new System.Drawing.Point(478, 46);
-			this.txtItemCd.Name = "txtItemCd";
-			this.txtItemCd.Size = new System.Drawing.Size(82, 21);
-			this.txtItemCd.TabIndex = 149;
-			this.txtItemCd.Tag = null;
+			this.txt1ItemCd.AutoSize = false;
+			this.txt1ItemCd.BackColor = System.Drawing.Color.White;
+			this.txt1ItemCd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt1ItemCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt1ItemCd.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.txt1ItemCd.Location = new System.Drawing.Point(478, 46);
+			this.txt1ItemCd.Name = "txt1ItemCd";
+			this.txt1ItemCd.Size = new System.Drawing.Size(82, 21);
+			this.txt1ItemCd.TabIndex = 149;
+			this.txt1ItemCd.Tag = null;
+			this.txt1ItemCd.TextChanged += new System.EventHandler(this.txt1ItemCd_TextChanged);
 			// 
-			// txtPoNo
+			// txt1PoNo
 			// 
-			this.txtPoNo.AutoSize = false;
-			this.txtPoNo.BackColor = System.Drawing.Color.White;
-			this.txtPoNo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.txtPoNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtPoNo.Location = new System.Drawing.Point(478, 71);
-			this.txtPoNo.Name = "txtPoNo";
-			this.txtPoNo.Size = new System.Drawing.Size(105, 21);
-			this.txtPoNo.TabIndex = 157;
-			this.txtPoNo.Tag = null;
+			this.txt1PoNo.AutoSize = false;
+			this.txt1PoNo.BackColor = System.Drawing.Color.White;
+			this.txt1PoNo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt1PoNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt1PoNo.Location = new System.Drawing.Point(478, 71);
+			this.txt1PoNo.Name = "txt1PoNo";
+			this.txt1PoNo.Size = new System.Drawing.Size(105, 21);
+			this.txt1PoNo.TabIndex = 157;
+			this.txt1PoNo.Tag = null;
 			// 
 			// c1Label9
 			// 
@@ -430,42 +404,44 @@ namespace SCM.SCM033
 			this.c1Label5.TextDetached = true;
 			this.c1Label5.Value = "";
 			// 
-			// txtProjectNm
+			// txt1PrjNm
 			// 
-			this.txtProjectNm.AutoSize = false;
-			this.txtProjectNm.BackColor = System.Drawing.Color.White;
-			this.txtProjectNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.txtProjectNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtProjectNm.Location = new System.Drawing.Point(220, 71);
-			this.txtProjectNm.Name = "txtProjectNm";
-			this.txtProjectNm.Size = new System.Drawing.Size(132, 21);
-			this.txtProjectNm.TabIndex = 155;
-			this.txtProjectNm.Tag = ";2;;";
+			this.txt1PrjNm.AutoSize = false;
+			this.txt1PrjNm.BackColor = System.Drawing.Color.White;
+			this.txt1PrjNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt1PrjNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt1PrjNm.Location = new System.Drawing.Point(220, 71);
+			this.txt1PrjNm.Name = "txt1PrjNm";
+			this.txt1PrjNm.Size = new System.Drawing.Size(132, 21);
+			this.txt1PrjNm.TabIndex = 155;
+			this.txt1PrjNm.Tag = ";2;;";
 			// 
-			// btnProjectNo
+			// btn1Project
 			// 
-			this.btnProjectNo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProjectNo.BackgroundImage")));
-			this.btnProjectNo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.btnProjectNo.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnProjectNo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnProjectNo.Location = new System.Drawing.Point(196, 71);
-			this.btnProjectNo.Name = "btnProjectNo";
-			this.btnProjectNo.Size = new System.Drawing.Size(24, 21);
-			this.btnProjectNo.TabIndex = 154;
-			this.btnProjectNo.UseVisualStyleBackColor = true;
+			this.btn1Project.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn1Project.BackgroundImage")));
+			this.btn1Project.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.btn1Project.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btn1Project.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btn1Project.Location = new System.Drawing.Point(196, 71);
+			this.btn1Project.Name = "btn1Project";
+			this.btn1Project.Size = new System.Drawing.Size(24, 21);
+			this.btn1Project.TabIndex = 154;
+			this.btn1Project.UseVisualStyleBackColor = true;
+			this.btn1Project.Click += new System.EventHandler(this.btn1Project_Click);
 			// 
-			// txtProjectNo
+			// txt1PrjNo
 			// 
-			this.txtProjectNo.AutoSize = false;
-			this.txtProjectNo.BackColor = System.Drawing.Color.White;
-			this.txtProjectNo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.txtProjectNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtProjectNo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.txtProjectNo.Location = new System.Drawing.Point(115, 71);
-			this.txtProjectNo.Name = "txtProjectNo";
-			this.txtProjectNo.Size = new System.Drawing.Size(82, 21);
-			this.txtProjectNo.TabIndex = 153;
-			this.txtProjectNo.Tag = null;
+			this.txt1PrjNo.AutoSize = false;
+			this.txt1PrjNo.BackColor = System.Drawing.Color.White;
+			this.txt1PrjNo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt1PrjNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt1PrjNo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.txt1PrjNo.Location = new System.Drawing.Point(115, 71);
+			this.txt1PrjNo.Name = "txt1PrjNo";
+			this.txt1PrjNo.Size = new System.Drawing.Size(82, 21);
+			this.txt1PrjNo.TabIndex = 153;
+			this.txt1PrjNo.Tag = null;
+			this.txt1PrjNo.TextChanged += new System.EventHandler(this.txt1PrjNo_TextChanged);
 			// 
 			// c1Label4
 			// 
@@ -482,24 +458,24 @@ namespace SCM.SCM033
 			this.c1Label4.TextDetached = true;
 			this.c1Label4.Value = "";
 			// 
-			// txtDeliveryDtFr
+			// txtDlvRefFr
 			// 
-			this.txtDeliveryDtFr.AutoSize = false;
-			this.txtDeliveryDtFr.BackColor = System.Drawing.Color.White;
-			this.txtDeliveryDtFr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txtDlvRefFr.AutoSize = false;
+			this.txtDlvRefFr.BackColor = System.Drawing.Color.White;
+			this.txtDlvRefFr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
 			// 
 			// 
 			// 
-			this.txtDeliveryDtFr.Calendar.DayNameLength = 1;
-			this.txtDeliveryDtFr.EmptyAsNull = true;
-			this.txtDeliveryDtFr.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
-			this.txtDeliveryDtFr.Location = new System.Drawing.Point(478, 21);
-			this.txtDeliveryDtFr.Name = "txtDeliveryDtFr";
-			this.txtDeliveryDtFr.Size = new System.Drawing.Size(107, 21);
-			this.txtDeliveryDtFr.TabIndex = 137;
-			this.txtDeliveryDtFr.Tag = null;
-			this.txtDeliveryDtFr.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
-			this.txtDeliveryDtFr.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
+			this.txtDlvRefFr.Calendar.DayNameLength = 1;
+			this.txtDlvRefFr.EmptyAsNull = true;
+			this.txtDlvRefFr.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
+			this.txtDlvRefFr.Location = new System.Drawing.Point(478, 21);
+			this.txtDlvRefFr.Name = "txtDlvRefFr";
+			this.txtDlvRefFr.Size = new System.Drawing.Size(107, 21);
+			this.txtDlvRefFr.TabIndex = 137;
+			this.txtDlvRefFr.Tag = null;
+			this.txtDlvRefFr.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
+			this.txtDlvRefFr.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
 			// 
 			// label2
 			// 
@@ -510,24 +486,24 @@ namespace SCM.SCM033
 			this.label2.Text = "~";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// txtDeliveryDtTo
+			// txtDlvRefTo
 			// 
-			this.txtDeliveryDtTo.AutoSize = false;
-			this.txtDeliveryDtTo.BackColor = System.Drawing.Color.White;
-			this.txtDeliveryDtTo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txtDlvRefTo.AutoSize = false;
+			this.txtDlvRefTo.BackColor = System.Drawing.Color.White;
+			this.txtDlvRefTo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
 			// 
 			// 
 			// 
-			this.txtDeliveryDtTo.Calendar.DayNameLength = 1;
-			this.txtDeliveryDtTo.EmptyAsNull = true;
-			this.txtDeliveryDtTo.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
-			this.txtDeliveryDtTo.Location = new System.Drawing.Point(608, 21);
-			this.txtDeliveryDtTo.Name = "txtDeliveryDtTo";
-			this.txtDeliveryDtTo.Size = new System.Drawing.Size(107, 21);
-			this.txtDeliveryDtTo.TabIndex = 139;
-			this.txtDeliveryDtTo.Tag = null;
-			this.txtDeliveryDtTo.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
-			this.txtDeliveryDtTo.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
+			this.txtDlvRefTo.Calendar.DayNameLength = 1;
+			this.txtDlvRefTo.EmptyAsNull = true;
+			this.txtDlvRefTo.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
+			this.txtDlvRefTo.Location = new System.Drawing.Point(608, 21);
+			this.txtDlvRefTo.Name = "txtDlvRefTo";
+			this.txtDlvRefTo.Size = new System.Drawing.Size(107, 21);
+			this.txtDlvRefTo.TabIndex = 139;
+			this.txtDlvRefTo.Tag = null;
+			this.txtDlvRefTo.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
+			this.txtDlvRefTo.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
 			// 
 			// c1Label10
 			// 
@@ -544,24 +520,24 @@ namespace SCM.SCM033
 			this.c1Label10.TextDetached = true;
 			this.c1Label10.Value = "";
 			// 
-			// txtPoDtFr
+			// txtDlvDtFr
 			// 
-			this.txtPoDtFr.AutoSize = false;
-			this.txtPoDtFr.BackColor = System.Drawing.Color.White;
-			this.txtPoDtFr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txtDlvDtFr.AutoSize = false;
+			this.txtDlvDtFr.BackColor = System.Drawing.Color.White;
+			this.txtDlvDtFr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
 			// 
 			// 
 			// 
-			this.txtPoDtFr.Calendar.DayNameLength = 1;
-			this.txtPoDtFr.EmptyAsNull = true;
-			this.txtPoDtFr.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
-			this.txtPoDtFr.Location = new System.Drawing.Point(115, 21);
-			this.txtPoDtFr.Name = "txtPoDtFr";
-			this.txtPoDtFr.Size = new System.Drawing.Size(107, 21);
-			this.txtPoDtFr.TabIndex = 132;
-			this.txtPoDtFr.Tag = ";1;;";
-			this.txtPoDtFr.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
-			this.txtPoDtFr.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
+			this.txtDlvDtFr.Calendar.DayNameLength = 1;
+			this.txtDlvDtFr.EmptyAsNull = true;
+			this.txtDlvDtFr.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
+			this.txtDlvDtFr.Location = new System.Drawing.Point(115, 21);
+			this.txtDlvDtFr.Name = "txtDlvDtFr";
+			this.txtDlvDtFr.Size = new System.Drawing.Size(107, 21);
+			this.txtDlvDtFr.TabIndex = 132;
+			this.txtDlvDtFr.Tag = "납기일 조건 시작일자;1;;";
+			this.txtDlvDtFr.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
+			this.txtDlvDtFr.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
 			// 
 			// label1
 			// 
@@ -572,24 +548,24 @@ namespace SCM.SCM033
 			this.label1.Text = "~";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// txtPoDtTo
+			// txtDlvDtTo
 			// 
-			this.txtPoDtTo.AutoSize = false;
-			this.txtPoDtTo.BackColor = System.Drawing.Color.White;
-			this.txtPoDtTo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txtDlvDtTo.AutoSize = false;
+			this.txtDlvDtTo.BackColor = System.Drawing.Color.White;
+			this.txtDlvDtTo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
 			// 
 			// 
 			// 
-			this.txtPoDtTo.Calendar.DayNameLength = 1;
-			this.txtPoDtTo.EmptyAsNull = true;
-			this.txtPoDtTo.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
-			this.txtPoDtTo.Location = new System.Drawing.Point(245, 21);
-			this.txtPoDtTo.Name = "txtPoDtTo";
-			this.txtPoDtTo.Size = new System.Drawing.Size(107, 21);
-			this.txtPoDtTo.TabIndex = 134;
-			this.txtPoDtTo.Tag = ";1;;";
-			this.txtPoDtTo.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
-			this.txtPoDtTo.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
+			this.txtDlvDtTo.Calendar.DayNameLength = 1;
+			this.txtDlvDtTo.EmptyAsNull = true;
+			this.txtDlvDtTo.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
+			this.txtDlvDtTo.Location = new System.Drawing.Point(245, 21);
+			this.txtDlvDtTo.Name = "txtDlvDtTo";
+			this.txtDlvDtTo.Size = new System.Drawing.Size(107, 21);
+			this.txtDlvDtTo.TabIndex = 134;
+			this.txtDlvDtTo.Tag = "납기일 조건 종료일자;1;;";
+			this.txtDlvDtTo.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
+			this.txtDlvDtTo.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
 			// 
 			// c1Label11
 			// 
@@ -606,119 +582,152 @@ namespace SCM.SCM033
 			this.c1Label11.TextDetached = true;
 			this.c1Label11.Value = "";
 			// 
-			// txtCustNm
+			// txt1CustNm
 			// 
-			this.txtCustNm.AutoSize = false;
-			this.txtCustNm.BackColor = System.Drawing.Color.White;
-			this.txtCustNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.txtCustNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtCustNm.Location = new System.Drawing.Point(220, 46);
-			this.txtCustNm.Name = "txtCustNm";
-			this.txtCustNm.Size = new System.Drawing.Size(132, 21);
-			this.txtCustNm.TabIndex = 147;
-			this.txtCustNm.Tag = ";2;;";
+			this.txt1CustNm.AutoSize = false;
+			this.txt1CustNm.BackColor = System.Drawing.Color.White;
+			this.txt1CustNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt1CustNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt1CustNm.Location = new System.Drawing.Point(220, 46);
+			this.txt1CustNm.Name = "txt1CustNm";
+			this.txt1CustNm.Size = new System.Drawing.Size(132, 21);
+			this.txt1CustNm.TabIndex = 147;
+			this.txt1CustNm.Tag = ";2;;";
 			// 
-			// btnCustCd
+			// btn1Cust
 			// 
-			this.btnCustCd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCustCd.BackgroundImage")));
-			this.btnCustCd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.btnCustCd.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.btnCustCd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnCustCd.Location = new System.Drawing.Point(196, 46);
-			this.btnCustCd.Name = "btnCustCd";
-			this.btnCustCd.Size = new System.Drawing.Size(24, 21);
-			this.btnCustCd.TabIndex = 146;
-			this.btnCustCd.UseVisualStyleBackColor = true;
+			this.btn1Cust.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn1Cust.BackgroundImage")));
+			this.btn1Cust.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.btn1Cust.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btn1Cust.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btn1Cust.Location = new System.Drawing.Point(196, 46);
+			this.btn1Cust.Name = "btn1Cust";
+			this.btn1Cust.Size = new System.Drawing.Size(24, 21);
+			this.btn1Cust.TabIndex = 146;
+			this.btn1Cust.UseVisualStyleBackColor = true;
+			this.btn1Cust.Click += new System.EventHandler(this.btn1Cust_Click);
 			// 
-			// txtCustCd
+			// txt1CustCd
 			// 
-			this.txtCustCd.AutoSize = false;
-			this.txtCustCd.BackColor = System.Drawing.Color.White;
-			this.txtCustCd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.txtCustCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtCustCd.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.txtCustCd.Location = new System.Drawing.Point(115, 46);
-			this.txtCustCd.Name = "txtCustCd";
-			this.txtCustCd.Size = new System.Drawing.Size(82, 21);
-			this.txtCustCd.TabIndex = 145;
-			this.txtCustCd.Tag = ";1;;";
+			this.txt1CustCd.AutoSize = false;
+			this.txt1CustCd.BackColor = System.Drawing.Color.White;
+			this.txt1CustCd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt1CustCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt1CustCd.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.txt1CustCd.Location = new System.Drawing.Point(115, 46);
+			this.txt1CustCd.Name = "txt1CustCd";
+			this.txt1CustCd.Size = new System.Drawing.Size(82, 21);
+			this.txt1CustCd.TabIndex = 145;
+			this.txt1CustCd.Tag = "거래처;1;;";
+			this.txt1CustCd.TextChanged += new System.EventHandler(this.txt1CustCd_TextChanged);
 			// 
-			// c1Label6
+			// groupBox2
 			// 
-			this.c1Label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(244)))), ((int)(((byte)(246)))));
-			this.c1Label6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1Label6.Location = new System.Drawing.Point(6, 96);
-			this.c1Label6.Name = "c1Label6";
-			this.c1Label6.Size = new System.Drawing.Size(110, 21);
-			this.c1Label6.TabIndex = 158;
-			this.c1Label6.Tag = null;
-			this.c1Label6.Text = "전진검사원";
-			this.c1Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.c1Label6.TextDetached = true;
-			this.c1Label6.Value = "";
+			this.groupBox2.Controls.Add(this.cmb2AccRej);
+			this.groupBox2.Controls.Add(this.c1Label15);
+			this.groupBox2.Controls.Add(this.cmb2Status);
+			this.groupBox2.Controls.Add(this.c1Label1);
+			this.groupBox2.Controls.Add(this.c1Label2);
+			this.groupBox2.Controls.Add(this.txt2ItemNm);
+			this.groupBox2.Controls.Add(this.btn2Item);
+			this.groupBox2.Controls.Add(this.txt2ItemCd);
+			this.groupBox2.Controls.Add(this.txt2PoNo);
+			this.groupBox2.Controls.Add(this.c1Label3);
+			this.groupBox2.Controls.Add(this.c1Label8);
+			this.groupBox2.Controls.Add(this.txt2PrjNm);
+			this.groupBox2.Controls.Add(this.btn2Project);
+			this.groupBox2.Controls.Add(this.txt2PrjNo);
+			this.groupBox2.Controls.Add(this.c1Label12);
+			this.groupBox2.Controls.Add(this.txtReqFr);
+			this.groupBox2.Controls.Add(this.label4);
+			this.groupBox2.Controls.Add(this.txtReqTo);
+			this.groupBox2.Controls.Add(this.c1Label14);
+			this.groupBox2.Controls.Add(this.txt2CustNm);
+			this.groupBox2.Controls.Add(this.btn2Cust);
+			this.groupBox2.Controls.Add(this.txt2CustCd);
+			this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
+			this.groupBox2.Location = new System.Drawing.Point(0, 0);
+			this.groupBox2.Name = "groupBox2";
+			this.groupBox2.Size = new System.Drawing.Size(832, 128);
+			this.groupBox2.TabIndex = 5;
+			this.groupBox2.TabStop = false;
 			// 
-			// c1Combo3
+			// cmb2AccRej
 			// 
-			this.c1Combo3.AddItemSeparator = ';';
-			this.c1Combo3.AutoSize = false;
-			this.c1Combo3.Caption = "";
-			this.c1Combo3.CaptionHeight = 17;
-			this.c1Combo3.CaptionVisible = false;
-			this.c1Combo3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-			this.c1Combo3.ColumnCaptionHeight = 18;
-			this.c1Combo3.ColumnFooterHeight = 18;
-			this.c1Combo3.ContentHeight = 15;
-			this.c1Combo3.DeadAreaBackColor = System.Drawing.Color.Empty;
-			this.c1Combo3.EditorBackColor = System.Drawing.SystemColors.Window;
-			this.c1Combo3.EditorFont = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-			this.c1Combo3.EditorForeColor = System.Drawing.SystemColors.WindowText;
-			this.c1Combo3.EditorHeight = 15;
-			this.c1Combo3.Images.Add(((System.Drawing.Image)(resources.GetObject("c1Combo3.Images"))));
-			this.c1Combo3.ItemHeight = 15;
-			this.c1Combo3.Location = new System.Drawing.Point(115, 96);
-			this.c1Combo3.MatchEntryTimeout = ((long)(2000));
-			this.c1Combo3.MaxDropDownItems = ((short)(5));
-			this.c1Combo3.MaxLength = 32767;
-			this.c1Combo3.MouseCursor = System.Windows.Forms.Cursors.Default;
-			this.c1Combo3.Name = "c1Combo3";
-			this.c1Combo3.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None;
-			this.c1Combo3.RowSubDividerColor = System.Drawing.Color.DarkGray;
-			this.c1Combo3.Size = new System.Drawing.Size(105, 21);
-			this.c1Combo3.TabIndex = 159;
-			this.c1Combo3.Tag = "";
-			this.c1Combo3.PropBag = resources.GetString("c1Combo3.PropBag");
+			this.cmb2AccRej.AddItemSeparator = ';';
+			this.cmb2AccRej.AutoSize = false;
+			this.cmb2AccRej.Caption = "";
+			this.cmb2AccRej.CaptionHeight = 17;
+			this.cmb2AccRej.CaptionVisible = false;
+			this.cmb2AccRej.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+			this.cmb2AccRej.ColumnCaptionHeight = 18;
+			this.cmb2AccRej.ColumnFooterHeight = 18;
+			this.cmb2AccRej.ContentHeight = 15;
+			this.cmb2AccRej.DeadAreaBackColor = System.Drawing.Color.Empty;
+			this.cmb2AccRej.EditorBackColor = System.Drawing.SystemColors.Window;
+			this.cmb2AccRej.EditorFont = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+			this.cmb2AccRej.EditorForeColor = System.Drawing.SystemColors.WindowText;
+			this.cmb2AccRej.EditorHeight = 15;
+			this.cmb2AccRej.Images.Add(((System.Drawing.Image)(resources.GetObject("cmb2AccRej.Images"))));
+			this.cmb2AccRej.ItemHeight = 15;
+			this.cmb2AccRej.Location = new System.Drawing.Point(478, 71);
+			this.cmb2AccRej.MatchEntryTimeout = ((long)(2000));
+			this.cmb2AccRej.MaxDropDownItems = ((short)(5));
+			this.cmb2AccRej.MaxLength = 32767;
+			this.cmb2AccRej.MouseCursor = System.Windows.Forms.Cursors.Default;
+			this.cmb2AccRej.Name = "cmb2AccRej";
+			this.cmb2AccRej.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None;
+			this.cmb2AccRej.RowSubDividerColor = System.Drawing.Color.DarkGray;
+			this.cmb2AccRej.Size = new System.Drawing.Size(105, 21);
+			this.cmb2AccRej.TabIndex = 186;
+			this.cmb2AccRej.Tag = "";
+			this.cmb2AccRej.PropBag = resources.GetString("cmb2AccRej.PropBag");
 			// 
-			// c1Combo1
+			// c1Label15
 			// 
-			this.c1Combo1.AddItemSeparator = ';';
-			this.c1Combo1.AutoSize = false;
-			this.c1Combo1.Caption = "";
-			this.c1Combo1.CaptionHeight = 17;
-			this.c1Combo1.CaptionVisible = false;
-			this.c1Combo1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-			this.c1Combo1.ColumnCaptionHeight = 18;
-			this.c1Combo1.ColumnFooterHeight = 18;
-			this.c1Combo1.ContentHeight = 15;
-			this.c1Combo1.DeadAreaBackColor = System.Drawing.Color.Empty;
-			this.c1Combo1.EditorBackColor = System.Drawing.SystemColors.Window;
-			this.c1Combo1.EditorFont = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-			this.c1Combo1.EditorForeColor = System.Drawing.SystemColors.WindowText;
-			this.c1Combo1.EditorHeight = 15;
-			this.c1Combo1.Images.Add(((System.Drawing.Image)(resources.GetObject("c1Combo1.Images"))));
-			this.c1Combo1.ItemHeight = 15;
-			this.c1Combo1.Location = new System.Drawing.Point(115, 96);
-			this.c1Combo1.MatchEntryTimeout = ((long)(2000));
-			this.c1Combo1.MaxDropDownItems = ((short)(5));
-			this.c1Combo1.MaxLength = 32767;
-			this.c1Combo1.MouseCursor = System.Windows.Forms.Cursors.Default;
-			this.c1Combo1.Name = "c1Combo1";
-			this.c1Combo1.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None;
-			this.c1Combo1.RowSubDividerColor = System.Drawing.Color.DarkGray;
-			this.c1Combo1.Size = new System.Drawing.Size(105, 21);
-			this.c1Combo1.TabIndex = 184;
-			this.c1Combo1.Tag = "";
-			this.c1Combo1.PropBag = resources.GetString("c1Combo1.PropBag");
+			this.c1Label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(244)))), ((int)(((byte)(246)))));
+			this.c1Label15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.c1Label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.c1Label15.Location = new System.Drawing.Point(369, 71);
+			this.c1Label15.Name = "c1Label15";
+			this.c1Label15.Size = new System.Drawing.Size(110, 21);
+			this.c1Label15.TabIndex = 185;
+			this.c1Label15.Tag = null;
+			this.c1Label15.Text = "합격/불합격";
+			this.c1Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.c1Label15.TextDetached = true;
+			this.c1Label15.Value = "";
+			// 
+			// cmb2Status
+			// 
+			this.cmb2Status.AddItemSeparator = ';';
+			this.cmb2Status.AutoSize = false;
+			this.cmb2Status.Caption = "";
+			this.cmb2Status.CaptionHeight = 17;
+			this.cmb2Status.CaptionVisible = false;
+			this.cmb2Status.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+			this.cmb2Status.ColumnCaptionHeight = 18;
+			this.cmb2Status.ColumnFooterHeight = 18;
+			this.cmb2Status.ContentHeight = 15;
+			this.cmb2Status.DeadAreaBackColor = System.Drawing.Color.Empty;
+			this.cmb2Status.EditorBackColor = System.Drawing.SystemColors.Window;
+			this.cmb2Status.EditorFont = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+			this.cmb2Status.EditorForeColor = System.Drawing.SystemColors.WindowText;
+			this.cmb2Status.EditorHeight = 15;
+			this.cmb2Status.Images.Add(((System.Drawing.Image)(resources.GetObject("cmb2Status.Images"))));
+			this.cmb2Status.ItemHeight = 15;
+			this.cmb2Status.Location = new System.Drawing.Point(115, 96);
+			this.cmb2Status.MatchEntryTimeout = ((long)(2000));
+			this.cmb2Status.MaxDropDownItems = ((short)(5));
+			this.cmb2Status.MaxLength = 32767;
+			this.cmb2Status.MouseCursor = System.Windows.Forms.Cursors.Default;
+			this.cmb2Status.Name = "cmb2Status";
+			this.cmb2Status.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None;
+			this.cmb2Status.RowSubDividerColor = System.Drawing.Color.DarkGray;
+			this.cmb2Status.Size = new System.Drawing.Size(105, 21);
+			this.cmb2Status.TabIndex = 184;
+			this.cmb2Status.Tag = "";
+			this.cmb2Status.PropBag = resources.GetString("cmb2Status.PropBag");
 			// 
 			// c1Label1
 			// 
@@ -750,54 +759,56 @@ namespace SCM.SCM033
 			this.c1Label2.TextDetached = true;
 			this.c1Label2.Value = "";
 			// 
-			// c1TextBox1
+			// txt2ItemNm
 			// 
-			this.c1TextBox1.AutoSize = false;
-			this.c1TextBox1.BackColor = System.Drawing.Color.White;
-			this.c1TextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1TextBox1.Location = new System.Drawing.Point(583, 21);
-			this.c1TextBox1.Name = "c1TextBox1";
-			this.c1TextBox1.Size = new System.Drawing.Size(132, 21);
-			this.c1TextBox1.TabIndex = 176;
-			this.c1TextBox1.Tag = ";2;;";
+			this.txt2ItemNm.AutoSize = false;
+			this.txt2ItemNm.BackColor = System.Drawing.Color.White;
+			this.txt2ItemNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt2ItemNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt2ItemNm.Location = new System.Drawing.Point(583, 21);
+			this.txt2ItemNm.Name = "txt2ItemNm";
+			this.txt2ItemNm.Size = new System.Drawing.Size(132, 21);
+			this.txt2ItemNm.TabIndex = 176;
+			this.txt2ItemNm.Tag = ";2;;";
 			// 
-			// c1Button3
+			// btn2Item
 			// 
-			this.c1Button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("c1Button3.BackgroundImage")));
-			this.c1Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.c1Button3.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.c1Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.c1Button3.Location = new System.Drawing.Point(559, 21);
-			this.c1Button3.Name = "c1Button3";
-			this.c1Button3.Size = new System.Drawing.Size(24, 21);
-			this.c1Button3.TabIndex = 175;
-			this.c1Button3.UseVisualStyleBackColor = true;
+			this.btn2Item.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn2Item.BackgroundImage")));
+			this.btn2Item.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.btn2Item.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btn2Item.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btn2Item.Location = new System.Drawing.Point(559, 21);
+			this.btn2Item.Name = "btn2Item";
+			this.btn2Item.Size = new System.Drawing.Size(24, 21);
+			this.btn2Item.TabIndex = 175;
+			this.btn2Item.UseVisualStyleBackColor = true;
+			this.btn2Item.Click += new System.EventHandler(this.btn2Item_Click);
 			// 
-			// c1TextBox2
+			// txt2ItemCd
 			// 
-			this.c1TextBox2.AutoSize = false;
-			this.c1TextBox2.BackColor = System.Drawing.Color.White;
-			this.c1TextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1TextBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.c1TextBox2.Location = new System.Drawing.Point(478, 21);
-			this.c1TextBox2.Name = "c1TextBox2";
-			this.c1TextBox2.Size = new System.Drawing.Size(82, 21);
-			this.c1TextBox2.TabIndex = 174;
-			this.c1TextBox2.Tag = null;
+			this.txt2ItemCd.AutoSize = false;
+			this.txt2ItemCd.BackColor = System.Drawing.Color.White;
+			this.txt2ItemCd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt2ItemCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt2ItemCd.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.txt2ItemCd.Location = new System.Drawing.Point(478, 21);
+			this.txt2ItemCd.Name = "txt2ItemCd";
+			this.txt2ItemCd.Size = new System.Drawing.Size(82, 21);
+			this.txt2ItemCd.TabIndex = 174;
+			this.txt2ItemCd.Tag = null;
+			this.txt2ItemCd.TextChanged += new System.EventHandler(this.txt2ItemCd_TextChanged);
 			// 
-			// c1TextBox3
+			// txt2PoNo
 			// 
-			this.c1TextBox3.AutoSize = false;
-			this.c1TextBox3.BackColor = System.Drawing.Color.White;
-			this.c1TextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1TextBox3.Location = new System.Drawing.Point(478, 46);
-			this.c1TextBox3.Name = "c1TextBox3";
-			this.c1TextBox3.Size = new System.Drawing.Size(105, 21);
-			this.c1TextBox3.TabIndex = 182;
-			this.c1TextBox3.Tag = null;
+			this.txt2PoNo.AutoSize = false;
+			this.txt2PoNo.BackColor = System.Drawing.Color.White;
+			this.txt2PoNo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt2PoNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt2PoNo.Location = new System.Drawing.Point(478, 46);
+			this.txt2PoNo.Name = "txt2PoNo";
+			this.txt2PoNo.Size = new System.Drawing.Size(105, 21);
+			this.txt2PoNo.TabIndex = 182;
+			this.txt2PoNo.Tag = null;
 			// 
 			// c1Label3
 			// 
@@ -829,54 +840,44 @@ namespace SCM.SCM033
 			this.c1Label8.TextDetached = true;
 			this.c1Label8.Value = "";
 			// 
-			// c1TextBox4
+			// txt2PrjNm
 			// 
-			this.c1TextBox4.AutoSize = false;
-			this.c1TextBox4.BackColor = System.Drawing.Color.White;
-			this.c1TextBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1TextBox4.Location = new System.Drawing.Point(220, 71);
-			this.c1TextBox4.Name = "c1TextBox4";
-			this.c1TextBox4.Size = new System.Drawing.Size(132, 21);
-			this.c1TextBox4.TabIndex = 180;
-			this.c1TextBox4.Tag = ";2;;";
+			this.txt2PrjNm.AutoSize = false;
+			this.txt2PrjNm.BackColor = System.Drawing.Color.White;
+			this.txt2PrjNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt2PrjNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt2PrjNm.Location = new System.Drawing.Point(220, 71);
+			this.txt2PrjNm.Name = "txt2PrjNm";
+			this.txt2PrjNm.Size = new System.Drawing.Size(132, 21);
+			this.txt2PrjNm.TabIndex = 180;
+			this.txt2PrjNm.Tag = ";2;;";
 			// 
-			// c1Button4
+			// btn2Project
 			// 
-			this.c1Button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("c1Button4.BackgroundImage")));
-			this.c1Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.c1Button4.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.c1Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.c1Button4.Location = new System.Drawing.Point(196, 71);
-			this.c1Button4.Name = "c1Button4";
-			this.c1Button4.Size = new System.Drawing.Size(24, 21);
-			this.c1Button4.TabIndex = 179;
-			this.c1Button4.UseVisualStyleBackColor = true;
+			this.btn2Project.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn2Project.BackgroundImage")));
+			this.btn2Project.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.btn2Project.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btn2Project.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btn2Project.Location = new System.Drawing.Point(196, 71);
+			this.btn2Project.Name = "btn2Project";
+			this.btn2Project.Size = new System.Drawing.Size(24, 21);
+			this.btn2Project.TabIndex = 179;
+			this.btn2Project.UseVisualStyleBackColor = true;
+			this.btn2Project.Click += new System.EventHandler(this.btn2Project_Click);
 			// 
-			// c1TextBox5
+			// txt2PrjNo
 			// 
-			this.c1TextBox5.AutoSize = false;
-			this.c1TextBox5.BackColor = System.Drawing.Color.White;
-			this.c1TextBox5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1TextBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.c1TextBox5.Location = new System.Drawing.Point(115, 71);
-			this.c1TextBox5.Name = "c1TextBox5";
-			this.c1TextBox5.Size = new System.Drawing.Size(82, 21);
-			this.c1TextBox5.TabIndex = 178;
-			this.c1TextBox5.Tag = null;
-			// 
-			// c1Button5
-			// 
-			this.c1Button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.c1Button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("c1Button5.BackgroundImage")));
-			this.c1Button5.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.c1Button5.Location = new System.Drawing.Point(369, 96);
-			this.c1Button5.Name = "c1Button5";
-			this.c1Button5.Size = new System.Drawing.Size(110, 25);
-			this.c1Button5.TabIndex = 160;
-			this.c1Button5.Text = "검사의뢰 수정";
-			this.c1Button5.UseVisualStyleBackColor = true;
+			this.txt2PrjNo.AutoSize = false;
+			this.txt2PrjNo.BackColor = System.Drawing.Color.White;
+			this.txt2PrjNo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt2PrjNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt2PrjNo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.txt2PrjNo.Location = new System.Drawing.Point(115, 71);
+			this.txt2PrjNo.Name = "txt2PrjNo";
+			this.txt2PrjNo.Size = new System.Drawing.Size(82, 21);
+			this.txt2PrjNo.TabIndex = 178;
+			this.txt2PrjNo.Tag = null;
+			this.txt2PrjNo.TextChanged += new System.EventHandler(this.txt2PrjNo_TextChanged);
 			// 
 			// c1Label12
 			// 
@@ -893,24 +894,24 @@ namespace SCM.SCM033
 			this.c1Label12.TextDetached = true;
 			this.c1Label12.Value = "";
 			// 
-			// c1DateEdit3
+			// txtReqFr
 			// 
-			this.c1DateEdit3.AutoSize = false;
-			this.c1DateEdit3.BackColor = System.Drawing.Color.White;
-			this.c1DateEdit3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txtReqFr.AutoSize = false;
+			this.txtReqFr.BackColor = System.Drawing.Color.White;
+			this.txtReqFr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
 			// 
 			// 
 			// 
-			this.c1DateEdit3.Calendar.DayNameLength = 1;
-			this.c1DateEdit3.EmptyAsNull = true;
-			this.c1DateEdit3.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
-			this.c1DateEdit3.Location = new System.Drawing.Point(115, 21);
-			this.c1DateEdit3.Name = "c1DateEdit3";
-			this.c1DateEdit3.Size = new System.Drawing.Size(107, 21);
-			this.c1DateEdit3.TabIndex = 162;
-			this.c1DateEdit3.Tag = ";1;;";
-			this.c1DateEdit3.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
-			this.c1DateEdit3.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
+			this.txtReqFr.Calendar.DayNameLength = 1;
+			this.txtReqFr.EmptyAsNull = true;
+			this.txtReqFr.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
+			this.txtReqFr.Location = new System.Drawing.Point(115, 21);
+			this.txtReqFr.Name = "txtReqFr";
+			this.txtReqFr.Size = new System.Drawing.Size(107, 21);
+			this.txtReqFr.TabIndex = 162;
+			this.txtReqFr.Tag = "검사요청일 조건 시작일자;1;;";
+			this.txtReqFr.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
+			this.txtReqFr.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
 			// 
 			// label4
 			// 
@@ -921,24 +922,24 @@ namespace SCM.SCM033
 			this.label4.Text = "~";
 			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// c1DateEdit4
+			// txtReqTo
 			// 
-			this.c1DateEdit4.AutoSize = false;
-			this.c1DateEdit4.BackColor = System.Drawing.Color.White;
-			this.c1DateEdit4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txtReqTo.AutoSize = false;
+			this.txtReqTo.BackColor = System.Drawing.Color.White;
+			this.txtReqTo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
 			// 
 			// 
 			// 
-			this.c1DateEdit4.Calendar.DayNameLength = 1;
-			this.c1DateEdit4.EmptyAsNull = true;
-			this.c1DateEdit4.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
-			this.c1DateEdit4.Location = new System.Drawing.Point(245, 21);
-			this.c1DateEdit4.Name = "c1DateEdit4";
-			this.c1DateEdit4.Size = new System.Drawing.Size(107, 21);
-			this.c1DateEdit4.TabIndex = 164;
-			this.c1DateEdit4.Tag = ";1;;";
-			this.c1DateEdit4.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
-			this.c1DateEdit4.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
+			this.txtReqTo.Calendar.DayNameLength = 1;
+			this.txtReqTo.EmptyAsNull = true;
+			this.txtReqTo.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate;
+			this.txtReqTo.Location = new System.Drawing.Point(245, 21);
+			this.txtReqTo.Name = "txtReqTo";
+			this.txtReqTo.Size = new System.Drawing.Size(107, 21);
+			this.txtReqTo.TabIndex = 164;
+			this.txtReqTo.Tag = "검사요청일 조건 종료일자;1;;";
+			this.txtReqTo.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
+			this.txtReqTo.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
 			// 
 			// c1Label14
 			// 
@@ -955,96 +956,53 @@ namespace SCM.SCM033
 			this.c1Label14.TextDetached = true;
 			this.c1Label14.Value = "";
 			// 
-			// c1TextBox6
+			// txt2CustNm
 			// 
-			this.c1TextBox6.AutoSize = false;
-			this.c1TextBox6.BackColor = System.Drawing.Color.White;
-			this.c1TextBox6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1TextBox6.Location = new System.Drawing.Point(220, 46);
-			this.c1TextBox6.Name = "c1TextBox6";
-			this.c1TextBox6.Size = new System.Drawing.Size(132, 21);
-			this.c1TextBox6.TabIndex = 172;
-			this.c1TextBox6.Tag = ";2;;";
+			this.txt2CustNm.AutoSize = false;
+			this.txt2CustNm.BackColor = System.Drawing.Color.White;
+			this.txt2CustNm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt2CustNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt2CustNm.Location = new System.Drawing.Point(220, 46);
+			this.txt2CustNm.Name = "txt2CustNm";
+			this.txt2CustNm.Size = new System.Drawing.Size(132, 21);
+			this.txt2CustNm.TabIndex = 172;
+			this.txt2CustNm.Tag = ";2;;";
 			// 
-			// c1Button6
+			// btn2Cust
 			// 
-			this.c1Button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("c1Button6.BackgroundImage")));
-			this.c1Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.c1Button6.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.c1Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.c1Button6.Location = new System.Drawing.Point(196, 46);
-			this.c1Button6.Name = "c1Button6";
-			this.c1Button6.Size = new System.Drawing.Size(24, 21);
-			this.c1Button6.TabIndex = 171;
-			this.c1Button6.UseVisualStyleBackColor = true;
+			this.btn2Cust.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn2Cust.BackgroundImage")));
+			this.btn2Cust.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.btn2Cust.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btn2Cust.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btn2Cust.Location = new System.Drawing.Point(196, 46);
+			this.btn2Cust.Name = "btn2Cust";
+			this.btn2Cust.Size = new System.Drawing.Size(24, 21);
+			this.btn2Cust.TabIndex = 171;
+			this.btn2Cust.UseVisualStyleBackColor = true;
+			this.btn2Cust.Click += new System.EventHandler(this.btn2Cust_Click);
 			// 
-			// c1TextBox7
+			// txt2CustCd
 			// 
-			this.c1TextBox7.AutoSize = false;
-			this.c1TextBox7.BackColor = System.Drawing.Color.White;
-			this.c1TextBox7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1TextBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.c1TextBox7.Location = new System.Drawing.Point(115, 46);
-			this.c1TextBox7.Name = "c1TextBox7";
-			this.c1TextBox7.Size = new System.Drawing.Size(82, 21);
-			this.c1TextBox7.TabIndex = 170;
-			this.c1TextBox7.Tag = ";1;;";
-			// 
-			// c1Combo2
-			// 
-			this.c1Combo2.AddItemSeparator = ';';
-			this.c1Combo2.AutoSize = false;
-			this.c1Combo2.Caption = "";
-			this.c1Combo2.CaptionHeight = 17;
-			this.c1Combo2.CaptionVisible = false;
-			this.c1Combo2.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-			this.c1Combo2.ColumnCaptionHeight = 18;
-			this.c1Combo2.ColumnFooterHeight = 18;
-			this.c1Combo2.ContentHeight = 15;
-			this.c1Combo2.DeadAreaBackColor = System.Drawing.Color.Empty;
-			this.c1Combo2.EditorBackColor = System.Drawing.SystemColors.Window;
-			this.c1Combo2.EditorFont = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-			this.c1Combo2.EditorForeColor = System.Drawing.SystemColors.WindowText;
-			this.c1Combo2.EditorHeight = 15;
-			this.c1Combo2.Images.Add(((System.Drawing.Image)(resources.GetObject("c1Combo2.Images"))));
-			this.c1Combo2.ItemHeight = 15;
-			this.c1Combo2.Location = new System.Drawing.Point(478, 71);
-			this.c1Combo2.MatchEntryTimeout = ((long)(2000));
-			this.c1Combo2.MaxDropDownItems = ((short)(5));
-			this.c1Combo2.MaxLength = 32767;
-			this.c1Combo2.MouseCursor = System.Windows.Forms.Cursors.Default;
-			this.c1Combo2.Name = "c1Combo2";
-			this.c1Combo2.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None;
-			this.c1Combo2.RowSubDividerColor = System.Drawing.Color.DarkGray;
-			this.c1Combo2.Size = new System.Drawing.Size(105, 21);
-			this.c1Combo2.TabIndex = 186;
-			this.c1Combo2.Tag = "";
-			this.c1Combo2.PropBag = resources.GetString("c1Combo2.PropBag");
-			// 
-			// c1Label15
-			// 
-			this.c1Label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(244)))), ((int)(((byte)(246)))));
-			this.c1Label15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			this.c1Label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.c1Label15.Location = new System.Drawing.Point(369, 71);
-			this.c1Label15.Name = "c1Label15";
-			this.c1Label15.Size = new System.Drawing.Size(110, 21);
-			this.c1Label15.TabIndex = 185;
-			this.c1Label15.Tag = null;
-			this.c1Label15.Text = "합격/불합격";
-			this.c1Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.c1Label15.TextDetached = true;
-			this.c1Label15.Value = "";
+			this.txt2CustCd.AutoSize = false;
+			this.txt2CustCd.BackColor = System.Drawing.Color.White;
+			this.txt2CustCd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.txt2CustCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txt2CustCd.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.txt2CustCd.Location = new System.Drawing.Point(115, 46);
+			this.txt2CustCd.Name = "txt2CustCd";
+			this.txt2CustCd.Size = new System.Drawing.Size(82, 21);
+			this.txt2CustCd.TabIndex = 170;
+			this.txt2CustCd.Tag = "거래처;1;;";
+			this.txt2CustCd.TextChanged += new System.EventHandler(this.txt2CustCd_TextChanged);
 			// 
 			// SCM033
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(853, 548);
+			this.ClientSize = new System.Drawing.Size(832, 548);
 			this.Name = "SCM033";
 			this.Text = "SCM033";
+			this.Load += new System.EventHandler(this.SCM033_Load);
 			this.GridCommPanel2.ResumeLayout(false);
 			this.GridCommGroupBox2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.fpSpread2)).EndInit();
@@ -1072,44 +1030,44 @@ namespace SCM.SCM033
 			((System.ComponentModel.ISupportInitialize)(this.BtnNew)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.BtnExcel)).EndInit();
 			this.groupBox1.ResumeLayout(false);
-			this.groupBox2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.cmb1Inspector)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label6)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtItemNm)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtItemCd)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtPoNo)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1ItemNm)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1ItemCd)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1PoNo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label9)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtProjectNm)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtProjectNo)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1PrjNm)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1PrjNo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtDeliveryDtFr)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtDeliveryDtTo)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvRefFr)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvRefTo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtPoDtFr)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtPoDtTo)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvDtFr)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtDlvDtTo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label11)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtCustNm)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.txtCustCd)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Label6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Combo3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Combo1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1CustNm)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt1CustCd)).EndInit();
+			this.groupBox2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.cmb2AccRej)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label15)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.cmb2Status)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2ItemNm)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2ItemCd)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2PoNo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2PrjNm)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2PrjNo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label12)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1DateEdit3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1DateEdit4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtReqFr)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txtReqTo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label14)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1TextBox7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Combo2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.c1Label15)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2CustNm)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.txt2CustCd)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -1118,56 +1076,52 @@ namespace SCM.SCM033
 		#endregion
 
 		private System.Windows.Forms.GroupBox groupBox2;
-		private C1.Win.C1Input.C1Button c1Button1;
-		private C1.Win.C1Input.C1Button c1Button2;
 		private System.Windows.Forms.GroupBox groupBox1;
-		private C1.Win.C1Input.C1Button btnSelectAll;
 		private C1.Win.C1Input.C1Label c1Label7;
-		private C1.Win.C1Input.C1TextBox txtItemNm;
-		private C1.Win.C1Input.C1Button btnItemNo;
-		private C1.Win.C1Input.C1TextBox txtItemCd;
-		private C1.Win.C1Input.C1TextBox txtPoNo;
+		private C1.Win.C1Input.C1TextBox txt1ItemNm;
+		private C1.Win.C1Input.C1Button btn1Item;
+		private C1.Win.C1Input.C1TextBox txt1ItemCd;
+		private C1.Win.C1Input.C1TextBox txt1PoNo;
 		private C1.Win.C1Input.C1Label c1Label9;
 		private C1.Win.C1Input.C1Label c1Label5;
-		private C1.Win.C1Input.C1TextBox txtProjectNm;
-		private C1.Win.C1Input.C1Button btnProjectNo;
-		private C1.Win.C1Input.C1TextBox txtProjectNo;
+		private C1.Win.C1Input.C1TextBox txt1PrjNm;
+		private C1.Win.C1Input.C1Button btn1Project;
+		private C1.Win.C1Input.C1TextBox txt1PrjNo;
 		private C1.Win.C1Input.C1Label c1Label4;
-		private C1.Win.C1Input.C1DateEdit txtDeliveryDtFr;
+		private C1.Win.C1Input.C1DateEdit txtDlvRefFr;
 		private System.Windows.Forms.Label label2;
-		private C1.Win.C1Input.C1DateEdit txtDeliveryDtTo;
+		private C1.Win.C1Input.C1DateEdit txtDlvRefTo;
 		private C1.Win.C1Input.C1Label c1Label10;
-		private C1.Win.C1Input.C1DateEdit txtPoDtFr;
+		private C1.Win.C1Input.C1DateEdit txtDlvDtFr;
 		private System.Windows.Forms.Label label1;
-		private C1.Win.C1Input.C1DateEdit txtPoDtTo;
+		private C1.Win.C1Input.C1DateEdit txtDlvDtTo;
 		private C1.Win.C1Input.C1Label c1Label11;
-		private C1.Win.C1Input.C1TextBox txtCustNm;
-		private C1.Win.C1Input.C1Button btnCustCd;
-		private C1.Win.C1Input.C1TextBox txtCustCd;
+		private C1.Win.C1Input.C1TextBox txt1CustNm;
+		private C1.Win.C1Input.C1Button btn1Cust;
+		private C1.Win.C1Input.C1TextBox txt1CustCd;
 		private C1.Win.C1Input.C1Label c1Label6;
-		private C1.Win.C1List.C1Combo c1Combo3;
-		private C1.Win.C1List.C1Combo c1Combo2;
+		private C1.Win.C1List.C1Combo cmb1Inspector;
+		private C1.Win.C1List.C1Combo cmb2AccRej;
 		private C1.Win.C1Input.C1Label c1Label15;
-		private C1.Win.C1List.C1Combo c1Combo1;
+		private C1.Win.C1List.C1Combo cmb2Status;
 		private C1.Win.C1Input.C1Label c1Label1;
 		private C1.Win.C1Input.C1Label c1Label2;
-		private C1.Win.C1Input.C1TextBox c1TextBox1;
-		private C1.Win.C1Input.C1Button c1Button3;
-		private C1.Win.C1Input.C1TextBox c1TextBox2;
-		private C1.Win.C1Input.C1TextBox c1TextBox3;
+		private C1.Win.C1Input.C1TextBox txt2ItemNm;
+		private C1.Win.C1Input.C1Button btn2Item;
+		private C1.Win.C1Input.C1TextBox txt2ItemCd;
+		private C1.Win.C1Input.C1TextBox txt2PoNo;
 		private C1.Win.C1Input.C1Label c1Label3;
 		private C1.Win.C1Input.C1Label c1Label8;
-		private C1.Win.C1Input.C1TextBox c1TextBox4;
-		private C1.Win.C1Input.C1Button c1Button4;
-		private C1.Win.C1Input.C1TextBox c1TextBox5;
+		private C1.Win.C1Input.C1TextBox txt2PrjNm;
+		private C1.Win.C1Input.C1Button btn2Project;
+		private C1.Win.C1Input.C1TextBox txt2PrjNo;
 		private C1.Win.C1Input.C1Label c1Label12;
-		private C1.Win.C1Input.C1DateEdit c1DateEdit3;
+		private C1.Win.C1Input.C1DateEdit txtReqFr;
 		private System.Windows.Forms.Label label4;
-		private C1.Win.C1Input.C1DateEdit c1DateEdit4;
+		private C1.Win.C1Input.C1DateEdit txtReqTo;
 		private C1.Win.C1Input.C1Label c1Label14;
-		private C1.Win.C1Input.C1TextBox c1TextBox6;
-		private C1.Win.C1Input.C1Button c1Button6;
-		private C1.Win.C1Input.C1TextBox c1TextBox7;
-		private C1.Win.C1Input.C1Button c1Button5;
+		private C1.Win.C1Input.C1TextBox txt2CustNm;
+		private C1.Win.C1Input.C1Button btn2Cust;
+		private C1.Win.C1Input.C1TextBox txt2CustCd;
 	}
 }

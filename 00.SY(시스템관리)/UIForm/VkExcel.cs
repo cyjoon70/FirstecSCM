@@ -395,6 +395,11 @@ namespace UIForm
                     this.excelWorkbook.VBProject.VBComponents.Item(strModule));
 			}
 		}
+
+		public void SetAddRow(string strStartCell, string strEndCell)
+		{
+			this.excelWorksheet.get_Range(strStartCell, strEndCell).Insert(Excel.XlInsertShiftDirection.xlShiftDown, Type.Missing);
+		}
 		#endregion
 
 		#region CONVERT TO STRING ARRAY
@@ -432,6 +437,16 @@ namespace UIForm
 			//			range2.Select();   // 범위를 선택하고
 
 			range2.Merge(Type.Missing);  
+
+		}
+
+		public void CellBorder(string strRange)
+		{
+			Excel.Range range2 = excelWorksheet.get_Range(strRange, Missing.Value);
+
+			//			range2.Select();   // 범위를 선택하고
+
+			range2.Borders.LineStyle = 1;
 
 		}
 		#endregion

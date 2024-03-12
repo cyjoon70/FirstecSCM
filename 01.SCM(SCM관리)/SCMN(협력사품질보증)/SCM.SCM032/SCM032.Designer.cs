@@ -34,6 +34,7 @@ namespace SCM.SCM032
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.c1Label5 = new C1.Win.C1Input.C1Label();
 			this.c1Label7 = new C1.Win.C1Input.C1Label();
+			this.btnReportPopup = new System.Windows.Forms.Button();
 			this.cdtInspTo = new C1.Win.C1Input.C1DateEdit();
 			this.btnsEMP = new C1.Win.C1Input.C1Button();
 			this.cdtInspFr = new C1.Win.C1Input.C1DateEdit();
@@ -66,7 +67,8 @@ namespace SCM.SCM032
 			this.txtsITEM_NM = new C1.Win.C1Input.C1TextBox();
 			this.txtsITEM_CD = new C1.Win.C1Input.C1TextBox();
 			this.c1Label14 = new C1.Win.C1Input.C1Label();
-			this.btnReportPopup = new System.Windows.Forms.Button();
+			this.c1Label9 = new C1.Win.C1Input.C1Label();
+			this.c1Label10 = new C1.Win.C1Input.C1Label();
 			this.GridCommGroupBox.SuspendLayout();
 			this.GridCommPanel.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.fpSpread1)).BeginInit();
@@ -113,6 +115,8 @@ namespace SCM.SCM032
 			((System.ComponentModel.ISupportInitialize)(this.txtsITEM_NM)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtsITEM_CD)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label14)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label10)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// GridCommGroupBox
@@ -141,7 +145,23 @@ namespace SCM.SCM032
 			// 
 			// panButton1
 			// 
+			this.panButton1.Controls.Add(this.c1Label10);
+			this.panButton1.Controls.Add(this.c1Label9);
 			this.panButton1.Size = new System.Drawing.Size(1280, 64);
+			this.panButton1.Controls.SetChildIndex(this.BtnExcel, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnNew, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnInsert, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnSearch, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnCancel, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnPrint, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnClose, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnRCopy, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnRowIns, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnDelete, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnHelp, 0);
+			this.panButton1.Controls.SetChildIndex(this.BtnDel, 0);
+			this.panButton1.Controls.SetChildIndex(this.c1Label9, 0);
+			this.panButton1.Controls.SetChildIndex(this.c1Label10, 0);
 			// 
 			// panel1
 			// 
@@ -198,6 +218,17 @@ namespace SCM.SCM032
 			this.c1Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.c1Label7.TextDetached = true;
 			// 
+			// btnReportPopup
+			// 
+			this.btnReportPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnReportPopup.Location = new System.Drawing.Point(1040, 18);
+			this.btnReportPopup.Name = "btnReportPopup";
+			this.btnReportPopup.Size = new System.Drawing.Size(139, 27);
+			this.btnReportPopup.TabIndex = 92;
+			this.btnReportPopup.Text = "전진검사 의뢰서";
+			this.btnReportPopup.UseVisualStyleBackColor = true;
+			this.btnReportPopup.Click += new System.EventHandler(this.btnReportPopup_Click);
+			// 
 			// cdtInspTo
 			// 
 			this.cdtInspTo.AutoSize = false;
@@ -229,6 +260,7 @@ namespace SCM.SCM032
 			this.btnsEMP.TabIndex = 90;
 			this.btnsEMP.Tag = "";
 			this.btnsEMP.UseVisualStyleBackColor = true;
+			this.btnsEMP.Click += new System.EventHandler(this.btnsEMP_Click);
 			// 
 			// cdtInspFr
 			// 
@@ -288,6 +320,7 @@ namespace SCM.SCM032
 			this.txtpIN_INSPECTOR.Size = new System.Drawing.Size(90, 21);
 			this.txtpIN_INSPECTOR.TabIndex = 89;
 			this.txtpIN_INSPECTOR.Tag = null;
+			this.txtpIN_INSPECTOR.TextChanged += new System.EventHandler(this.txtpIN_INSPECTOR_TextChanged);
 			// 
 			// groupBox1
 			// 
@@ -419,6 +452,7 @@ namespace SCM.SCM032
 			this.btnsPROJECT.TabIndex = 86;
 			this.btnsPROJECT.Tag = "";
 			this.btnsPROJECT.UseVisualStyleBackColor = true;
+			this.btnsPROJECT.Click += new System.EventHandler(this.btnsPROJECT_Click);
 			// 
 			// txtsPROJECT_NM
 			// 
@@ -444,6 +478,7 @@ namespace SCM.SCM032
 			this.txtsPROJECT_NO.Size = new System.Drawing.Size(90, 21);
 			this.txtsPROJECT_NO.TabIndex = 85;
 			this.txtsPROJECT_NO.Tag = null;
+			this.txtsPROJECT_NO.TextChanged += new System.EventHandler(this.txtsPROJECT_NO_TextChanged);
 			// 
 			// c1Label3
 			// 
@@ -472,6 +507,7 @@ namespace SCM.SCM032
 			this.btnsCUST.TabIndex = 82;
 			this.btnsCUST.Tag = "";
 			this.btnsCUST.UseVisualStyleBackColor = true;
+			this.btnsCUST.Click += new System.EventHandler(this.btnsCUST_Click);
 			// 
 			// txtsCUST_NM
 			// 
@@ -497,6 +533,7 @@ namespace SCM.SCM032
 			this.txtsCUST_CD.Size = new System.Drawing.Size(90, 21);
 			this.txtsCUST_CD.TabIndex = 81;
 			this.txtsCUST_CD.Tag = null;
+			this.txtsCUST_CD.TextChanged += new System.EventHandler(this.txtsCUST_CD_TextChanged);
 			// 
 			// c1Label2
 			// 
@@ -651,6 +688,7 @@ namespace SCM.SCM032
 			this.btnsITEM.TabIndex = 16;
 			this.btnsITEM.Tag = "";
 			this.btnsITEM.UseVisualStyleBackColor = true;
+			this.btnsITEM.Click += new System.EventHandler(this.btnsITEM_Click);
 			// 
 			// txtsITEM_NM
 			// 
@@ -676,6 +714,7 @@ namespace SCM.SCM032
 			this.txtsITEM_CD.Size = new System.Drawing.Size(90, 21);
 			this.txtsITEM_CD.TabIndex = 15;
 			this.txtsITEM_CD.Tag = null;
+			this.txtsITEM_CD.TextChanged += new System.EventHandler(this.txtsITEM_CD_TextChanged);
 			// 
 			// c1Label14
 			// 
@@ -692,16 +731,34 @@ namespace SCM.SCM032
 			this.c1Label14.TextDetached = true;
 			this.c1Label14.Value = "";
 			// 
-			// btnReportPopup
+			// c1Label9
 			// 
-			this.btnReportPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnReportPopup.Location = new System.Drawing.Point(1040, 18);
-			this.btnReportPopup.Name = "btnReportPopup";
-			this.btnReportPopup.Size = new System.Drawing.Size(139, 27);
-			this.btnReportPopup.TabIndex = 92;
-			this.btnReportPopup.Text = "전진검사 의뢰서";
-			this.btnReportPopup.UseVisualStyleBackColor = true;
-			this.btnReportPopup.Visible = false;
+			this.c1Label9.BackColor = System.Drawing.Color.Red;
+			this.c1Label9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.c1Label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.c1Label9.Location = new System.Drawing.Point(917, 35);
+			this.c1Label9.Name = "c1Label9";
+			this.c1Label9.Size = new System.Drawing.Size(31, 21);
+			this.c1Label9.TabIndex = 98;
+			this.c1Label9.Tag = null;
+			this.c1Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.c1Label9.TextDetached = true;
+			this.c1Label9.Value = "";
+			// 
+			// c1Label10
+			// 
+			this.c1Label10.BackColor = System.Drawing.Color.White;
+			this.c1Label10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			this.c1Label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.c1Label10.Location = new System.Drawing.Point(713, 35);
+			this.c1Label10.Name = "c1Label10";
+			this.c1Label10.Size = new System.Drawing.Size(205, 21);
+			this.c1Label10.TabIndex = 99;
+			this.c1Label10.Tag = null;
+			this.c1Label10.Text = "범례 : 검사의뢰 취소 요청건";
+			this.c1Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.c1Label10.TextDetached = true;
+			this.c1Label10.Value = "";
 			// 
 			// SCM032
 			// 
@@ -711,6 +768,7 @@ namespace SCM.SCM032
 			this.Controls.Add(this.panel1);
 			this.Name = "SCM032";
 			this.Text = "SCM032";
+			this.Load += new System.EventHandler(this.SCM032_Load);
 			this.Controls.SetChildIndex(this.panButton1, 0);
 			this.Controls.SetChildIndex(this.panel1, 0);
 			this.Controls.SetChildIndex(this.GridCommPanel, 0);
@@ -760,6 +818,8 @@ namespace SCM.SCM032
 			((System.ComponentModel.ISupportInitialize)(this.txtsITEM_NM)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtsITEM_CD)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label14)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.c1Label10)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -804,5 +864,7 @@ namespace SCM.SCM032
 		private C1.Win.C1Input.C1TextBox txtsITEM_CD;
 		private C1.Win.C1Input.C1Label c1Label14;
 		private System.Windows.Forms.Button btnReportPopup;
+		private C1.Win.C1Input.C1Label c1Label10;
+		private C1.Win.C1Input.C1Label c1Label9;
 	}
 }
