@@ -15,7 +15,7 @@ namespace SCM.SCM033
 	public partial class SCM033 : UIForm.FPCOMM2_2T
 	{
 		#region 변수
-
+		
 		#endregion
 
 		#region 생성자
@@ -635,7 +635,50 @@ namespace SCM.SCM033
 			}
 
 		}
-		#endregion 
+		#endregion
+
+		#region 증빙파일 등록 및 조회
+		protected override void fpButtonClick(int Row, int Column)
+		{
+			string strPoNo = string.Empty;
+			string strPoSeq = string.Empty;
+			string strFileNo = string.Empty;
+			string strInspSeq = string.Empty;
+
+			try
+			{
+				// 첨부파일
+				if (Column == SystemBase.Base.GridHeadIndex(GHIdx1, "증빙_2") || Column == SystemBase.Base.GridHeadIndex(GHIdx2, "증빙_2"))
+				{
+					if (c1DockingTab1.SelectedIndex == 0)
+					{
+						strPoNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주번호")].Value.ToString();
+						strPoSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주순번")].Value.ToString();
+						strFileNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "임시파일번호")].Value.ToString();
+
+						// 첨부파일 팝업 띄움.
+						WNDWS01 pu = new WNDWS01("", strPoNo, strPoSeq, "", "", "", true, strFileNo, "검사의뢰");
+						pu.ShowDialog();
+					}
+					else
+					{
+						strPoNo = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "발주번호")].Value.ToString();
+						strPoSeq = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "발주순번")].Value.ToString();
+						strInspSeq = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "검사의뢰 순번")].Value.ToString();
+
+						// 첨부파일 팝업 띄움.
+						WNDWS01 pu = new WNDWS01(strPoNo + "/" + strPoSeq + "/" + strInspSeq, strPoNo, strPoSeq, strInspSeq, "", "", false, "", "검사의뢰");
+						pu.ShowDialog();
+					}
+				}
+			}
+			catch (Exception f)
+			{
+				SystemBase.Loggers.Log(this.Name, f.ToString());
+				DialogResult dsMsg = MessageBox.Show(SystemBase.Base.MessageRtn("B0002"), SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);//데이터 조회 중 오류가 발생하였습니다.
+			}
+		}
+		#endregion
 
 	}
 }

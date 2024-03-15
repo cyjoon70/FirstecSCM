@@ -278,6 +278,12 @@
     <Compile Include="WNDW028.Designer.cs">
       <DependentUpon>WNDW028.cs</DependentUpon>
     </Compile>
+    <Compile Include="WNDWS01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WNDWS01.Designer.cs">
+      <DependentUpon>WNDWS01.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -362,8 +368,15 @@
     <EmbeddedResource Include="WNDW028.resx">
       <DependentUpon>WNDW028.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WNDWS01.resx">
+      <DependentUpon>WNDWS01.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EDocument\EDocument.csproj">
+      <Project>{65634ed7-0fea-49fd-a4a1-9f9673d8e5f9}</Project>
+      <Name>EDocument</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SystemBase\SystemBase.csproj">
       <Project>{45841e94-e806-4573-a93b-26d50a07ea9c}</Project>
       <Name>SystemBase</Name>

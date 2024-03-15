@@ -206,15 +206,8 @@ namespace SCM.SCM031
             try
             {
 
-                if (string.IsNullOrEmpty(txtSeq.Text))
-                {
-                    MessageBox.Show("공지사항 데이터를 조회 후, 첨부파일을 확인하시기 바랍니다.", SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-
-                // 첨부파일 팝업 띄움. 
-                SCM031P1 pu = new SCM031P1("SC01" + txtSeq.Text, true);
+                // 첨부파일 팝업 띄움.
+                WNDWS01 pu = new WNDWS01(txtSeq.Text, txtSeq.Text, "", "", "", "", false, "", "공지사항");
                 pu.ShowDialog();
             }
             catch (Exception f)

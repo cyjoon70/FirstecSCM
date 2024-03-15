@@ -1,7 +1,7 @@
 ﻿
-namespace SCM.SCM031
+namespace WNDW
 {
-	partial class SCM031P1
+	partial class WNDWS01
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -53,20 +53,20 @@ namespace SCM.SCM031
 			this.GridCommGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
 			this.GridCommGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.GridCommGroupBox.Location = new System.Drawing.Point(0, 0);
-			this.GridCommGroupBox.Size = new System.Drawing.Size(1316, 386);
+			this.GridCommGroupBox.Size = new System.Drawing.Size(800, 386);
 			// 
 			// GridCommPanel
 			// 
 			this.GridCommPanel.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.GridCommPanel.Location = new System.Drawing.Point(0, 64);
-			this.GridCommPanel.Size = new System.Drawing.Size(1316, 386);
+			this.GridCommPanel.Size = new System.Drawing.Size(800, 386);
 			// 
 			// fpSpread1
 			// 
 			this.fpSpread1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
 			this.fpSpread1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.fpSpread1.Location = new System.Drawing.Point(3, 21);
-			this.fpSpread1.Size = new System.Drawing.Size(1310, 362);
+			this.fpSpread1.Size = new System.Drawing.Size(794, 362);
 			// 
 			// fpSpread1_Sheet1
 			// 
@@ -74,17 +74,16 @@ namespace SCM.SCM031
 			// 
 			// panButton1
 			// 
-			this.panButton1.Size = new System.Drawing.Size(1316, 64);
+			this.panButton1.Size = new System.Drawing.Size(800, 64);
 			// 
-			// SCM031P1
+			// WNDWS01
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1316, 450);
-			this.Name = "SCM031P1";
-			this.Text = "SCM031P1";
-			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SCM031P1_FormClosing);
-			this.Load += new System.EventHandler(this.SCM031P1_Load);
+			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Name = "WNDWS01";
+			this.Text = "WNDWS01";
+			this.Load += new System.EventHandler(this.WNDWS01_Load);
 			this.GridCommGroupBox.ResumeLayout(false);
 			this.GridCommPanel.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.fpSpread1)).EndInit();

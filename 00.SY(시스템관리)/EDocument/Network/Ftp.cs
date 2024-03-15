@@ -368,14 +368,17 @@ namespace EDocument.Network
 			FtpWebRequest request = (FtpWebRequest)WebRequest.Create(ftpFilename);
 			request.Credentials = new NetworkCredential(ftpId, ftpPw);
 			request.Method = WebRequestMethods.Ftp.DownloadFile;
-            request.UsePassive = false;     // 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
 
-            FtpWebResponse response = null;
+			// 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+			// 2024.3.15. cyj 제거: 이유는 모름. scm에서는 제거하면 정상 작동함
+			//request.UsePassive = false;     // 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+
+			FtpWebResponse response = null;
 			try
 			{
 				response = (FtpWebResponse)request.GetResponse();
 			}
-			catch
+			catch(Exception ex)
 			{
 				resultCode = FtpStatusCode.Undefined;
 				resultMessage = "서버에 연결할 수 없습니다. 경로가 잘못됐거나 권한문제일 수 있습니다.";
