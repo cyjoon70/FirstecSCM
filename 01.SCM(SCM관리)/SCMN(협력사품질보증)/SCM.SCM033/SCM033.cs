@@ -180,7 +180,7 @@ namespace SCM.SCM033
 
 			if ((SystemBase.Validation.FPGrid_SaveCheck(fpSpread1, this.Name, "fpSpread1", true) == true))// 그리드 필수항목 체크 
 			{
-				string ERRCode = "ER", MSGCode = "SY001" /*처리할 내용이 없습니다.*/, MSGErr = string.Empty;    
+				string ERRCode = "ER", MSGCode = "SY001" /*처리할 내용이 없습니다.*/, MSGErr = string.Empty, InsSeq = string.Empty;    
 
 				SqlConnection dbConn = SystemBase.DbOpen.DBCON();
 				SqlCommand cmd = dbConn.CreateCommand();
@@ -287,11 +287,35 @@ namespace SCM.SCM033
 							DataSet ds = SystemBase.DbOpen.TranDataSet(strSql, dbConn, Trans);
 							ERRCode = ds.Tables[0].Rows[0][0].ToString();
 							MSGCode = ds.Tables[0].Rows[0][1].ToString();
-							
-							if (ERRCode != "OK") { Trans.Rollback(); goto Exit; }   // ER 코드 Return시 점프
+							InsSeq = ds.Tables[0].Rows[0][3].ToString();
+
+							if (ERRCode != "OK")
+							{
+								Trans.Rollback(); goto Exit; 
+							}   // ER 코드 Return시 점프
+							else
+							{
+								strSql = "";
+								strSql = " usp_SCM033 @pTYPE		= 'U2'";
+								strSql = strSql + ", @pCOMP_CODE	= '" + SystemBase.Base.gstrCOMCD + "'";
+								strSql = strSql + ", @pPO_NO		= '" + fpSpread1.Sheets[0].Cells[i, SystemBase.Base.GridHeadIndex(GHIdx1, "발주번호")].Text + "'";
+								strSql = strSql + ", @pPO_SEQ		= '" + fpSpread1.Sheets[0].Cells[i, SystemBase.Base.GridHeadIndex(GHIdx1, "발주순번")].Text + "'";
+								strSql = strSql + ", @pINS_SEQ		= '" + InsSeq + "'";
+								strSql = strSql + ", @pFILES_NO		= '" + fpSpread1.Sheets[0].Cells[i, SystemBase.Base.GridHeadIndex(GHIdx1, "임시파일번호")].Text + "'";
+
+								DataSet ds2 = SystemBase.DbOpen.TranDataSet(strSql, dbConn, Trans);
+								ERRCode = ds2.Tables[0].Rows[0][0].ToString();
+								MSGCode = ds2.Tables[0].Rows[0][1].ToString();
+
+								if (ERRCode != "OK")
+								{
+									Trans.Rollback(); goto Exit;
+								}   // ER 코드 Return시 점프
+							}
+
+							Trans.Commit();
 						}
 					}
-					Trans.Commit();
 				}
 				catch
 				{
@@ -643,33 +667,54 @@ namespace SCM.SCM033
 			string strPoNo = string.Empty;
 			string strPoSeq = string.Empty;
 			string strFileNo = string.Empty;
+
+			try
+			{
+				// 첨부파일
+				if (Column == SystemBase.Base.GridHeadIndex(GHIdx1, "증빙_2"))
+				{
+					strPoNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주번호")].Value.ToString();
+					strPoSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주순번")].Value.ToString();
+					strFileNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "임시파일번호")].Value.ToString();
+
+					// 첨부파일 팝업 띄움.
+					WNDWS01 pu = new WNDWS01("", strPoNo, strPoSeq, "", "", "", true, strFileNo, "검사의뢰");
+					pu.ShowDialog();
+
+					// 2022.05.20. hma 수정(Start): 지출증빙 팝업 리턴값 체크하여 증빙건수 Refresh 처리 
+					string[] Msgs = pu.ReturnVal;
+					if (Msgs != null && Msgs[0] == "Y")
+						fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "증빙")].Value = Msgs[0];
+					else
+						fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "증빙")].Value = "";
+
+				}
+			}
+			catch (Exception f)
+			{
+				SystemBase.Loggers.Log(this.Name, f.ToString());
+				DialogResult dsMsg = MessageBox.Show(SystemBase.Base.MessageRtn("B0002"), SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);//데이터 조회 중 오류가 발생하였습니다.
+			}
+		}
+
+		protected override void fpButtonClick2(int Row, int Column)
+		{
+			string strPoNo = string.Empty;
+			string strPoSeq = string.Empty;
 			string strInspSeq = string.Empty;
 
 			try
 			{
 				// 첨부파일
-				if (Column == SystemBase.Base.GridHeadIndex(GHIdx1, "증빙_2") || Column == SystemBase.Base.GridHeadIndex(GHIdx2, "증빙_2"))
+				if (Column == SystemBase.Base.GridHeadIndex(GHIdx2, "증빙_2"))
 				{
-					if (c1DockingTab1.SelectedIndex == 0)
-					{
-						strPoNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주번호")].Value.ToString();
-						strPoSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주순번")].Value.ToString();
-						strFileNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "임시파일번호")].Value.ToString();
+					strPoNo = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "발주번호")].Value.ToString();
+					strPoSeq = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "발주순번")].Value.ToString();
+					strInspSeq = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "검사의뢰 순번")].Value.ToString();
 
-						// 첨부파일 팝업 띄움.
-						WNDWS01 pu = new WNDWS01("", strPoNo, strPoSeq, "", "", "", true, strFileNo, "검사의뢰");
-						pu.ShowDialog();
-					}
-					else
-					{
-						strPoNo = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "발주번호")].Value.ToString();
-						strPoSeq = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "발주순번")].Value.ToString();
-						strInspSeq = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "검사의뢰 순번")].Value.ToString();
-
-						// 첨부파일 팝업 띄움.
-						WNDWS01 pu = new WNDWS01(strPoNo + "/" + strPoSeq + "/" + strInspSeq, strPoNo, strPoSeq, strInspSeq, "", "", false, "", "검사의뢰");
-						pu.ShowDialog();
-					}
+					// 첨부파일 팝업 띄움.
+					WNDWS01 pu = new WNDWS01(strPoNo + "/" + strPoSeq + "/" + strInspSeq, strPoNo, strPoSeq, strInspSeq, "", "", false, "", "검사의뢰");
+					pu.ShowDialog();
 				}
 			}
 			catch (Exception f)

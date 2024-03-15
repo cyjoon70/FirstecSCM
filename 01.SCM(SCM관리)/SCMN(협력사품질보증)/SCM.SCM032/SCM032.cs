@@ -166,13 +166,28 @@ namespace SCM.SCM032
 		#region 그리드 이벤트
 		protected override void fpButtonClick(int Row, int Column)
 		{
-			string strNo = string.Empty;
-			strNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "SCM일련번호")].Text;
+			string strPoNo = string.Empty;
+			string strPoSeq = string.Empty;
+			string strInspSeq = string.Empty;
 
-			if (Column == SystemBase.Base.GridHeadIndex(GHIdx1, "증빙_2"))
+			try
 			{
-				UIForm.FileUpDown fileUpDown = new UIForm.FileUpDown("SC02" + strNo, "N#Y#N");
-				fileUpDown.ShowDialog();
+				// 첨부파일
+				if (Column == SystemBase.Base.GridHeadIndex(GHIdx1, "증빙_2"))
+				{
+					strPoNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주번호")].Value.ToString();
+					strPoSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주순번")].Value.ToString();
+					strInspSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "검사의뢰 순번")].Value.ToString();
+
+					// 첨부파일 팝업 띄움.
+					WNDWS01 pu = new WNDWS01(strPoNo + "/" + strPoSeq + "/" + strInspSeq, strPoNo, strPoSeq, strInspSeq, "", "", false, "", "검사의뢰");
+					pu.ShowDialog();
+				}
+			}
+			catch (Exception f)
+			{
+				SystemBase.Loggers.Log(this.Name, f.ToString());
+				DialogResult dsMsg = MessageBox.Show(SystemBase.Base.MessageRtn("B0002"), SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);//데이터 조회 중 오류가 발생하였습니다.
 			}
 		}
 

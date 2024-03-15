@@ -55,9 +55,12 @@ namespace EDocument.Network
 				var request = (FtpWebRequest)WebRequest.Create(url);
 				request.Credentials = new NetworkCredential(username, password);
 				request.Method = WebRequestMethods.Ftp.PrintWorkingDirectory;
-                request.UsePassive = false;     // 2018.02.27. hma 추가: FTP 연결시 Passive 연결이 되지 않도록 하기 위해.
 
-                FtpWebResponse response = (FtpWebResponse)request.GetResponse();
+				// 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+				// 2024.3.15. cyj 제거: scm에서는 passive mode
+				//request.UsePassive = false;
+
+				FtpWebResponse response = (FtpWebResponse)request.GetResponse();
 				return true;
 			}
 			catch (WebException ex)
@@ -134,9 +137,12 @@ namespace EDocument.Network
 			FtpWebRequest request = (FtpWebRequest)WebRequest.Create(ftpFilename);
 			request.Credentials = new NetworkCredential(ftpId, ftpPw);
 			request.Method = WebRequestMethods.Ftp.DeleteFile;
-            request.UsePassive = false;     // 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
 
-            FtpWebResponse response = null;
+			// 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+			// 2024.3.15. cyj 제거: scm에서는 passive mode
+			//request.UsePassive = false;
+
+			FtpWebResponse response = null;
 			try
 			{
 				response = (FtpWebResponse)request.GetResponse();
@@ -183,9 +189,12 @@ namespace EDocument.Network
 			FtpWebRequest request = (FtpWebRequest)WebRequest.Create(ftpFilename);
 			request.Credentials = new NetworkCredential(ftpId, ftpPw);
 			request.Method = WebRequestMethods.Ftp.DownloadFile;
-            request.UsePassive = false;         // 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
 
-            FtpWebResponse response = null;
+			// 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+			// 2024.3.15. cyj 제거: scm에서는 passive mode
+			//request.UsePassive = false;
+
+			FtpWebResponse response = null;
 			try
 			{
 				response = (FtpWebResponse)request.GetResponse();
@@ -370,8 +379,8 @@ namespace EDocument.Network
 			request.Method = WebRequestMethods.Ftp.DownloadFile;
 
 			// 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
-			// 2024.3.15. cyj 제거: 이유는 모름. scm에서는 제거하면 정상 작동함
-			//request.UsePassive = false;     // 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+			// 2024.3.15. cyj 제거: scm에서는 passive mode
+			//request.UsePassive = false;
 
 			FtpWebResponse response = null;
 			try
@@ -533,7 +542,10 @@ namespace EDocument.Network
 			FtpWebRequest request = (FtpWebRequest)WebRequest.Create(ftpFilename);
 			request.Credentials = new NetworkCredential(ftpId, ftpPw);
 			request.Method = WebRequestMethods.Ftp.UploadFile;
-            request.UsePassive = false;     // 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+
+			// 2018.02.28. hma 추가: Passive 모드로 처리되지 않도록 함.
+			// 2024.3.15. cyj 제거: scm에서는 passive mode
+			//request.UsePassive = false;
 
 			// 파일 전송
 			const int bufferSize = 10000000;

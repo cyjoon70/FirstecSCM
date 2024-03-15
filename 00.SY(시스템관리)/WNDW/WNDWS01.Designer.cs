@@ -83,6 +83,7 @@ namespace WNDW
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Name = "WNDWS01";
 			this.Text = "WNDWS01";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WNDWS01_FormClosing);
 			this.Load += new System.EventHandler(this.WNDWS01_Load);
 			this.GridCommGroupBox.ResumeLayout(false);
 			this.GridCommPanel.ResumeLayout(false);
