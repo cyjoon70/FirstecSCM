@@ -122,7 +122,7 @@
     <Compile Include="SCM034.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SCM034.Designer.cs">
+    <Compile Include="SCM034.designer.cs">
       <DependentUpon>SCM034.cs</DependentUpon>
     </Compile>
   </ItemGroup>

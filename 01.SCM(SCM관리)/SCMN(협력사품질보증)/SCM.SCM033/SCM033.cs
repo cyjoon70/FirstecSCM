@@ -10,6 +10,9 @@ using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using WNDW;
 
+/// <summary>
+/// 검사의뢰/취소
+/// </summary>
 namespace SCM.SCM033
 {
 	public partial class SCM033 : UIForm.FPCOMM2_2T
@@ -678,7 +681,7 @@ namespace SCM.SCM033
 					strFileNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "임시파일번호")].Value.ToString();
 
 					// 첨부파일 팝업 띄움.
-					WNDWS01 pu = new WNDWS01("", strPoNo, strPoSeq, "", "", "", true, strFileNo, "검사의뢰");
+					WNDWS01 pu = new WNDWS01("", strPoNo, strPoSeq, "", "", "", true, strFileNo, "검사의뢰", "SCMRE");
 					pu.ShowDialog();
 
 					// 2022.05.20. hma 수정(Start): 지출증빙 팝업 리턴값 체크하여 증빙건수 Refresh 처리 
@@ -713,7 +716,7 @@ namespace SCM.SCM033
 					strInspSeq = fpSpread2.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx2, "검사의뢰 순번")].Value.ToString();
 
 					// 첨부파일 팝업 띄움.
-					WNDWS01 pu = new WNDWS01(strPoNo + "/" + strPoSeq + "/" + strInspSeq, strPoNo, strPoSeq, strInspSeq, "", "", false, "", "검사의뢰");
+					WNDWS01 pu = new WNDWS01(strPoNo + "/" + strPoSeq + "/" + strInspSeq, strPoNo, strPoSeq, strInspSeq, "", "", false, "", "검사의뢰", "SCMRE");
 					pu.ShowDialog();
 				}
 			}

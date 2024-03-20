@@ -9,6 +9,9 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using WNDW;
 
+/// <summary>
+/// 공지사항
+/// </summary>
 namespace SCM.SCM031
 {
 	public partial class SCM031 : UIForm.FPCOMM1
