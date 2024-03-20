@@ -122,7 +122,7 @@ namespace SCM.SCM033
 					{
 						for (int i = 0; i < fpSpread2.Sheets[0].Rows.Count; i++)
 						{
-							if (fpSpread2.Sheets[0].Cells[i, SystemBase.Base.GridHeadIndex(GHIdx2, "검사일 확정여부")].Text == "True"
+							if (fpSpread2.Sheets[0].Cells[i, SystemBase.Base.GridHeadIndex(GHIdx2, "상태")].Text == "검사완료"
 								|| fpSpread2.Sheets[0].Cells[i, SystemBase.Base.GridHeadIndex(GHIdx2, "검사의뢰 취소")].Text == "True")
 							{
 								UIForm.FPMake.grdReMake(fpSpread2, i, SystemBase.Base.GridHeadIndex(GHIdx2, "검사의뢰 취소") + "|3");

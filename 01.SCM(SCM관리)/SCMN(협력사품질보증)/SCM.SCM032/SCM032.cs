@@ -177,7 +177,7 @@ namespace SCM.SCM032
 				{
 					strPoNo = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주번호")].Value.ToString();
 					strPoSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "발주순번")].Value.ToString();
-					strInspSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "검사의뢰 순번")].Value.ToString();
+					strInspSeq = fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "검사의뢰순번")].Value.ToString();
 
 					// 첨부파일 팝업 띄움.
 					WNDWS01 pu = new WNDWS01(strPoNo + "/" + strPoSeq + "/" + strInspSeq, strPoNo, strPoSeq, strInspSeq, "", "", false, "", "검사의뢰");
@@ -198,25 +198,18 @@ namespace SCM.SCM032
 
 			try
 			{
-				if (Column == SystemBase.Base.GridHeadIndex(GHIdx1, "검사(의뢰)수량") || Column == SystemBase.Base.GridHeadIndex(GHIdx1, "합격수량"))
+				if (Column == SystemBase.Base.GridHeadIndex(GHIdx1, "검사(의뢰)수량") || Column == SystemBase.Base.GridHeadIndex(GHIdx1, "불량수량"))
 				{
 					dInspQty = Convert.ToDecimal(fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "검사(의뢰)수량")].Value);
-					dRejQty = Convert.ToDecimal(fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "합격수량")].Value);
-					fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "불량수량")].Value = dInspQty - dRejQty;
+					dRejQty = Convert.ToDecimal(fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "불량수량")].Value);
+					fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "합격수량")].Value = dInspQty - dRejQty;
+									
+					if (dRejQty > 0)
+						fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "판정")].Value = "R";
+					else
+						fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "판정")].Value = "A";
 				}
-
-				if (fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "검사확정여부")].Text == "True")
-				{
-					// readonly
-					UIForm.FPMake.grdReMake(fpSpread1, Row,
-						 SystemBase.Base.GridHeadIndex(GHIdx1, "검사예정일") + "|1");
-				}
-				else if (fpSpread1.Sheets[0].Cells[Row, SystemBase.Base.GridHeadIndex(GHIdx1, "검사확정여부")].Text == "False")
-				{
-					// 일반
-					UIForm.FPMake.grdReMake(fpSpread1, Row,
-						 SystemBase.Base.GridHeadIndex(GHIdx1, "검사예정일") + "|0");
-				}
+								
 			}
 			catch (Exception f)
 			{

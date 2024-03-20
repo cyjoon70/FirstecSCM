@@ -30,6 +30,7 @@ namespace WNDW
         string ApprId = string.Empty;
         string RandNo = string.Empty;
         string Titles = string.Empty;
+        string DocCd = string.Empty;
 
         /// <summary>
         /// 파일 업로드 권한
@@ -82,7 +83,7 @@ namespace WNDW
         /// <param name="strRandNo"></param>
         /// <param name="strTitle"></param>
         public WNDWS01(string strAttKey, string strAttKey1, string strAttKey2, string strAttKey3, string strAttKey4,
-                        string APPR_ID, bool GW_STATUS, string strRandNo, string strTitle) : this()
+                        string APPR_ID, bool GW_STATUS, string strRandNo, string strTitle, string strDocCd) : this()
         {
             this.AttKey = strAttKey;
             this.AttKey1 = strAttKey1;
@@ -93,6 +94,7 @@ namespace WNDW
             this.GwStatus = GW_STATUS;
             this.RandNo = strRandNo;
             this.Titles = strTitle;
+            this.DocCd = strDocCd;
 
             this.Size = new System.Drawing.Size(1240, 650);
         }
@@ -137,7 +139,7 @@ namespace WNDW
 
                 this.Text = this.Titles + " 첨부파일";
 
-                G1Etc[SystemBase.Base.GridHeadIndex(GHIdx1, "문서종류")] = SystemBase.ComboMake.ComboOnGrid("usp_T_DOC_CODE @pTYPE = 'S1', @pDOC_CTG_CD = 'SCM', @pCO_CD = '" + SystemBase.Base.gstrCOMCD + "'", 0); // 문서종류
+                G1Etc[SystemBase.Base.GridHeadIndex(GHIdx1, "문서종류")] = SystemBase.ComboMake.ComboOnGrid("usp_T_DOC_CODE @pTYPE = 'S1', @pDOC_CTG_CD = 'SCM', @pDOC_CD = '" + this.DocCd + "', @pCO_CD = '" + SystemBase.Base.gstrCOMCD + "'", 0); // 문서종류
 
                 UIForm.FPMake.grdCommSheet(fpSpread1, null, G1Head1, G1Head2, G1Head3, G1Width, G1Align, G1Type, G1Color, G1Etc, G1HeadCnt, false, false, 0, 0);
 
@@ -192,14 +194,16 @@ namespace WNDW
                     query = "usp_T_DOC 'ST1'"
                     + ", @pDOC_CTG_CD   = 'SCM'"
                     + ", @pCO_CD        = '" + SystemBase.Base.gstrCOMCD + "'"
-                    + ", @pTMP_NO       = '" + this.RandNo + "'";
+                    + ", @pTMP_NO       = '" + this.RandNo + "'"
+                    + ", @pDOC_CD       = '" + this.DocCd + "'";
                 }
                 else
                 {
-                    query = "usp_T_DOC 'S1'"
+                    query = "usp_T_DOC 'ST1'"
                     + ", @pDOC_CTG_CD   = 'SCM'"
                     + ", @pCO_CD        = '" + SystemBase.Base.gstrCOMCD + "'"
-                    + ", @pATT_KEY      = '" + this.AttKey + "'";
+                    + ", @pATT_KEY      = '" + this.AttKey + "'"
+                    + ", @pDOC_CD       = '" + this.DocCd + "'";
                 }
 
                 UIForm.FPMake.grdCommSheet(fpSpread1, query, G1Head1, G1Head2, G1Head3, G1Width, G1Align, G1Type, G1Color, G1Etc, G1HeadCnt, false, false, 0, 0);
@@ -249,6 +253,9 @@ namespace WNDW
             int newRow = sheet.ActiveRowIndex;
             sheet.Cells[newRow, colRegUsrId].Value = SystemBase.Base.gstrUserID;
             sheet.Cells[newRow, colRegUsrNm].Value = SystemBase.Base.gstrUserName;
+            sheet.Cells[newRow, colDocCd].Value = this.DocCd;
+            sheet.Cells[newRow, colDocNm].Value = this.DocCd;
+
             buttonManager.UpdateButtons(newRow); // 버튼 업데이트
         }
 
