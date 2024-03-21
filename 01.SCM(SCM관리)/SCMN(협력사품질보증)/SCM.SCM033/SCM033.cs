@@ -533,7 +533,7 @@ namespace SCM.SCM033
 		{
 			try
 			{
-				string strQuery = " usp_SC_COMM_POPUP @pTYPE = 'S1' , @pCO_CD='" + SystemBase.Base.gstrCOMCD + "', @pCUST_CD = '" + SystemBase.Base.gstrUserID + "'";
+				string strQuery = " usp_SC_COMM_POPUP @pTYPE = 'S1' , @pCO_CD='" + SystemBase.Base.gstrCOMCD + "', @pCUST_CD = '" + txt1CustCd.Text + "'";
 				string[] strWhere = new string[] { "@pCD", "@pNM" };
 				string[] strSearch;
 
@@ -611,7 +611,7 @@ namespace SCM.SCM033
 		{
 			try
 			{
-				string strQuery = " usp_SC_COMM_POPUP @pTYPE = 'S2' , @pCO_CD='" + SystemBase.Base.gstrCOMCD + "', @pCUST_CD = '" + SystemBase.Base.gstrUserID + "'";
+				string strQuery = " usp_SC_COMM_POPUP @pTYPE = 'S2' , @pCO_CD='" + SystemBase.Base.gstrCOMCD + "', @pCUST_CD = '" + txt1CustCd.Text + "'";
 				string[] strWhere = new string[] { "@pCD", "@pNM" };
 				string[] strSearch;
 

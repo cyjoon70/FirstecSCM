@@ -17,6 +17,9 @@ using EDocument.Extensions.FpSpreadExtension;
 using EDocument.Network;
 using EDocument.Spread;
 
+/// <summary>
+/// SCM 공용 첨부파일
+/// </summary>
 namespace WNDW
 {
     public partial class WNDWS01 : UIForm.FPCOMM1

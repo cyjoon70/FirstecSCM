@@ -20,6 +20,7 @@ namespace SCM.SCM034
     {
 
 		#region 변수
+		// scm에서 저장된 데이터는 수정 불가. 반려후 가능
 		string SaveYn = string.Empty;
 		#endregion
 

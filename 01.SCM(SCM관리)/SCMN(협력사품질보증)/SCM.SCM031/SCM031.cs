@@ -210,7 +210,7 @@ namespace SCM.SCM031
             {
 
                 // 첨부파일 팝업 띄움.
-                WNDWS01 pu = new WNDWS01(txtSeq.Text, txtSeq.Text, "", "", "", "", false, "", "공지사항");
+                WNDWS01 pu = new WNDWS01(txtSeq.Text, txtSeq.Text, "", "", "", "", false, "", "공지사항", "SCMNO");
                 pu.ShowDialog();
             }
             catch (Exception f)
