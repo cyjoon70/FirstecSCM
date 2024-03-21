@@ -396,10 +396,10 @@ namespace SCM.SCM034
 
 			try
 			{
-				if (SaveYn == "Y") bAuth = false;
+				if (chkAPPROVAL_Y .Checked || chkFST_APPROVAL_Y.Checked || SaveYn == "Y") bAuth = false;
 
-				// 첨부파일 팝업 띄움.
-				WNDWS01 pu = new WNDWS01(txtCORR_NO.Text, txtCORR_NO.Text, "", "", "", "", bAuth, "", "시정조치", "SCMCA");
+				 // 첨부파일 팝업 띄움.
+				 WNDWS01 pu = new WNDWS01(txtCORR_NO.Text, txtCORR_NO.Text, "", "", "", "", bAuth, "", "시정조치", "SCMCA");
 				pu.ShowDialog();
 			}
 			catch (Exception f)

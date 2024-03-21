@@ -50,7 +50,7 @@ namespace SCM.SCM035
 			SystemBase.ComboMake.C1Combo(cboDefectType, "usp_B_COMMON @pType='COMM', @pCODE = 'SC220', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 9);
 
 			// 진행상태 콤보박스 세팅
-			SystemBase.ComboMake.C1Combo(cbosSTATUS, "usp_SC008 @pType='C1', @pMAJOR_CD = 'SC120', @pREL_CD1 = 'SC008', @pCOMP_CODE = '" + SystemBase.Base.gstrCOMCD + "'", 3);
+			SystemBase.ComboMake.C1Combo(cbosSTATUS, "usp_SCM035 @pType='C1', @pMAJOR_CD = 'SC120', @pREL_CD1 = 'SC008', @pCOMP_CODE = '" + SystemBase.Base.gstrCOMCD + "'", 3);
 
 			SetInit();
 		}
@@ -142,7 +142,7 @@ namespace SCM.SCM035
 
 			try
 			{
-				if (SaveYn == "Y") bAuth = false;
+				if (chkAPPROVAL_Y.Checked || SaveYn == "Y") bAuth = false;
 
 				// 첨부파일 팝업 띄움.
 				WNDWS01 pu = new WNDWS01(txtSEQ.Text, txtSEQ.Text, "", "", "", "", bAuth, "", "부적합품관리", "SCMNP");
