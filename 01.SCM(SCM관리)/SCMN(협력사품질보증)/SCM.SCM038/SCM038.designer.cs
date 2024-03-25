@@ -73,6 +73,7 @@
 			this.c1Label28 = new C1.Win.C1Input.C1Label();
 			this.cdtREC_DT = new C1.Win.C1Input.C1DateEdit();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.cdtAPP_DT = new C1.Win.C1Input.C1DateEdit();
 			this.btnPrj = new C1.Win.C1Input.C1Button();
 			this.txtACT_CUST_ADDR = new C1.Win.C1Input.C1TextBox();
 			this.c1Label29 = new C1.Win.C1Input.C1Label();
@@ -117,7 +118,6 @@
 			this.txtsCUST_NM = new C1.Win.C1Input.C1TextBox();
 			this.txtsCUST_CD = new C1.Win.C1Input.C1TextBox();
 			this.c1Label14 = new C1.Win.C1Input.C1Label();
-			this.cdtAPP_DT = new C1.Win.C1Input.C1DateEdit();
 			this.GridCommGroupBox.SuspendLayout();
 			this.GridCommPanel.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.fpSpread1)).BeginInit();
@@ -171,6 +171,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.c1Label28)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.cdtREC_DT)).BeginInit();
 			this.groupBox2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.cdtAPP_DT)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtACT_CUST_ADDR)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label29)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtACT_CUST_CONN)).BeginInit();
@@ -212,7 +213,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.txtsCUST_NM)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtsCUST_CD)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label14)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.cdtAPP_DT)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// GridCommGroupBox
@@ -530,7 +530,6 @@
 			this.btnTEST_PERSON.TabIndex = 84;
 			this.btnTEST_PERSON.Tag = "";
 			this.btnTEST_PERSON.UseVisualStyleBackColor = true;
-			this.btnTEST_PERSON.Click += new System.EventHandler(this.btnTEST_PERSON_Click);
 			// 
 			// txtTEST_PERSON_NM
 			// 
@@ -556,7 +555,6 @@
 			this.txtTEST_PERSON.Size = new System.Drawing.Size(90, 21);
 			this.txtTEST_PERSON.TabIndex = 83;
 			this.txtTEST_PERSON.Tag = null;
-			this.txtTEST_PERSON.TextChanged += new System.EventHandler(this.txtTEST_PERSON_TextChanged);
 			// 
 			// c1Label33
 			// 
@@ -619,7 +617,6 @@
 			this.btnEST_PERSON.TabIndex = 78;
 			this.btnEST_PERSON.Tag = "";
 			this.btnEST_PERSON.UseVisualStyleBackColor = true;
-			this.btnEST_PERSON.Click += new System.EventHandler(this.btnEST_PERSON_Click);
 			// 
 			// txtEST_PERSON_NM
 			// 
@@ -645,7 +642,6 @@
 			this.txtEST_PERSON.Size = new System.Drawing.Size(90, 21);
 			this.txtEST_PERSON.TabIndex = 77;
 			this.txtEST_PERSON.Tag = null;
-			this.txtEST_PERSON.TextChanged += new System.EventHandler(this.txtEST_PERSON_TextChanged);
 			// 
 			// c1Label31
 			// 
@@ -767,7 +763,6 @@
 			this.btnREC_PERSON.TabIndex = 67;
 			this.btnREC_PERSON.Tag = "";
 			this.btnREC_PERSON.UseVisualStyleBackColor = true;
-			this.btnREC_PERSON.Click += new System.EventHandler(this.btnREC_PERSON_Click);
 			// 
 			// txtEST_TECH_MSG
 			// 
@@ -823,7 +818,6 @@
 			this.txtREC_PERSON.Size = new System.Drawing.Size(90, 21);
 			this.txtREC_PERSON.TabIndex = 66;
 			this.txtREC_PERSON.Tag = "접수자;1;;";
-			this.txtREC_PERSON.TextChanged += new System.EventHandler(this.txtREC_PERSON_TextChanged);
 			// 
 			// c1Label13
 			// 
@@ -913,6 +907,25 @@
 			this.groupBox2.TabIndex = 8;
 			this.groupBox2.TabStop = false;
 			// 
+			// cdtAPP_DT
+			// 
+			this.cdtAPP_DT.AutoSize = false;
+			this.cdtAPP_DT.BackColor = System.Drawing.Color.White;
+			this.cdtAPP_DT.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
+			// 
+			// 
+			// 
+			this.cdtAPP_DT.Calendar.DayNameLength = 1;
+			this.cdtAPP_DT.CustomFormat = "yyyy-MM-dd";
+			this.cdtAPP_DT.FormatType = C1.Win.C1Input.FormatTypeEnum.CustomFormat;
+			this.cdtAPP_DT.Location = new System.Drawing.Point(307, 51);
+			this.cdtAPP_DT.Name = "cdtAPP_DT";
+			this.cdtAPP_DT.Size = new System.Drawing.Size(120, 21);
+			this.cdtAPP_DT.TabIndex = 21;
+			this.cdtAPP_DT.Tag = "신청일;1;;";
+			this.cdtAPP_DT.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
+			this.cdtAPP_DT.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
+			// 
 			// btnPrj
 			// 
 			this.btnPrj.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPrj.BackgroundImage")));
@@ -925,6 +938,7 @@
 			this.btnPrj.TabIndex = 74;
 			this.btnPrj.Tag = "";
 			this.btnPrj.UseVisualStyleBackColor = true;
+			this.btnPrj.Click += new System.EventHandler(this.btnPrj_Click);
 			// 
 			// txtACT_CUST_ADDR
 			// 
@@ -1644,25 +1658,6 @@
 			this.c1Label14.TextDetached = true;
 			this.c1Label14.Value = "";
 			// 
-			// cdtAPP_DT
-			// 
-			this.cdtAPP_DT.AutoSize = false;
-			this.cdtAPP_DT.BackColor = System.Drawing.Color.White;
-			this.cdtAPP_DT.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-			// 
-			// 
-			// 
-			this.cdtAPP_DT.Calendar.DayNameLength = 1;
-			this.cdtAPP_DT.CustomFormat = "yyyy-MM-dd";
-			this.cdtAPP_DT.FormatType = C1.Win.C1Input.FormatTypeEnum.CustomFormat;
-			this.cdtAPP_DT.Location = new System.Drawing.Point(307, 51);
-			this.cdtAPP_DT.Name = "cdtAPP_DT";
-			this.cdtAPP_DT.Size = new System.Drawing.Size(120, 21);
-			this.cdtAPP_DT.TabIndex = 21;
-			this.cdtAPP_DT.Tag = "신청일;1;;";
-			this.cdtAPP_DT.VerticalAlign = C1.Win.C1Input.VerticalAlignEnum.Middle;
-			this.cdtAPP_DT.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown;
-			// 
 			// SCM038
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -1730,6 +1725,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.c1Label28)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.cdtREC_DT)).EndInit();
 			this.groupBox2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.cdtAPP_DT)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtACT_CUST_ADDR)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label29)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtACT_CUST_CONN)).EndInit();
@@ -1771,7 +1767,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.txtsCUST_NM)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtsCUST_CD)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.c1Label14)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.cdtAPP_DT)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

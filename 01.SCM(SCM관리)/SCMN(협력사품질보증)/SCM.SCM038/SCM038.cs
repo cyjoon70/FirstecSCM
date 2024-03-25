@@ -87,10 +87,10 @@ namespace SCM.SCM038
 			SystemBase.Validation.GroupBoxControlsLock(groupBox3, true);
 			SystemBase.Validation.GroupBoxControlsLock(groupBox4, true);
 
-			if (string.IsNullOrEmpty(txtAPPLICATION_NO.Text) || chkEST_RESULT_Y.Checked || SaveYn == "Y")
+			if (chkEST_RESULT_Y.Checked || SaveYn == "Y")
 				SystemBase.Validation.GroupBoxControlsLock(groupBox2, true);
 			else
-				SystemBase.Validation.GroupBoxControlsLock(groupBox2, true);
+				SystemBase.Validation.GroupBoxControlsLock(groupBox2, false);
 
 		}
         #endregion
@@ -130,78 +130,16 @@ namespace SCM.SCM038
 		}
 		#endregion
 
-		#region 접수자, 평가자, 검토자 조회
-		private void btnREC_PERSON_Click(object sender, EventArgs e)
-		{
-			GetPerson(txtREC_PERSON, txtREC_PERSON_NM);
-		}
-
-		private void txtREC_PERSON_TextChanged(object sender, EventArgs e)
-		{
-			txtREC_PERSON_NM.Value = SystemBase.Base.CodeName("MINOR_CD", "CD_NM", "B_COMM_CODE", txtREC_PERSON.Text, " AND MAJOR_CD = 'Q005' AND LANG_CD = '" + SystemBase.Base.gstrLangCd + "' AND COMP_CODE ='" + SystemBase.Base.gstrCOMCD + "'");
-		}
-
-		private void btnEST_PERSON_Click(object sender, EventArgs e)
-		{
-			GetPerson(txtEST_PERSON, txtEST_PERSON_NM);
-		}
-
-		private void txtEST_PERSON_TextChanged(object sender, EventArgs e)
-		{
-			txtEST_PERSON_NM.Value = SystemBase.Base.CodeName("MINOR_CD", "CD_NM", "B_COMM_CODE", txtEST_PERSON.Text, " AND MAJOR_CD = 'Q005' AND LANG_CD = '" + SystemBase.Base.gstrLangCd + "' AND COMP_CODE ='" + SystemBase.Base.gstrCOMCD + "'");
-		}
-
-		private void btnTEST_PERSON_Click(object sender, EventArgs e)
-		{
-			GetPerson(txtTEST_PERSON, txtTEST_PERSON_NM);
-		}
-
-		private void txtTEST_PERSON_TextChanged(object sender, EventArgs e)
-		{
-			txtTEST_PERSON_NM.Value = SystemBase.Base.CodeName("MINOR_CD", "CD_NM", "B_COMM_CODE", txtTEST_PERSON.Text, " AND MAJOR_CD = 'Q005' AND LANG_CD = '" + SystemBase.Base.gstrLangCd + "' AND COMP_CODE ='" + SystemBase.Base.gstrCOMCD + "'");
-		}
-
-		private void GetPerson(C1.Win.C1Input.C1TextBox id, C1.Win.C1Input.C1TextBox name)
-		{
-			try
-			{
-				string strQuery = " usp_B_COMMON 'COMM_POP' ,@pSPEC1='Q005', @pLANG_CD = '" + SystemBase.Base.gstrLangCd + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'";
-				string[] strWhere = new string[] { "@pCODE", "@pNAME" };
-				string[] strSearch = new string[] { id.Text, "" };
-
-				UIForm.FPPOPUP pu = new UIForm.FPPOPUP("P00067", strQuery, strWhere, strSearch, new int[] { 0, 1 }, "검사원 팝업");
-				pu.ShowDialog();
-
-				if (pu.DialogResult == DialogResult.OK)
-				{
-
-					Regex rx1 = new Regex("#");
-					string[] Msgs = rx1.Split(pu.ReturnVal.ToString());
-
-					id.Value = Msgs[0].ToString();
-					name.Value = Msgs[1].ToString();
-				}
-
-			}
-			catch (Exception f)
-			{
-				SystemBase.Loggers.Log(this.Name, f.ToString());
-				DialogResult dsMsg = MessageBox.Show(SystemBase.Base.MessageRtn("B0002"), SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);
-				//데이터 조회 중 오류가 발생하였습니다.
-			}
-		}
-		#endregion
-
 		#region 첨부파일
 		private void btnFiles_Click(object sender, EventArgs e)
 		{
 			bool bAuth = true;
 
-			if (cboAPP_STATUS.Text == "승인")
+			if (cboAPP_STATUS.Text == "승인" || SaveYn == "Y")
 				bAuth = false;
 			else
 			{
-				if (!chkEST_TECH_RESULT_Y.Checked) bAuth = false;
+				if (chkEST_TECH_RESULT_Y.Checked) bAuth = false;
 			}					   		
 
 			// 첨부파일 팝업 띄움.
@@ -385,7 +323,7 @@ namespace SCM.SCM038
 		#region 저장
 		protected override void SaveExec()
 		{
-			string ERRCode = "ER", MSGCode = "", Seq = "", EST_TECH_RESULT = "", EST_RESULT = "", FLAG = "";
+			string ERRCode = "ER", MSGCode = "", Seq = "", FLAG = "";
 
 			SqlConnection dbConn = SystemBase.DbOpen.DBCON();
 			SqlCommand cmd = dbConn.CreateCommand();
@@ -432,8 +370,30 @@ namespace SCM.SCM038
 						goto Exit;  // ER 코드 Return시 점프
 					}
 					else
+					{
 						SaveYn = "Y";
 
+						// 임시저장 첨부파일 키 값 업데이트
+						if (FLAG == "I1")
+						{
+							strQuery = "";
+							strQuery = " usp_SCM038 @pTYPE = 'UF' ";
+							strQuery = strQuery + ", @pCOMP_CODE		= '" + SystemBase.Base.gstrCOMCD + "' ";
+							strQuery = strQuery + ", @sAPPLICATION_NO	= '" + Seq + "' ";
+							strQuery = strQuery + ", @pFILES_NO			= '" + strRan + "' ";
+
+							DataSet ds2 = SystemBase.DbOpen.TranDataSet(strQuery, dbConn, Trans);
+							ERRCode = ds2.Tables[0].Rows[0][0].ToString();
+							MSGCode = ds2.Tables[0].Rows[0][1].ToString();
+
+							if (ERRCode == "ER")
+							{
+								Trans.Rollback();
+								goto Exit;  // ER 코드 Return시 점프
+							}
+						}
+					}
+						
 					Trans.Commit();
 				}
 				catch (Exception ex)
@@ -452,7 +412,102 @@ namespace SCM.SCM038
 			}
 
 		}
-        #endregion
+		#endregion
 
-    }
+		#region 삭제
+		protected override void DeleteExec()
+		{
+			if (string.IsNullOrEmpty(txtAPPLICATION_NO.Text)) return;
+
+			if (chkEST_TECH_RESULT_Y.Checked || chkEST_RESULT_Y.Checked)
+			{
+				MessageBox.Show("승인처리된 건은 삭제할 수 없습니다.");
+				return;
+			}
+
+			DialogResult result = SystemBase.MessageBoxComm.Show("삭제 하시겠습니까?", "삭제", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+			if (result == DialogResult.Yes)
+			{
+				string ERRCode, MSGCode = "";
+
+				SqlConnection dbConn = SystemBase.DbOpen.DBCON();
+				SqlCommand cmd = dbConn.CreateCommand();
+				SqlTransaction Trans = dbConn.BeginTransaction(IsolationLevel.ReadCommitted);
+
+				try
+				{
+					string strQuery = "";
+					strQuery = " usp_SCM038 @pTYPE = 'D1' ";
+					strQuery = strQuery + ", @pCOMP_CODE = '" + SystemBase.Base.gstrCOMCD + "' ";
+					strQuery = strQuery + ", @sAPPLICATION_NO =" + txtAPPLICATION_NO.Text + "";
+
+					DataSet ds = SystemBase.DbOpen.TranDataSet(strQuery, dbConn, Trans);
+					ERRCode = ds.Tables[0].Rows[0][0].ToString();
+					MSGCode = ds.Tables[0].Rows[0][1].ToString();
+
+					if (ERRCode == "ER")
+					{
+						Trans.Rollback();
+						dbConn.Close();
+						MessageBox.Show(SystemBase.Base.MessageRtn(MSGCode));
+						return;
+					}
+					else
+					{
+						Trans.Commit();
+						goto Exit;
+					}
+				}
+				catch (Exception ex)
+				{
+					Trans.Rollback();
+					MessageBox.Show(ex.ToString());
+					MSGCode = "P0001";
+					dbConn.Close();
+					MessageBox.Show(SystemBase.Base.MessageRtn(MSGCode));
+					return;
+				}
+
+			Exit:
+				dbConn.Close();
+				MessageBox.Show(SystemBase.Base.MessageRtn(MSGCode));
+				SystemBase.Validation.GroupBox_Reset(groupBox2);
+				SelectExec("");
+
+			}
+		}
+		#endregion
+
+		#region 프로젝트 조회
+		private void btnPrj_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				string strQuery = " usp_SC_COMM_POPUP @pTYPE = 'S2' , @pCO_CD='" + SystemBase.Base.gstrCOMCD + "', @pCUST_CD = '" + txtsCUST_CD.Text + "'";
+				string[] strWhere = new string[] { "@pCD", "@pNM" };
+				string[] strSearch;
+
+				strSearch = new string[] { txtPROJECT_NO.Text, txtPROJECT_NM.Text };
+
+				UIForm.FPPOPUP pu = new UIForm.FPPOPUP("SCM_COMM_PROJ", strQuery, strWhere, strSearch, new int[] { 0, 1 }, "프로젝트조회");
+				pu.ShowDialog();
+				if (pu.DialogResult == DialogResult.OK)
+				{
+					Regex rx1 = new Regex("#");
+					string[] Msgs = rx1.Split(pu.ReturnVal.ToString());
+
+					txtPROJECT_NO.Value = Msgs[0].ToString();
+					txtPROJECT_NM.Value = Msgs[1].ToString();
+				}
+			}
+			catch (Exception f)
+			{
+				SystemBase.Loggers.Log(this.Name, f.ToString());
+				MessageBox.Show(SystemBase.Base.MessageRtn("B0050", "프로젝트정보 팝업"), SystemBase.Base.MessageRtn("Z0002"), MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+		#endregion
+
+	}
 }
