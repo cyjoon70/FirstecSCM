@@ -33,7 +33,8 @@ namespace SystemBase
 		public static string gstrUserID			= "";	//사용자 ID 저장
 		public static string gstrUserPWD		= "";	//사용자 비밀번호
 		public static string gstrUserName		= "";	//사용자 이름 저장
-        public static string gstrExcelConn      = "";	//EXCEL 연결정보
+        public static string gstrExcelConn      = "";   //EXCEL 연결정보
+		public static string gstrScmAdmin		= "";   //SCM ADMIN 권한
 
 		public static string gstrMacAddress		= "";	//사용자 맥어드레스
         public static string gstrUserIp = "";	//사용자 접속 IP

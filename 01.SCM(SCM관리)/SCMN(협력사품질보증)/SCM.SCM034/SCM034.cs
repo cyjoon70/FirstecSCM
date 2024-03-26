@@ -34,11 +34,7 @@ namespace SCM.SCM034
         #region Form Load 
         private void SCM034_Load(object sender, EventArgs e)
         {
-			if (SystemBase.Base.gstrUserID != "KO132")
-			{
-				txtsCUST_CD.Tag = ";2;;";
-				btnSCust.Tag = ";2;;";
-			}
+			SetAuth();
 
 			SystemBase.Validation.GroupBox_Setting(groupBox1);
 			SystemBase.Validation.GroupBox_Setting(groupBox2);
@@ -78,11 +74,25 @@ namespace SCM.SCM034
             dtsDAY_TO.Text = Convert.ToDateTime(SystemBase.Base.ServerTime("YYMMDD")).AddMonths(1).ToShortDateString();
             dtREG_DT.Value = SystemBase.Base.ServerTime("YYMMDD");
 		}
+
+		private void SetAuth()
+		{
+			if (SystemBase.Base.gstrScmAdmin == "N")
+			{
+				btnSCust.Tag = ";2;;";
+				txtsCUST_CD.Tag = ";2;;";
+
+				txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+				txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
+			}
+		}
 		#endregion
 
 		#region New
 		protected override void NewExec()
         {
+			SetAuth();
+
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
             SystemBase.Validation.GroupBox_Reset(groupBox2);
             SystemBase.Validation.GroupBox_Reset(groupBox3);

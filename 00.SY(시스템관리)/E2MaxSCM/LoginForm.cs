@@ -98,7 +98,8 @@ namespace E2MAXSCM
                             E2MAXSCM.Main.UserName = dt.Rows[0][2].ToString();	        //유저명
                             SystemBase.Base.gstrServerNM = strIp.Trim();				//서버IP
                             SystemBase.Base.gstrUserID = txtID.Text;					//유저ID
-                            SystemBase.Base.gstrUserName = dt.Rows[0][2].ToString();			//사용자명
+                            SystemBase.Base.gstrUserName = dt.Rows[0][2].ToString();	//사용자명
+                            SystemBase.Base.gstrScmAdmin = dt.Rows[0][5].ToString(); ;	//SCM ADMIN 여부
 
                             SystemBase.Base.gstrCOMCD = "";			//법인코드
                             SystemBase.Base.gstrBIZCD = "";			//사업장코드
@@ -107,7 +108,7 @@ namespace E2MAXSCM
                             SystemBase.Base.gstrREORG_ID = "";			//부서개편ID
                             SystemBase.Base.gstrDEPT = "";			//부서코드
                             SystemBase.Base.gstrDEPTNM = "";			//부서명
-
+                            
                             SystemBase.Base.gstrCOMCD = cboCompCd.SelectedValue.ToString();			//법인코드
                             SystemBase.Base.gstrCOMNM = cboCompCd.SelectedText;			//법인명
                             //SystemBase.Base.gstrBIZCD = dt.Rows[0][4].ToString();			//사업장코드

@@ -36,11 +36,7 @@ namespace SCM.SCM036
 		#region Form Load
 		private void SCM036_Load(object sender, EventArgs e)
 		{
-			if (SystemBase.Base.gstrUserID != "KO132")
-			{
-				txtsCUST_CD.Tag = ";2;;";
-				btnsCust.Tag = ";2;;";
-			}
+			SetAuth();
 
 			SystemBase.Validation.GroupBox_Setting(groupBox1);
 			SystemBase.Validation.GroupBox_Setting(groupBox2);
@@ -123,6 +119,18 @@ namespace SCM.SCM036
 			}
 
 			
+		}
+
+		private void SetAuth()
+		{
+			if (SystemBase.Base.gstrScmAdmin == "N")
+			{
+				btnsCust.Tag = ";2;;";
+				txtsCUST_CD.Tag = ";2;;";
+
+				txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+				txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
+			}
 		}
 		#endregion
 
@@ -238,11 +246,15 @@ namespace SCM.SCM036
 		#region New
 		protected override void NewExec()
 		{
+			SetAuth();
+
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
 			SystemBase.Validation.GroupBox_Reset(groupBox2);
 			SystemBase.Validation.GroupBox_Reset(groupBox3);
 			SystemBase.Validation.GroupBox_Reset(groupBox4);
+
 			fpSpread1.Sheets[0].Rows.Count = 0;
+			
 			SaveYn = string.Empty;
 
 			SetInit();

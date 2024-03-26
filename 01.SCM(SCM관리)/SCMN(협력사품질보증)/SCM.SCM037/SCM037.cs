@@ -36,11 +36,7 @@ namespace SCM.SCM037
 		#region Form Load
 		private void SCM037_Load(object sender, EventArgs e)
 		{
-			if (SystemBase.Base.gstrUserID != "KO132")
-			{
-				txtsCUST_CD.Tag = ";2;;";
-				btnsCust.Tag = ";2;;";
-			}
+			SetAuth();
 
 			SystemBase.Validation.GroupBox_Setting(groupBox1);
 			SystemBase.Validation.GroupBox_Setting(groupBox2);
@@ -124,6 +120,18 @@ namespace SCM.SCM037
 					
 				}
 				#endregion
+			}
+		}
+
+		private void SetAuth()
+		{
+			if (SystemBase.Base.gstrScmAdmin == "N")
+			{
+				btnsCust.Tag = ";2;;";
+				txtsCUST_CD.Tag = ";2;;";
+
+				txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+				txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
 			}
 		}
 		#endregion
@@ -224,6 +232,8 @@ namespace SCM.SCM037
 		#region New
 		protected override void NewExec()
 		{
+			SetAuth();
+
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
 			SystemBase.Validation.GroupBox_Reset(groupBox2);
 			SystemBase.Validation.GroupBox_Reset(groupBox3);

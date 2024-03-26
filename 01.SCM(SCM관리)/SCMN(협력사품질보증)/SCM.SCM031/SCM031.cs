@@ -31,26 +31,30 @@ namespace SCM.SCM031
         #region Form Load
         private void SCM031_Load(object sender, EventArgs e)
         {
+            SetAuth();
+
             // 업무구분 콤보박스 세팅
             SystemBase.ComboMake.C1Combo(cbosJobType, "usp_B_COMMON @pType='COMM', @pCODE = 'NO_JOB_TYP', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 3);
             SystemBase.ComboMake.C1Combo(cboJobType, "usp_B_COMMON @pType='COMM', @pCODE = 'NO_JOB_TYP', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 3);
 
             txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
 
-            if (SystemBase.Base.gstrUserID == "KO132")
-            {
-
-            }
-            else
-            {
-                btnsCUST_CD.Tag = ";2;;";
-                txtsCUST_CD.Tag = ";2;;";
-            }
-
             SelectExec(false);
 
             SystemBase.Validation.GroupBox_Setting(groupBox1);
             SystemBase.Validation.GroupBox_Setting(groupBox3);
+        }
+
+        private void SetAuth()
+        {
+            if (SystemBase.Base.gstrScmAdmin == "N")
+            {
+                btnsCUST_CD.Tag = ";2;;";
+                txtsCUST_CD.Tag = ";2;;";
+
+                txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+                txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
+            }
         }
         #endregion
 
@@ -87,6 +91,8 @@ namespace SCM.SCM031
 		#region 초기화
 		protected override void NewExec()
         {
+            SetAuth();
+
             SystemBase.Validation.GroupBox_Reset(groupBox1);
             SystemBase.Validation.GroupBox_Reset(groupBox2);
             SystemBase.Validation.GroupBox_Reset(groupBox3);

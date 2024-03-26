@@ -35,11 +35,7 @@ namespace SCM.SCM039
 		#region Form Load
 		private void SCM039_Load(object sender, EventArgs e)
 		{
-			if (SystemBase.Base.gstrUserID != "KO132")
-			{
-				txtsCUST_CD.Tag = ";2;;";
-				btnsCust.Tag = ";2;;";
-			}
+			SetAuth();
 
 			SystemBase.Validation.GroupBox_Setting(groupBox1);
 			SystemBase.Validation.GroupBox_Setting(groupBox2);
@@ -47,7 +43,10 @@ namespace SCM.SCM039
 
 			// 4M1E 콤보박스 세팅
 			SystemBase.ComboMake.C1Combo(cboFM, "usp_B_COMMON @pType='COMM', @pCODE = 'SC190', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 3);
-			SystemBase.ComboMake.C1Combo(cboFmOe, "usp_B_COMMON @pType='COMM', @pCODE = 'SC190', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 0);
+			SystemBase.ComboMake.C1Combo(cboFmOe, "usp_B_COMMON @pType='COMM', @pCODE = 'SC190', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 9);
+
+			// 등록구분
+			SystemBase.ComboMake.C1Combo(cboREG_TYPE, "usp_B_COMMON @pType='COMM', @pCODE = 'SC200', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 9);
 
 			// 날짜유형 콤보박스 세팅
 			SystemBase.ComboMake.C1Combo(cbosDAY_TYPE, "usp_SC007 @pType='C1', @pMAJOR_CD = 'SC110', @pREL_CD1 = 'SC006', @pCOMP_CODE = '" + SystemBase.Base.gstrCOMCD + "'");
@@ -82,6 +81,18 @@ namespace SCM.SCM039
 			else
 				SystemBase.Validation.GroupBoxControlsLock(groupBox2, false);
 		}
+
+		private void SetAuth()
+		{
+			if (SystemBase.Base.gstrScmAdmin == "N")
+			{
+				btnsCust.Tag = ";2;;";
+				txtsCUST_CD.Tag = ";2;;";
+
+				txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+				txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
+			}
+		}
 		#endregion
 
 		#region 첨부파일
@@ -99,6 +110,8 @@ namespace SCM.SCM039
 		#region New
 		protected override void NewExec()
 		{
+			SetAuth();
+
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
 			SystemBase.Validation.GroupBox_Reset(groupBox2);
 			SystemBase.Validation.GroupBox_Reset(groupBox3);
@@ -341,7 +354,72 @@ namespace SCM.SCM039
 
 		}
 		#endregion
-				
+
+		#region 삭제
+		protected override void DeleteExec()
+		{
+			if (string.IsNullOrEmpty(txtMGT_NO.Text)) return;
+
+			if (chkAPPROVAL_Y.Checked)
+			{
+				MessageBox.Show("승인처리된 건은 삭제할 수 없습니다.");
+				return;
+			}
+
+			DialogResult result = SystemBase.MessageBoxComm.Show("삭제 하시겠습니까?", "삭제", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+			if (result == DialogResult.Yes)
+			{
+				string ERRCode, MSGCode = "";
+
+				SqlConnection dbConn = SystemBase.DbOpen.DBCON();
+				SqlCommand cmd = dbConn.CreateCommand();
+				SqlTransaction Trans = dbConn.BeginTransaction(IsolationLevel.ReadCommitted);
+
+				try
+				{
+					string strQuery = "";
+					strQuery = " usp_SCM039 @pTYPE = 'D1' ";
+					strQuery = strQuery + ", @pCOMP_CODE = '" + SystemBase.Base.gstrCOMCD + "' ";
+					strQuery = strQuery + ", @sMGT_NO =" + txtsMGT_NO.Text + "";
+
+					DataSet ds = SystemBase.DbOpen.TranDataSet(strQuery, dbConn, Trans);
+					ERRCode = ds.Tables[0].Rows[0][0].ToString();
+					MSGCode = ds.Tables[0].Rows[0][1].ToString();
+
+					if (ERRCode == "ER")
+					{
+						Trans.Rollback();
+						dbConn.Close();
+						MessageBox.Show(SystemBase.Base.MessageRtn(MSGCode));
+						return;
+					}
+					else
+					{
+						Trans.Commit();
+						goto Exit;
+					}
+				}
+				catch (Exception ex)
+				{
+					Trans.Rollback();
+					MessageBox.Show(ex.ToString());
+					MSGCode = "P0001";
+					dbConn.Close();
+					MessageBox.Show(SystemBase.Base.MessageRtn(MSGCode));
+					return;
+				}
+
+			Exit:
+				dbConn.Close();
+				MessageBox.Show(SystemBase.Base.MessageRtn(MSGCode));
+				SystemBase.Validation.GroupBox_Reset(groupBox2);
+				SelectExec("");
+
+			}
+		}
+		#endregion
+
 		#region 협력업체 조회 
 		private void btnsCust_Click(object sender, EventArgs e)
 		{
@@ -406,7 +484,7 @@ namespace SCM.SCM039
 					Regex rx1 = new Regex("#");
 					string[] Msgs = rx1.Split(pu.ReturnVal.ToString());
 
-					id.Text = Msgs[0].ToString();
+					id.Value = Msgs[0].ToString();
 					name.Value = Msgs[1].ToString();
 				}
 			}
@@ -448,7 +526,7 @@ namespace SCM.SCM039
 					Regex rx1 = new Regex("#");
 					string[] Msgs = rx1.Split(pu.ReturnVal.ToString());
 
-					id.Text = Msgs[0].ToString();
+					id.Value = Msgs[0].ToString();
 					name.Value = Msgs[1].ToString();
 				}
 			}
@@ -490,7 +568,7 @@ namespace SCM.SCM039
 					Regex rx1 = new Regex("#");
 					string[] Msgs = rx1.Split(pu.ReturnVal.ToString());
 
-					id.Text = Msgs[0].ToString();
+					id.Value = Msgs[0].ToString();
 					name.Value = Msgs[1].ToString();
 				}
 			}

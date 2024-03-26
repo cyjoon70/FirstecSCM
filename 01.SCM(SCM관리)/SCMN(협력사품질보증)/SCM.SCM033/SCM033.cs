@@ -74,12 +74,19 @@ namespace SCM.SCM033
 
 		private void SetAuth()
 		{
-			if (SystemBase.Base.gstrUserID != "KO132")
+			if (SystemBase.Base.gstrScmAdmin == "N")
 			{
 				txt1CustCd.Tag = ";2;;";
 				txt2CustCd.Tag = ";2;;";
+
 				btn1Cust.Tag = ";2;;";
 				btn2Cust.Tag = ";2;;";
+
+				txt1CustCd.Text = SystemBase.Base.gstrUserID;
+				txt1CustNm.Text = SystemBase.Base.gstrUserName;
+
+				txt2CustCd.Text = SystemBase.Base.gstrUserID;
+				txt2CustNm.Text = SystemBase.Base.gstrUserName;
 			}
 		}
 		#endregion

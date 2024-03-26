@@ -40,11 +40,7 @@ namespace SCM.SCM038
 		#region Form Load
 		private void SCM038_Load(object sender, EventArgs e)
 		{
-			if (SystemBase.Base.gstrUserID != "KO132")
-			{
-				txtsCUST_CD.Tag = ";2;;";
-				btnSCust.Tag = ";2;;";
-			}
+			SetAuth();
 
 			SystemBase.Validation.GroupBox_Setting(groupBox1);
 			SystemBase.Validation.GroupBox_Setting(groupBox2);
@@ -93,10 +89,22 @@ namespace SCM.SCM038
 				SystemBase.Validation.GroupBoxControlsLock(groupBox2, false);
 
 		}
-        #endregion
 
-        #region 협력업체 조회 
-        private void btnsCust_Click(object sender, EventArgs e)
+		private void SetAuth()
+		{
+			if (SystemBase.Base.gstrScmAdmin == "N")
+			{
+				btnSCust.Tag = ";2;;";
+				txtsCUST_CD.Tag = ";2;;";
+
+				txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+				txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
+			}
+		}
+		#endregion
+
+		#region 협력업체 조회 
+		private void btnsCust_Click(object sender, EventArgs e)
 		{
 			GetCustInfo(txtsCUST_CD, txtsCUST_NM);
 		}
@@ -151,6 +159,8 @@ namespace SCM.SCM038
 		#region New
 		protected override void NewExec()
 		{
+			SetAuth();
+
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
 			SystemBase.Validation.GroupBox_Reset(groupBox2);
 			SystemBase.Validation.GroupBox_Reset(groupBox3);

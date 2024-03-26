@@ -8,3 +8,4 @@ D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보�
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM034\obj\Debug\SCM.SCM034.pdb
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM034\obj\Debug\SCM.SCM034.SCM034.resources
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM034\obj\Debug\SCM.SCM034.Properties.Resources.resources
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM034\obj\Debug\SCM.SCM034.csproj.AssemblyReference.cache

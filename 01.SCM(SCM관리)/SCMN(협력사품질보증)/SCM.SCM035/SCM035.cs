@@ -36,11 +36,7 @@ namespace SCM.SCM035
 		#region Form Load 
 		private void QA008_Load(object sender, EventArgs e)
 		{
-			if (SystemBase.Base.gstrUserID != "KO132")
-			{
-				txtsCUST_CD.Tag = ";2;;";
-				btnsCust.Tag = ";2;;";
-			}
+			SetAuth();
 
 			// 발생공정 세팅
 			SystemBase.ComboMake.C1Combo(cboOCCUR_PROC, "usp_B_COMMON @pType='COMM', @pCODE = 'SC210', @pLANG_CD = '" + SystemBase.Base.gstrLangCd.ToString() + "', @pCO_CD='" + SystemBase.Base.gstrCOMCD + "'", 9);
@@ -87,6 +83,18 @@ namespace SCM.SCM035
 				SystemBase.Validation.GroupBoxControlsLock(groupBox3, true);
 			else
 				SystemBase.Validation.GroupBoxControlsLock(groupBox3, false);
+		}
+
+		private void SetAuth()
+		{
+			if (SystemBase.Base.gstrScmAdmin == "N")
+			{
+				btnsCust.Tag = ";2;;";
+				txtsCUST_CD.Tag = ";2;;";
+
+				txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
+				txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
+			}
 		}
 		#endregion
 
@@ -158,6 +166,8 @@ namespace SCM.SCM035
 		#region New
 		protected override void NewExec()
 		{
+			SetAuth();
+
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
 			SystemBase.Validation.GroupBox_Reset(groupBox2);
 			SystemBase.Validation.GroupBox_Reset(groupBox3);
