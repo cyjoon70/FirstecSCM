@@ -130,8 +130,8 @@ namespace SCM.SCM037
 				btnsCust.Tag = ";2;;";
 				txtsCUST_CD.Tag = ";2;;";
 
-				txtsCUST_CD.Text = SystemBase.Base.gstrUserID;
-				txtsCUST_NM.Text = SystemBase.Base.gstrUserName;
+				txtsCUST_CD.Value = SystemBase.Base.gstrUserID;
+				txtsCUST_NM.Value = SystemBase.Base.gstrUserName;
 			}
 		}
 		#endregion
@@ -232,8 +232,6 @@ namespace SCM.SCM037
 		#region New
 		protected override void NewExec()
 		{
-			SetAuth();
-
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
 			SystemBase.Validation.GroupBox_Reset(groupBox2);
 			SystemBase.Validation.GroupBox_Reset(groupBox3);
@@ -246,6 +244,7 @@ namespace SCM.SCM037
 			SaveYn = string.Empty;
 
 			SetInit();
+			SetAuth();
 		}
 		#endregion
 

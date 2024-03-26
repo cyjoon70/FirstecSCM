@@ -7,3 +7,4 @@ D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보�
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM039\obj\Debug\SCM.SCM039.SCM039.resources
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM039\obj\Debug\SCM.SCM039.csproj.GenerateResource.cache
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM039\obj\Debug\SCM.SCM039.dll.licenses
+D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM039\obj\Debug\SCM.SCM039.csproj.AssemblyReference.cache

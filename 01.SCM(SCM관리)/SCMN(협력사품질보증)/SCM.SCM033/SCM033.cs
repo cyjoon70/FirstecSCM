@@ -82,11 +82,11 @@ namespace SCM.SCM033
 				btn1Cust.Tag = ";2;;";
 				btn2Cust.Tag = ";2;;";
 
-				txt1CustCd.Text = SystemBase.Base.gstrUserID;
-				txt1CustNm.Text = SystemBase.Base.gstrUserName;
+				txt1CustCd.Value = SystemBase.Base.gstrUserID;
+				txt1CustNm.Value = SystemBase.Base.gstrUserName;
 
-				txt2CustCd.Text = SystemBase.Base.gstrUserID;
-				txt2CustNm.Text = SystemBase.Base.gstrUserName;
+				txt2CustCd.Value = SystemBase.Base.gstrUserID;
+				txt2CustNm.Value = SystemBase.Base.gstrUserName;
 			}
 		}
 		#endregion
@@ -155,8 +155,6 @@ namespace SCM.SCM033
 		#region NewExec()
 		protected override void NewExec()
 		{
-			SetAuth();
-
 			SystemBase.Validation.GroupBox_Reset(groupBox1);
 			SystemBase.Validation.GroupBox_Reset(groupBox2);
 
@@ -164,6 +162,7 @@ namespace SCM.SCM033
 			fpSpread2.Sheets[0].Rows.Count = 0;
 
 			SetInit();
+			SetAuth();
 		}
 
 		#endregion
