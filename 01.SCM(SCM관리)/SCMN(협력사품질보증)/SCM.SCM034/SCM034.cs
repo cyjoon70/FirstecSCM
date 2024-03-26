@@ -353,14 +353,14 @@ namespace SCM.SCM034
 					strQuery = strQuery + ", @pCUST_PERSON   	= '" + txtCUST_PERSON.Text + "' ";
 					strQuery = strQuery + ", @pCUST_REG_DT   	= '" + dtCUST_REG_DT.Text + "' ";
 					strQuery = strQuery + ", @pCONN_PROC_YN  	= '" + strCONN_PROC_YN + "' ";
-					strQuery = strQuery + ", @pIMMED_MSG     	= '" + txtIMMED_MSG.Text + "' ";
-					strQuery = strQuery + ", @pROOT_CAUSE    	= '" + txtROOT_CAUSE.Text + "' ";
+					strQuery = strQuery + ", @pIMMED_MSG     	= '" + txtIMMED_MSG.Text.Replace("'","''") + "' ";
+					strQuery = strQuery + ", @pROOT_CAUSE    	= '" + txtROOT_CAUSE.Text.Replace("'", "''") + "' ";
 					strQuery = strQuery + ", @pCAUSE_TYPE    	= '" + txtCAUSE_TYPE.Text + "' ";
-					strQuery = strQuery + ", @pROOT_CAUSE_MSG	= '" + txtROOT_CAUSE_MSG.Text + "' ";
+					strQuery = strQuery + ", @pROOT_CAUSE_MSG	= '" + txtROOT_CAUSE_MSG.Text.Replace("'", "''") + "' ";
 					strQuery = strQuery + ", @pADD_BAD_YN    	= '" + strADD_BAD_YN + "' ";
 					strQuery = strQuery + ", @pACTION_DEPT   	= '" + txtACTION_DEPT.Text + "' ";
 					strQuery = strQuery + ", @pACTION_DT     	= '" + dtACTION_DT.Text + "' ";
-					strQuery = strQuery + ", @pACTION_MSG    	= '" + txtACTION_MSG.Text + "' ";
+					strQuery = strQuery + ", @pACTION_MSG    	= '" + txtACTION_MSG.Text.Replace("'", "''") + "' ";
 					strQuery = strQuery + ", @pUP_ID         	= '" + SystemBase.Base.gstrUserID + "' ";
 
 					DataSet ds = SystemBase.DbOpen.TranDataSet(strQuery, dbConn, Trans);

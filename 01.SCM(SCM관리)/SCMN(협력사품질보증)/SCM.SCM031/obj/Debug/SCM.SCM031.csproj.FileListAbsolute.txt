@@ -36,7 +36,6 @@ D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보�
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM031\bin\Debug\WNDW.xml
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\SCM.SCM031.dll
 D:\Project\Firstec\Source\FIRSTEC_SCM\DLL\SCM.SCM031.pdb
-D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM031\obj\Debug\SCM.SCM031.csproj.AssemblyReference.cache
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM031\obj\Debug\SCM.SCM031.SCM031.resources
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM031\obj\Debug\SCM.SCM031.csproj.GenerateResource.cache
 D:\Project\Firstec\Source\FIRSTEC_SCM\01.SCM(SCM관리)\SCMN(협력사품질보증)\SCM.SCM031\obj\Debug\SCM.SCM031.dll.licenses

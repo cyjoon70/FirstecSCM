@@ -409,7 +409,7 @@ namespace SCM.SCM036
 		#region 저장
 		protected override void SaveExec()
 		{
-			string ERRCode = "ER", MSGCode = "", IssSeq = "", pType = "";
+			string ERRCode = "ER", MSGCode = "", IssSeq = "";
 
 			SqlConnection dbConn = SystemBase.DbOpen.DBCON();
 			SqlCommand cmd = dbConn.CreateCommand();
@@ -425,7 +425,7 @@ namespace SCM.SCM036
 					strQuery = strQuery + ", @sISS_SEQ		= '" + txtpISS_SEQ.Text + "' ";
 					strQuery = strQuery + ", @pRTN_PERSON	= '" + txtpRTN_PERSON.Text + "' ";
 					strQuery = strQuery + ", @pRTN_DT		= '" + cdtpRTN_DT.Text + "' ";
-					strQuery = strQuery + ", @pRTN_MSG		= '" + txtpRTN_MSG.Text + "' ";
+					strQuery = strQuery + ", @pRTN_MSG		= '" + txtpRTN_MSG.Text.Replace("'", "''") + "' ";
 					strQuery = strQuery + ", @pCUST_APPR	= '" + txtpCUST_APPR.Text + "' ";
 					strQuery = strQuery + ", @pUP_ID		= '" + SystemBase.Base.gstrUserID + "' ";
 					

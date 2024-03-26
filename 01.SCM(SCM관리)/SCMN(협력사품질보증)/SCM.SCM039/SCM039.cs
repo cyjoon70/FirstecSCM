@@ -292,7 +292,7 @@ namespace SCM.SCM039
 					strQuery = strQuery + ", @pF_M			= '" + cboFmOe.SelectedValue + "' ";
 					strQuery = strQuery + ", @pDEC_MSG		= '" + txtDEC_MSG.Text.Replace("'", "''") + "' ";
 					strQuery = strQuery + ", @pREG_PERSON	= '" + txtREG_PERSON.Text + "' ";
-					strQuery = strQuery + ", @pREMARKS		= '" + txtREMARKS.Text + "' ";
+					strQuery = strQuery + ", @pREMARKS		= '" + txtREMARKS.Text.Replace("'", "''") + "' ";
 
 
 					DataSet ds = SystemBase.DbOpen.TranDataSet(strQuery, dbConn, Trans);

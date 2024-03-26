@@ -355,8 +355,8 @@ namespace SCM.SCM035
 					strQuery = strQuery + ", @pCOMP_CODE	= '" + SystemBase.Base.gstrCOMCD + "' ";
 					strQuery = strQuery + ", @sSEQ			= '" + txtSEQ.Text + "' ";
 					strQuery = strQuery + ", @pCUST_PERSON	= '" + txtCUST_PERSON.Text + "' ";
-					strQuery = strQuery + ", @pCAUSES		= '" + txtCAUSES.Text + "' ";
-					strQuery = strQuery + ", @pMEASURES		= '" + txtMEASURES.Text + "' ";
+					strQuery = strQuery + ", @pCAUSES		= '" + txtCAUSES.Text.Replace("'", "''") + "' ";
+					strQuery = strQuery + ", @pMEASURES		= '" + txtMEASURES.Text.Replace("'", "''") + "' ";
 					strQuery = strQuery + ", @pCUST_APPR	= '" + txtCUST_APPR.Text + "' ";
 					strQuery = strQuery + ", @pUP_ID		= '" + SystemBase.Base.gstrUserID + "' ";
 
